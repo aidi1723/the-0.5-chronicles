@@ -1,6 +1,6 @@
 ---
-title: "1980: Computing Enters (China + Global Contrast) / 1980：计算的入口（国内+全球对照）"
-description: "When computing was still scarce, it entered through institutions, industry, and education. A 1980 slice with China + global contrast, ending with an oral-memory vignette from the lab. / 当计算还稀缺时，它经由机构、工业与教育进入社会。本章以国内+全球对照展开，并以机房口述回忆收束。"
+title: "Chapter 1 (1980): Computing Enters / 第一章（1980）：计算的入口（国内+全球对照）"
+description: "Chapter 1 is set in 1980: when computing was still scarce, it entered through institutions, industry, and education. A China + global contrast, ending with an oral-memory vignette from the lab. / 第一章发生在1980年：当计算还稀缺时，它经由机构、工业与教育进入社会。本章以国内+全球对照展开，并以机房口述回忆收束。"
 pubDate: "Feb 24 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
