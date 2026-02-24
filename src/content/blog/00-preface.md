@@ -1,68 +1,112 @@
 ---
-title: "Preface: A Declaration to Future Readers / 序言：写给未来读者的宣言"
-description: "Not nostalgia, not prophecy: a long record from 1980 to 2045. / 这不是怀旧，也不是预言：一份从 1980 到 2045 的长期记录。"
+title: "Preface: Why a Regular Programmer Writes History / 序言：为什么一个普通程序员要写历史"
+description: "A personal preface from Jinan (Spring 2025): why I must write, what I will record, and what I hope future readers will see. / 2025年春于济南：我为何必须写、我将记录什么、以及我希望未来读者看到什么。"
 pubDate: "Feb 24 2026"
 heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
-## 中文
+## English
 
-你读到这里时，世界也许已经换过好几套“操作系统”。
+### Preface: Why a Regular Programmer Writes History
 
-很多人会把过去描述成一条直线：某个伟大发明出现，然后一切加速、增长、胜利。但我所经历和看到的变化，更像一条弯曲的河。旧的东西并不会立刻消失，新的东西也不会一夜成型。大多数时间，我们生活在过渡期里——旧系统仍然运行世界，新系统悄悄改写规则。
+Why write this book?
 
-我把这段过渡叫作“0.5”。
+I am not a historian, not a journalist, and not a famous writer. I am just a regular post-80s programmer living in a small apartment in Jinan—worrying, like everyone else, about the mortgage, my child’s education, and my parents’ medical bills.
 
-它不是一个准确的技术名词，而是一种处境：当人类还在沿用机械时代的组织方式与心理习惯，却已经开始被数字系统、网络系统、算法系统、以及最终的 AI 系统重新塑形。
+But I have to write these words.
 
-这份记录从 1980 写到 2045。写的是技术，但不是“参数表”；写的是历史，但不是“口号”。它试图回答一个更朴素的问题：当新的工具出现时，人到底是怎么被改变的？
+Because I am witnessing an era unlike anything before: human civilization is upgrading from version 0.5 to 1.0. This is not a scene from science fiction. It is our daily reality.
 
-我想留下的不是宏大的结论，而是一套可以被复查的细节：某一年流行的设备与软件，某个行业的工作流程如何变化，某类工厂的工艺如何升级，信息如何传播，组织如何协调，个人如何学习与谋生。很多看似琐碎的东西，恰恰是时代的真实：它们构成了每一个“后来”的前提。
+In the morning I read that Elon launched another rocket successfully. At noon near Quancheng Square, I see a delivery rider running anxiously because an algorithm lowered his rating. At night I ask an AI assistant to help check my child’s homework—and then I catch myself worrying: will he one day be replaced by an even smarter AI?
 
-为了让这份记录对你有用，我坚持几条原则。
+These fragments look unrelated, but they belong to the same story—just filed under different chapters. Yet few people record the story as a whole. Official history will write down “AGI was born in 2025” and “a Mars base was established in 2030.” It will not write down how Uncle Zhang could not enter the market because he did not know how to use the health-code app. It will not write down Aunt Li hesitating between an AI doctor and a human doctor. It will not write down the look in Uncle Wang’s eyes when the factory he worked in for thirty years was fully replaced by robots.
 
-事实优先。能引用原始材料就尽量引用：照片、说明书、版本号、广告、价格、参数、时间点。无法验证的部分会标注为回忆；推测会标注为推测。我不想用写作的流畅来替代证据的坚硬。
+And these “small things” are often the real history. Ordinary people’s struggle, adaptation, confusion, and hope are the most precious slices of a civilization in transition.
 
-机制解释。我更关心“为什么会这样”，而不是“发生了什么”。同一个技术在不同地区、不同产业链位置，带来的结果可能相反。真正决定结果的往往不是技术本身，而是成本、供给链、制度、教育、媒体、文化偏好这些约束。
+So I will write—not to become a great historian, but so that future readers can know how ordinary people lived, how they thought, and how they tried to hold on to humanity and dignity in the middle of a massive transformation.
 
-大事件与小经验并行。宏观事件会提供骨架：产业升级、互联网普及、移动化、云化、AI 化。微观经验提供血肉：工具如何进入办公室、工厂、学校、家庭，如何改变一个人的工作与生活。时代很少被一个史诗事件推动，更多时候是由无数小步骤堆出来的。
+Who am I?
 
-写给未来的人。你不需要我的情绪，你需要清晰：当时的人用什么工具，信息怎么流动，企业怎么组织，个人怎么学会新技能，旧职业如何消失，新职业如何出现。未来回看过去，最稀缺的不是激情，而是可理解的事实与结构。
+My name is Yang Yu. I was born in 1985 in a small county town in Shandong. I graduated in 2007 with a computer science degree and caught the golden years of China’s internet boom. I worked as a programmer in Jinan for more than a decade, watching how this ancient city tried to find its footing in the digital age.
 
-接下来我会从 1980 开始，按年份推进；同时开辟跨年份的主题线索（个人计算、网络、软件、制造、贸易、媒体、AI），用来串联那些长期的缓慢变化。
+My trajectory is ordinary:
 
-这不是一篇文章就能完成的事。它像修一条路：先把路基铺出来，再一段一段加固、扩宽、补标识。
+- 2007: earning 2,500 RMB a month, renting a tiny room in Jinan
+- 2015: joining a local tech company and buying an apartment
+- 2023: beginning to worry that AI would replace my work
+- 2024: being “optimized” for real
+- 2025: starting over as a freelance writer and independent developer
 
-如果你正在未来读这段文字——希望你能从这些碎片里，看见我们曾经如何一步步走到你所在的世界。
+Like countless people born in the 1980s, I both enjoy the convenience technology brings and endure the pain of technological disruption. We are the last generation that had to memorize phone numbers—and the first generation to empathize with AI. We lived through the whole arc from dial-up internet to interplanetary exploration. From this angle, I feel responsible for recording what we are passing through.
+
+What is this book?
+
+This is not a book with a fixed end date. It is an ongoing historical record. As long as I am alive, I will keep writing. And if one day I am no longer here, I hope someone will take over and continue recording the story of this era.
+
+I will record the big events: breakthroughs in AI, rockets lifting off, the colonization of Mars.
+
+I will also record the small events: a neighbor’s complaint, a child’s question, my own doubts.
+
+I will use a programmer’s logic to analyze technological trends, and also a regular person’s sensitivity to feel the temperature of the times.
+
+If someone in the future reads this book, I hope they will see a real mid-21st century—not a utopia or dystopia dramatized by media, but the real human world: full of contradictions, hope, fear, and love.
+
+This is why I—a regular programmer—began writing a history that may never be finished.
+
+— Yang Yu
+
+Spring 2025, Jinan
 
 ---
 
-## English
+## 中文
 
-By the time you read this, the world may have swapped its “operating system” more than once.
+### 序言：为什么一个普通程序员要写历史
 
-History is often told as a straight road: a great invention arrives, and everything speeds up—progress, growth, triumph. But what I have lived through feels less like a road and more like a river. Old structures do not disappear on schedule. New ones do not arrive complete. Most of the time we live in the overlap—where yesterday still keeps the lights on, while tomorrow quietly rewires the building.
+为什么要写这本书？
 
-I call that overlap “0.5”.
+我不是历史学家，不是记者，也不是什么知名作家。我只是一个普通的 80 后程序员，住在济南的一套小公寓里，每天为房贷、孩子的教育费和父母的医疗费操心。
 
-Not a strict technical term, but a condition: we continue to think and organize ourselves with the reflexes of the mechanical age, even as we are reshaped by digital systems, networked systems, algorithmic systems—and, eventually, AI.
+但我必须写下这些文字。
 
-This record runs from 1980 to 2045. It is about technology, but not as a catalog of specifications; it is about history, but not as a string of slogans. It asks a simpler question: when new tools arrive, how do they actually change a life?
+因为我正在见证一个前所未有的时代——人类文明正在从 0.5 版本向 1.0 版本升级。这不是科幻小说里的场景，而是我们每天都在经历的现实。
 
-I am not trying to leave behind a single grand conclusion. I am trying to leave behind details solid enough to be checked: the devices and software people could actually touch in a given year; the way an industry’s workflow bent, then slowly broke; the way a factory upgraded its craft; the way information moved; the way organizations coordinated; the way a person learned, adapted, and made a living. What looks small is often what makes an era real—the hidden prerequisites of everything that comes later.
+每天早上，我看到新闻里 Elon 的火箭又成功发射了一次；中午，我在泉城广场附近看到外卖小哥因为算法评分下降而焦虑地奔跑；晚上，我用 AI 助手帮孩子检查作业，却又忍不住担心：他将来会不会被更聪明的 AI 取代。
 
-To make this record useful, I keep a few rules close.
+这些看似不相干的片段，其实属于同一个故事——只是被写在不同的章节里。可很少有人把这些故事完整记录下来。官方的历史会记载“2025 年 AGI 诞生”“2030 年火星基地建立”这样的大事，却不会记录张大爷因为不会用健康码而进不了菜市场；不会记录李阿姨在 AI 医生与人类医生之间犹豫不决；也不会记录王叔叔看着自己干了三十年的工厂被机器人完全替代时的眼神。
 
-Facts first. When I can, I will cite primary materials—photos, manuals, version numbers, advertisements, prices, parameters, dates. What cannot be verified will be labeled as memory. What is inference will be labeled as inference. Smooth prose is not a substitute for hard evidence.
+而这些“小事”，往往才是最真实的历史。普通人的挣扎、适应、困惑与希望，才是文明转型期最珍贵的切片。
 
-Mechanisms over headlines. I care more about why something happened than merely that it happened. The same technology can produce opposite outcomes in different places and different positions along a supply chain. Outcomes are shaped less by the tool itself than by constraints: cost, logistics, institutions, education, media, and the quiet weight of cultural preference.
+所以我要写。不是为了成为伟大的历史学家，而是为了让未来的人知道：在这个技术爆炸的时代，普通人是怎样生活、怎样思考，又怎样在巨大的变革里尽力保持人性与尊严。
 
-Big events alongside small experiences. The macro story provides a skeleton—industrial shifts, the spread of the internet, mobile, cloud, AI. The micro story provides flesh: how tools enter offices, factories, schools, homes; how they change the way work is done, and what “ordinary life” even means.
+我是谁？
 
-Written for the future. You do not need my emotions; you need clarity: what tools were used, how information traveled, how enterprises were organized, how people learned new skills, how old jobs faded and new jobs appeared. Looking back, what is rare is not passion, but structure that can still be understood.
+我叫杨宇，1985 年出生在山东的一个小县城。2007 年大学计算机专业毕业，赶上了中国互联网的黄金时代。我在济南做了十几年的程序员，也见证了这座古城如何在数字时代寻找自己的位置。
 
-Next, I will begin with 1980 and move year by year. In parallel, I will keep thematic tracks—personal computing, networks, software, manufacturing, trade, media, AI—threads that can be followed across decades.
+我的人生轨迹很普通：
 
-This cannot be built in a single essay. It is more like laying a roadbed: first make it passable, then reinforce it, widen it, mark it—section by section.
+- 2007 年：拿着 2500 元月薪，在济南租了个小单间
+- 2015 年：跳槽到本地科技公司，买了房子
+- 2023 年：开始担心 AI 会取代我的工作
+- 2024 年：真的被“优化”了
+- 2025 年：开始做自由撰稿人与独立开发者
 
-If you are reading this in the future: may these fragments help you see how we arrived here, one small step at a time.
+我和千千万万的 80 后一样，既享受技术带来的便利，也承受技术变革的阵痛。我们是最后一批需要记电话号码的人，也是第一批与 AI 共情的人。我们完整经历了从拨号上网到星际探索的全过程——这种独特的视角，让我觉得自己有责任记录下这一切。
+
+这本书是什么？
+
+这不是一本有固定截止日期的书，而是一份持续更新的历史记录。只要我还活着，我就会继续写下去。也许有一天我不在这个世界了，但我希望有人能接替我，继续记录这个时代的故事。
+
+我会记录大事：AI 的突破、火箭的升空、火星的殖民。
+
+我也会记录小事：邻居的抱怨、孩子的疑问、自己的困惑。
+
+我会用程序员的逻辑去分析技术趋势，也会用普通人的感性去感受时代温度。
+
+如果未来有人读到这本书，我希望他们看到的是真实的 21 世纪中叶——不是媒体渲染的乌托邦或反乌托邦，而是充满矛盾、希望、恐惧与爱的真实人间。
+
+这就是我，一个普通程序员，为什么要开始写这本可能永远不会完结的历史书。
+
+—— 杨宇
+
+2025 年春，于济南
