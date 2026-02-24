@@ -33,7 +33,7 @@ My trajectory is ordinary:
 
 - 2007: earning 2,500 RMB a month, renting a tiny room in Jinan
 - 2015: joining a local tech company and buying an apartment
-- 2023: beginning to worry that AI would replace my work
+- 2023: working in building-materials foreign trade, pushing forward for life and for my daughter
 - 2024: being “optimized” for real
 - 2025: starting over as a freelance writer and independent developer
 
@@ -87,7 +87,7 @@ Spring 2025, Jinan
 
 - 2007 年：拿着 2500 元月薪，在济南租了个小单间
 - 2015 年：跳槽到本地科技公司，买了房子
-- 2023 年：开始担心 AI 会取代我的工作
+- 2023 年：在从事建材外贸工作，为了生活和女儿而努力
 - 2024 年：真的被“优化”了
 - 2025 年：开始做自由撰稿人与独立开发者
 
