@@ -2,47 +2,161 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+import { SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const latest = posts.slice(0, 8);
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead
+			title={SITE_TITLE}
+			description="The 0.5 Chronicles / 《0.5纪元》 — a yearbook-style record of how computing entered ordinary life (1980–2045)."
+		/>
+		<style>
+			main {
+				width: min(100%, 980px);
+			}
+			.hero {
+				padding: 2rem 0 1.5rem;
+			}
+			.kicker {
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				font-size: 0.85rem;
+				color: rgb(var(--gray));
+				margin: 0 0 0.75rem;
+			}
+			h1 {
+				font-size: clamp(2rem, 4vw, 3rem);
+				line-height: 1.05;
+				margin: 0 0 0.75rem;
+			}
+			.lede {
+				font-size: 1.05rem;
+				color: rgb(var(--gray-dark));
+				margin: 0 0 1.25rem;
+				max-width: 70ch;
+			}
+			.cta {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.75rem;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.cta a {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0.65rem 0.9rem;
+				border-radius: 999px;
+				border: 1px solid rgba(var(--gray), 0.35);
+				text-decoration: none;
+				background: rgba(255, 255, 255, 0.6);
+			}
+			.cta a.primary {
+				border-color: rgba(var(--accent), 0.6);
+				background: rgba(var(--accent), 0.08);
+			}
+			.grid {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1.25rem;
+				margin: 1.5rem 0 2rem;
+			}
+			.card {
+				border: 1px solid rgba(var(--gray), 0.25);
+				border-radius: 16px;
+				padding: 1rem;
+				background: rgba(255, 255, 255, 0.7);
+			}
+			.card h2 {
+				margin: 0 0 0.5rem;
+				font-size: 1.1rem;
+			}
+			.card p {
+				margin: 0.25rem 0;
+				color: rgb(var(--gray-dark));
+			}
+			.list {
+				margin: 0.75rem 0 0;
+				padding-left: 1.1rem;
+			}
+			.latest {
+				margin-top: 0.5rem;
+			}
+			.latest ol {
+				margin: 0.75rem 0 0;
+				padding-left: 1.1rem;
+			}
+			.latest li {
+				margin: 0.4rem 0;
+			}
+			.latest a {
+				text-decoration: none;
+			}
+			.meta {
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+			}
+			@media (max-width: 760px) {
+				.grid {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="hero">
+				<p class="kicker">0.5 Chronicles / 《0.5纪元》</p>
+				<h1>A yearbook of the computing age — from rare machines to ordinary life.</h1>
+				<p class="lede">
+					English-first reading. Each chapter includes Chinese + English, aligned by paragraph, with 1980–2045
+					organized into volumes.
+				</p>
+				<ul class="cta">
+					<li><a class="primary" href="/blog/00-preface/">Start: Preface / 置顶序言</a></li>
+					<li><a href="/blog/01-method-volume/">Method Volume / 方法卷</a></li>
+					<li><a href="/blog/">All Posts</a></li>
+				</ul>
+			</section>
+
+			<section class="grid">
+				<div class="card">
+					<h2>Volume 0 (1980–1995)</h2>
+					<p class="meta">A structured yearbook arc: entry → usability → toolchains → visibility → connectivity.</p>
+					<ul class="list">
+						<li><a href="/blog/volumes/vol-0-1980-1995/1980-computing-enters/">Chapter 1 (1980)</a></li>
+						<li><a href="/blog/volumes/vol-0-1980-1995/1981-chapter-2-usable-computing/">Chapter 2 (1981)</a></li>
+						<li><a href="/blog/volumes/vol-0-1980-1995/1982-chapter-03-toolchain-and-standards/">Chapter 3 (1982)</a></li>
+						<li class="meta">… through Chapter 16 (1995) in the Volume 0 directory.</li>
+					</ul>
+				</div>
+				<div class="card latest">
+					<h2>Latest updates</h2>
+					<p class="meta">Newest posts by publish date.</p>
+					<ol>
+						{
+							latest.map((post) => (
+								<li>
+									<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+									<span class="meta"> — {post.data.pubDate.toLocaleDateString('en-CA')}</span>
+								</li>
+							))
+						}
+					</ol>
+				</div>
+			</section>
 		</main>
 		<Footer />
 	</body>
