@@ -1,0 +1,62 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const volumes = [
+  {
+    slug: 'vol-0-1980-1995',
+    titleEn: 'Volume 0 (1980-1995)',
+    titleZh: '第零卷（1980-1995）',
+    descEn: 'From mechanical habits to digital thinking: the early bridge years.',
+    descZh: '从机械时代的生活习惯走向数字思维：早期的“桥接年代”。',
+    href: '/volumes/vol-0-1980-1995/',
+  },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`${SITE_TITLE} · Volumes`} description={SITE_DESCRIPTION} />
+    <style>
+      main { width: 960px; }
+      .lead { color: var(--gray); line-height: 1.65; }
+      .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; }
+      .card {
+        border: 1px solid rgba(var(--gray), 18%);
+        border-radius: 12px;
+        padding: 16px;
+        background: #fff;
+      }
+      .card a { text-decoration: none; color: inherit; display:block; }
+      .title { font-weight: 700; margin: 0 0 6px; }
+      .meta { color: var(--gray); margin: 0; line-height: 1.6; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Volumes / 卷目录</h1>
+      <p class="lead">
+        English and Chinese are shown side-by-side. Each volume page is a navigation hub: chapters, writing status, and reference links.
+        <br />
+        中英文并列展示。每一卷都是“导航页”：章节入口、写作进度、参考资料链接。
+      </p>
+
+      <div class="grid">
+        {volumes.map(v => (
+          <div class="card">
+            <a href={v.href}>
+              <p class="title">{v.titleEn} / {v.titleZh}</p>
+              <p class="meta">{v.descEn}</p>
+              <p class="meta">{v.descZh}</p>
+            </a>
+          </div>
+        ))}
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+
+const vol0Prefix = 'volumes/vol-0-1980-1995/';
+const vol0Posts = posts.filter(p => (p.slug || '').startsWith(vol0Prefix));
+
+const outline = [
+  { n: 1,  year: 1980, titleEn: 'Computing Enters', titleZh: '计算进入日常（序章）', href: '/blog/volumes/vol-0-1980-1995/1980-computing-enters/' },
+  { n: 2,  year: 1981, titleEn: 'From Calculable to Usable', titleZh: '从算得出来到用得起来', href: '/blog/volumes/vol-0-1980-1995/1981-chapter-2-usable-computing/' },
+  { n: 3,  year: 1982, titleEn: 'Toolchains and the First Pressure of Standards', titleZh: '工具链与标准化的开端', href: '/blog/volumes/vol-0-1980-1995/1982-chapter-03-toolchain-and-standards/' },
+  { n: 4,  year: 1983, titleEn: 'Files and Backups', titleZh: '文件与备份', href: '/blog/volumes/vol-0-1980-1995/1983-chapter-04-files-and-backups/' },
+  { n: 5,  year: 1984, titleEn: 'Training and Division of Labor', titleZh: '训练、分工与“会用的人”', href: '/blog/volumes/vol-0-1980-1995/1984-chapter-05-training-and-division-of-labor/' },
+  { n: 6,  year: 1985, titleEn: 'Interfaces and Visibility', titleZh: '界面与可见性', href: '/blog/volumes/vol-0-1980-1995/1985-chapter-06-interfaces-and-visibility/' },
+  { n: 7,  year: 1986, titleEn: 'Reliability, Procurement, and Systemization', titleZh: '可靠性、采购与系统化落地', href: '/blog/volumes/vol-0-1980-1995/1986-chapter-07-reliability-and-procurement/' },
+  { n: 8,  year: 1987, titleEn: 'Networks as an Idea', titleZh: '网络作为一种观念', href: '/blog/volumes/vol-0-1980-1995/1987-chapter-08-networks-as-idea/' },
+  { n: 9,  year: 1988, titleEn: 'Software as Work', titleZh: '软件成为工作', href: '/blog/volumes/vol-0-1980-1995/1988-chapter-09-software-as-work/' },
+  { n: 10, year: 1989, titleEn: 'Data and Control', titleZh: '数据与控制', href: '/blog/volumes/vol-0-1980-1995/1989-chapter-10-data-and-control/' },
+  { n: 11, year: 1990, titleEn: 'PC as Normalization', titleZh: 'PC 的常态化', href: '/blog/volumes/vol-0-1980-1995/1990-chapter-11-pc-as-normalization/' },
+  { n: 12, year: 1991, titleEn: 'Learning to Program', titleZh: '开始学编程', href: '/blog/volumes/vol-0-1980-1995/1991-chapter-12-learning-to-program/' },
+  { n: 13, year: 1992, titleEn: 'Communication and Digitization', titleZh: '通信与数字化', href: '/blog/volumes/vol-0-1980-1995/1992-chapter-13-communication-and-digitization/' },
+  { n: 14, year: 1993, titleEn: 'Toward Connectivity', titleZh: '走向互联', href: '/blog/volumes/vol-0-1980-1995/1993-chapter-14-toward-connectivity/' },
+  { n: 15, year: 1994, titleEn: 'Pre-Internet Sensibility', titleZh: '互联网前的感受', href: '/blog/volumes/vol-0-1980-1995/1994-chapter-15-pre-internet-sensibility/' },
+  { n: 16, year: 1995, titleEn: 'First Public Glimpse', titleZh: '第一次公众式的“看见”', href: '/blog/volumes/vol-0-1980-1995/1995-chapter-16-first-public-glimpse/' },
+];
+
+function hasPost(href) {
+  // `p.slug` is like: volumes/vol-0-1980-1995/1980-computing-enters
+  const slug = href.replace(/^\/blog\//, '').replace(/\/$/, '');
+  return vol0Posts.some(p => p.slug === slug);
+}
+
+// NOTE: This makes the page resilient even if content slugs differ slightly.
+function postHrefFor(href) {
+  const slug = href.replace(/^\/blog\//, '').replace(/\/$/, '');
+  const found = vol0Posts.find(p => p.slug === slug);
+  return found ? `/blog/${found.slug}` : null;
+}
+
+function normalizeHref(href) {
+  // Ensure consistent trailing slash handling.
+  return href.replace(/\/$/, '');
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`${SITE_TITLE} · Volume 0`} description="Volume 0 navigation: chapters and writing status." />
+    <style>
+      main { width: 960px; }
+      .lead { color: var(--gray); line-height: 1.65; }
+      .table { margin-top: 1rem; border: 1px solid rgba(var(--gray), 18%); border-radius: 12px; overflow: hidden; }
+      .row {
+        display: grid;
+        grid-template-columns: 92px 1.4fr 1.4fr 90px;
+        gap: 12px;
+        padding: 12px 14px;
+        border-top: 1px solid rgba(var(--gray), 12%);
+        background: #fff;
+        align-items: center;
+      }
+      .row:first-child { border-top: 0; }
+      .hdr { background: rgba(var(--gray), 6%); font-weight: 700; }
+      .muted { color: var(--gray); }
+      a { text-decoration: none; }
+      .status { font-weight: 700; }
+      .ok { color: #0f766e; }
+      .todo { color: #b45309; }
+      @media (max-width: 860px) {
+        .row { grid-template-columns: 84px 1fr; }
+        .hideSm { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Volume 0 (1980-1995) / 第零卷（1980-1995）</h1>
+      <p class="lead">
+        This page is a navigation hub. It shows chapter links and whether a post exists.
+        <br />
+        这是导航页：列出章节入口，并显示是否已发布为博客文章。
+      </p>
+
+      <div class="table">
+        <div class="row hdr">
+          <div>Year</div>
+          <div class="hideSm">English</div>
+          <div>中文</div>
+          <div>Status</div>
+        </div>
+
+        {outline.map(item => {
+          const exists = hasPost(item.href);
+          const safeHref = postHrefFor(item.href) || normalizeHref(item.href);
+          return (
+            <div class="row">
+              <div class="muted">{item.year}</div>
+              <div class="hideSm">
+                {exists ? <a href={safeHref}>{item.titleEn}</a> : <span class="muted">{item.titleEn}</span>}
+              </div>
+              <div>
+                {exists ? <a href={safeHref}>{item.titleZh}</a> : <span class="muted">{item.titleZh}</span>}
+              </div>
+              <div class={`status ${exists ? 'ok' : 'todo'}`}>{exists ? 'OK' : 'TODO'}</div>
+            </div>
+          );
+        })}
+      </div>
+
+      <p class="lead" style="margin-top: 14px;">
+        Note: The long-term outline and chapter cards live in the writing workspace. This site shows what has been published.
+        <br />
+        注：写作工作区里还有更完整的“章卡/目录（重建版）”；本站主要展示已发布内容。
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

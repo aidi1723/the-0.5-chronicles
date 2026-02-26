@@ -8,10 +8,12 @@ import HeaderLink from './HeaderLink.astro';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/about">Preface</HeaderLink>
+			<HeaderLink href="/volumes">Volumes</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/submissions">Submissions</HeaderLink>
 		</div>
-		<div class="social-links">
+		<div class="social-links" aria-hidden="true">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
