@@ -7,9 +7,11 @@ tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 
 ## 中文
 
-1981 年的变化不一定显眼，但它很“决定命运”。如果说 1980 还在回答“计算能不能进入组织”，那么 1981 开始回答一个更具体、更难的问题：**它能不能被真正用起来，并且被更多人用起来？**
+> **本章定位（中文对应段落）**：英文为主文，本段为对应中文。1981 年的变化不一定显眼，但它很“决定命运”。如果说 1980 还在回答“计算能不能进入组织”，那么 1981 开始回答一个更具体、更难的问题：**它能不能被真正用起来，并且被更多人用起来？**
 
 技术史常被写成机器的故事。但对多数组织而言，机器只是开始。真正的难点在后面：数据怎么进来、错误怎么发现、流程怎么衔接、结果怎么被信任。
+
+同时，1981 也是“家庭可用性”的训练年：许多人并没有电脑，但会在邻居家看电视、在家里用收音机听歌与新闻、摸索着调天线。你不需要理解技术内部，却会逐渐形成对界面、操作、可重复结果的直觉——这份直觉后来会迁移到计算机上。
 
 ### 1. 全球切片：从“能买到”走向“能长期用”
 
@@ -76,9 +78,24 @@ tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 
 ## English
 
+> **Positioning**: English is the main text. The Chinese section above is the corresponding bilingual companion.
+
+> **Chapter stance:** 1981 is the year the story shifts from “can it compute?” to “can it be used—repeatedly, reliably, and by more people?” Usability is not a UI polish contest; it is the ability to survive reality: imperfect data, human mistakes, and the friction of workflow.
+
 In 1981, change may not look dramatic, but it becomes decisive. If 1980 still asks whether computing can enter an organization at all, 1981 begins to ask a harder, more practical question: **can it be used—repeatedly, reliably, and by more people?**
 
 Technology history is often told as a story of machines. For most organizations, the machine is only the beginning. The real difficulty comes later: how data gets in, how errors are discovered, how workflows connect, and how results become trustworthy.
+
+And there is another, quieter training ground of usability: the household. Many people had no computer in 1981, but they learned interfaces anyway—watching TV at a neighbor’s home, listening to songs and news on a radio, and experimenting with antennas when the signal was noisy. You do not need to understand the inside of the box to develop a reliable intuition for operation, feedback, and repeatable outcomes. That intuition later transfers to computing.
+
+### Key Facts (1981)
+
+- Usability becomes an adoption bottleneck: **input → workflow → error handling** decides whether systems can scale.
+- Compatibility and standards become practical pressure as data accumulates.
+- Consumer electronics (radio/TV) trains “interface literacy” at home.
+- Expectations form: predictable operation, repeatable outcomes, and on-demand access to information.
+
+---
 
 ### 1. A global slice: from “buyable” to “livable”
 
@@ -139,4 +156,42 @@ The two paths later converge. When commodity access meets skill diffusion, compu
 
 The meaning of 1981 is a shift in narrative: from “a machine exists” to “a system can be used.” Computing begins to look less like a technical capability and more like an organizational capability—scalable participation, controllable errors, sustainable workflow.
 
+At the same time, usability was being trained in everyday life. A neighbor’s TV turns a screen into a shared interface; a radio dial turns information into something you can scan and select; an antenna turns clarity into an outcome you can improve by adjustment. These are small behaviors, but they build the expectation that systems should be operable and repeatable.
+
 Next (Chapter 3, 1982), I will follow the same line: once usability becomes the goal, toolchains, standardization, and collaboration begin to take shape.
+
+---
+
+## References (starter list)
+
+> Note: This is a starter list to anchor verifiability. We can refine and add China-specific sources after a focused bibliography pass.
+
+- IBM. *IBM Personal Computer (Model 5150) / IBM PC* — official / archival material. (To be linked)
+- Wikipedia (as secondary index): *IBM Personal Computer*, *VisiCalc*. (Replace/augment with primary sources)
+- General history of personal computing and consumer electronics interfaces (books / essays). (To be linked)
+
+---
+
+## Key Facts (1981)
+
+- Usability becomes a practical constraint: input cost, workflows, and error handling determine adoption.
+- Toolchains start to matter more than raw performance.
+- As data accumulates, migration costs rise and standards become pressure.
+- Computing spreads as trained skill (institutions) and as commodity access (markets).
+- Household electronics (TV/radio) quietly train interface habits: selection, repetition, shared schedules.
+
+## FAQ
+
+**Q: Why include TV and radio in a chapter about usability?**  
+A: Because they trained mass interface habits—tuning, selecting, repeating—before most people touched a computer.
+
+**Q: What turns “calculable” into “usable”?**  
+A: When a system can ingest data reliably, survive errors, and fit into real workflows for ordinary users.
+
+## References (placeholders)
+
+- IBM PC (1981) launch and early ecosystem — add a verifiable source.
+- Spreadsheet history (VisiCalc) and the “paper-like” interface — add a verifiable source.
+- Consumer electronics adoption and interface habits (TV/radio) — add verifiable sources.
+- China-side statistics or historical accounts of TV/radio popularization — add verifiable sources.
+
