@@ -12,6 +12,7 @@ const volumes = [
     descEn: 'From the tail of the mechanical age to the moment the network grew a public entrance.',
     descZh: '从大机器时代的尾声，到网络长出大众入口。',
     href: '/volumes/vol-1-1980-1993/',
+    status: 'Active drafting / 持续推进中',
   },
 ];
 ---
@@ -21,39 +22,68 @@ const volumes = [
   <head>
     <BaseHead title={`${SITE_TITLE} · Volumes`} description={SITE_DESCRIPTION} />
     <style>
-      main { width: 960px; }
-      .lead { color: var(--gray); line-height: 1.65; }
-      .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; }
-      .card {
-        border: 1px solid rgba(var(--gray), 18%);
-        border-radius: 12px;
-        padding: 16px;
-        background: #fff;
+      .intro {
+        max-width: 46rem;
+        margin-bottom: 1.4rem;
       }
-      .card a { text-decoration: none; color: inherit; display:block; }
-      .title { font-weight: 700; margin: 0 0 6px; }
-      .meta { color: var(--gray); margin: 0; line-height: 1.6; }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .card {
+        border: 1px solid rgba(var(--line), 0.8);
+        border-radius: 20px;
+        padding: 1.2rem 1.25rem;
+        background: rgba(255,255,255,0.76);
+        box-shadow: var(--box-shadow);
+      }
+      .card a {
+        text-decoration: none;
+        color: inherit;
+        display:block;
+      }
+      .status {
+        display: inline-flex;
+        margin-bottom: 0.8rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        background: rgba(var(--accent), 0.1);
+        color: rgb(var(--accent-strong));
+      }
+      .title {
+        font-weight: 700;
+        margin: 0 0 0.5rem;
+        font-size: 1.2rem;
+      }
+      .meta { color: rgb(var(--gray)); margin: 0.25rem 0; line-height: 1.7; }
     </style>
   </head>
   <body>
     <Header />
     <main>
-      <h1>Volumes / 卷目录</h1>
-      <p class="lead">
-        English and Chinese are shown side-by-side. Each volume page is a navigation hub: chapters, writing status, and reference links.
-        <br />
-        中英文并列展示。每一卷都是“导航页”：章节入口、写作进度、参考资料链接。
-      </p>
+      <section class="intro">
+        <h1>Volumes / 卷目录</h1>
+        <p>
+          The project is organized as navigable volumes rather than a flat timeline. Each volume gathers
+          chapter entry points, writing progress, and editorial context.
+        </p>
+        <p class="meta">
+          项目按“卷”组织，而不是散乱时间线。每一卷都收纳章节入口、写作进度与编辑说明。
+        </p>
+      </section>
 
       <div class="grid">
         {volumes.map(v => (
-          <div class="card">
+          <article class="card">
             <a href={v.href}>
+              <span class="status">{v.status}</span>
               <p class="title">{v.titleEn} / {v.titleZh}</p>
               <p class="meta">{v.descEn}</p>
               <p class="meta">{v.descZh}</p>
             </a>
-          </div>
+          </article>
         ))}
       </div>
     </main>

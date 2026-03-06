@@ -1,139 +1,178 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
-	--box-shadow:
-		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
-		rgba(var(--gray), 33%);
+	--accent: 155, 62, 37;
+	--accent-strong: 117, 40, 21;
+	--black: 27, 23, 21;
+	--gray: 111, 98, 92;
+	--gray-light: 234, 228, 221;
+	--gray-dark: 63, 54, 49;
+	--surface: 255, 252, 247;
+	--surface-soft: 248, 243, 236;
+	--line: 205, 193, 184;
+	--box-shadow: 0 12px 30px rgba(27, 23, 21, 0.08);
 }
+
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-regular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
+
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-bold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: 'Atkinson', system-ui, sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
+	background:
+		radial-gradient(circle at top, rgba(155, 62, 37, 0.08), transparent 32%),
+		linear-gradient(180deg, rgba(var(--surface-soft), 0.92), rgba(var(--surface), 1));
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
-	line-height: 1.7;
+	font-size: 19px;
+	line-height: 1.78;
 }
+
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
+	width: min(100%, 1040px);
+	max-width: calc(100% - 2rem);
+	margin: 0 auto;
+	padding: 3rem 0 2rem;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5rem 0;
+	margin: 0 0 0.65rem;
 	color: rgb(var(--black));
-	line-height: 1.2;
+	line-height: 1.18;
+	letter-spacing: -0.02em;
 }
+
 h1 {
-	font-size: 3.052em;
+	font-size: clamp(2.3rem, 4vw, 3.5rem);
 }
+
 h2 {
-	font-size: 2.441em;
+	font-size: clamp(1.7rem, 2.4vw, 2.3rem);
 }
+
 h3 {
-	font-size: 1.953em;
+	font-size: clamp(1.3rem, 2vw, 1.7rem);
 }
+
 h4 {
-	font-size: 1.563em;
+	font-size: 1.2rem;
 }
-h5 {
-	font-size: 1.25em;
-}
+
 strong,
 b {
 	font-weight: 700;
+	color: rgb(var(--black));
 }
+
 a {
-	color: var(--accent);
+	color: rgb(var(--accent));
+	text-underline-offset: 0.18em;
 }
+
 a:hover {
-	color: var(--accent);
+	color: rgb(var(--accent-strong));
 }
-p {
-	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 2em;
-}
-textarea {
-	width: 100%;
-	font-size: 16px;
-}
-input {
-	font-size: 16px;
-}
+
+p,
+ul,
+ol,
+blockquote,
+pre,
 table {
-	width: 100%;
+	margin: 0 0 1.15rem;
 }
+
+ul,
+ol {
+	padding-left: 1.25rem;
+}
+
+li + li {
+	margin-top: 0.35rem;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 14px;
 }
+
 code {
-	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
-	border-radius: 2px;
+	padding: 0.15rem 0.4rem;
+	background: rgba(var(--gray-light), 0.75);
+	border-radius: 6px;
+	font-size: 0.92em;
 }
+
 pre {
-	padding: 1.5em;
-	border-radius: 8px;
+	padding: 1rem 1.15rem;
+	background: rgba(var(--gray-light), 0.58);
+	border-radius: 14px;
+	overflow: auto;
 }
+
 pre > code {
 	all: unset;
 }
+
 blockquote {
-	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
-	margin: 0;
-	font-size: 1.333em;
+	border-left: 4px solid rgb(var(--accent));
+	padding: 0.2rem 0 0.2rem 1rem;
+	color: rgb(var(--gray-dark));
+	background: rgba(255, 255, 255, 0.45);
 }
+
 hr {
 	border: none;
-	border-top: 1px solid rgb(var(--gray-light));
+	border-top: 1px solid rgba(var(--line), 0.8);
+	margin: 2rem 0;
 }
-@media (max-width: 720px) {
-	body {
-		font-size: 18px;
-	}
-	main {
-		padding: 1em;
-	}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border-bottom: 1px solid rgba(var(--line), 0.7);
+	padding: 0.7rem 0.55rem;
+	text-align: left;
+}
+
+textarea,
+input {
+	font: inherit;
+}
+
+.container-card {
+	background: rgba(255, 255, 255, 0.72);
+	border: 1px solid rgba(var(--line), 0.8);
+	border-radius: 18px;
+	box-shadow: var(--box-shadow);
 }
 
 .sr-only {
@@ -144,12 +183,18 @@ hr {
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
 	clip: rect(1px 1px 1px 1px);
-	/* maybe deprecated but we need to support legacy browsers */
 	clip: rect(1px, 1px, 1px, 1px);
-	/* modern browsers, clip-path works inwards from each corner */
 	clip-path: inset(50%);
-	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+	body {
+		font-size: 17px;
+	}
+
+	main {
+		padding-top: 2rem;
+	}
 }

@@ -16,41 +16,77 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
+				padding-top: 2rem;
 			}
+
+			.article-shell {
+				max-width: 860px;
+				margin: 0 auto;
+			}
+
 			.hero-image {
-				width: 100%;
+				margin-bottom: 1.2rem;
 			}
+
 			.hero-image img {
 				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
+				width: 100%;
 				box-shadow: var(--box-shadow);
 			}
+
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
+				padding: 1.4rem 1.5rem 1.8rem;
+				border-radius: 22px;
+				border: 1px solid rgba(var(--line), 0.8);
+				background: rgba(255, 255, 255, 0.78);
+				box-shadow: var(--box-shadow);
+			}
+
+			.title {
+				margin-bottom: 1.2rem;
+				padding-bottom: 1rem;
+				border-bottom: 1px solid rgba(var(--line), 0.7);
+			}
+
+			.eyebrow {
+				margin: 0 0 0.45rem;
+				color: rgb(var(--gray));
+				font-size: 0.92rem;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+			}
+
+			.title h1 {
+				margin: 0 0 0.6rem;
+			}
+
+			.summary {
+				margin: 0.4rem 0 0.9rem;
 				color: rgb(var(--gray-dark));
 			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
-			}
-			.title h1 {
-				margin: 0 0 0.5em 0;
-			}
+
 			.date {
-				margin-bottom: 0.5em;
 				color: rgb(var(--gray));
+				font-size: 0.95rem;
 			}
+
 			.last-updated-on {
+				margin-top: 0.2rem;
 				font-style: italic;
+			}
+
+			.prose :global(h2) {
+				margin-top: 2rem;
+			}
+
+			.prose :global(h3) {
+				margin-top: 1.5rem;
+			}
+
+			@media (max-width: 720px) {
+				.prose {
+					padding: 1.1rem 1rem 1.35rem;
+				}
 			}
 		</style>
 	</head>
@@ -58,12 +94,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 	<body>
 		<Header />
 		<main>
-			<article>
+			<article class="article-shell">
 				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+					{heroImage && <Image width={1280} height={640} src={heroImage} alt="" />}
 				</div>
 				<div class="prose">
 					<div class="title">
+						<p class="eyebrow">The 0.5 Chronicles</p>
+						<h1>{title}</h1>
+						<p class="summary">{description}</p>
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
@@ -74,8 +113,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
-						<h1>{title}</h1>
-						<hr />
 					</div>
 					<slot />
 				</div>
