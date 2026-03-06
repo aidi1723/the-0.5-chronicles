@@ -5,6 +5,19 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
+## English
+
+“Now Records” is not a diary and not a column of instant commentary.
+It is a field notebook for the transition era: how tools enter daily work, how AI alters writing rhythms, and how a person becomes both participant and witness at the same time.
+
+Issue 1 gathers seven notes written on March 6, 2026, around three themes:
+
+- shifting human–AI relations,
+- changes in writing identity,
+- and workflow as the true historical layer.
+
+---
+
 ## 中文
 
 “当下记录”不是普通日记，也不是即时评论。  
@@ -37,16 +50,3 @@ heroImage: '../../assets/blog-placeholder-2.jpg'
 
 如果正式章节负责整理过去，  
 那么“当下记录”负责保存今天。
-
----
-
-## English
-
-“Now Records” is not a diary and not a column of instant commentary.
-It is a field notebook for the transition era: how tools enter daily work, how AI alters writing rhythms, and how a person becomes both participant and witness at the same time.
-
-Issue 1 gathers seven notes written on March 6, 2026, around three themes:
-
-- shifting human–AI relations,
-- changes in writing identity,
-- and workflow as the true historical layer.

@@ -5,6 +5,38 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-3.jpg'
 ---
 
+## English
+
+1989 matters because the world begins to learn how to live on the edge of networks.
+
+People have not yet fully entered network society, but data is no longer just record, and systems are no longer merely tools. As more management, cooperation, and information flow begin to depend on digital systems, it becomes clearer that permissions, definitions, control, and risk are no longer technical details. They are part of a new social order.
+
+### One-sentence summary
+
+> **The key to 1989 is that the world has not yet moved fully into networks, but it has already begun to live along their edge.**
+
+### Why this year matters
+
+By 1989, computing no longer needs to justify itself repeatedly. The questions shift:
+
+- who can see data,
+- who can edit it,
+- who defines meaning,
+- and what happens when dependent systems fail.
+
+### Three key signals
+
+1. **Data begins to resemble power, not just record.**
+2. **Permissions, definitions, and control become organizational questions.**
+3. **Network risk gives connectivity real historical weight.**
+
+### Historical position
+
+1989 is an edge-year.
+People do not yet live inside network society, but they begin to feel its cold, its convenience, its dependency, and its reordering of power.
+
+---
+
 ## 中文
 
 1989 年的关键，不在于人们已经全面进入网络社会，而在于世界开始学着在网络的边缘生活。
@@ -50,35 +82,3 @@ heroImage: '../../../../assets/blog-placeholder-3.jpg'
 
 也正因为如此，网络不再只是未来的希望，
 而开始成为未来的现实条件。
-
----
-
-## English
-
-1989 matters because the world begins to learn how to live on the edge of networks.
-
-People have not yet fully entered network society, but data is no longer just record, and systems are no longer merely tools. As more management, cooperation, and information flow begin to depend on digital systems, it becomes clearer that permissions, definitions, control, and risk are no longer technical details. They are part of a new social order.
-
-### One-sentence summary
-
-> **The key to 1989 is that the world has not yet moved fully into networks, but it has already begun to live along their edge.**
-
-### Why this year matters
-
-By 1989, computing no longer needs to justify itself repeatedly. The questions shift:
-
-- who can see data,
-- who can edit it,
-- who defines meaning,
-- and what happens when dependent systems fail.
-
-### Three key signals
-
-1. **Data begins to resemble power, not just record.**
-2. **Permissions, definitions, and control become organizational questions.**
-3. **Network risk gives connectivity real historical weight.**
-
-### Historical position
-
-1989 is an edge-year.
-People do not yet live inside network society, but they begin to feel its cold, its convenience, its dependency, and its reordering of power.

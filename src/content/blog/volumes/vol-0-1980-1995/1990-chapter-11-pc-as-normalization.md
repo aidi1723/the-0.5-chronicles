@@ -5,16 +5,16 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1990 年，计算不再需要被反复证明，它开始成为默认选项。
-
-本章要点：常态化意味着门槛下降，也意味着依赖上升。
-
----
-
 ## English
 
 In 1990, computing no longer needs constant justification. It begins to become the default option.
 
 Key point: normalization lowers barriers—and raises dependency.
+
+---
+
+## 中文
+
+1990 年，计算不再需要被反复证明，它开始成为默认选项。
+
+本章要点：常态化意味着门槛下降，也意味着依赖上升。

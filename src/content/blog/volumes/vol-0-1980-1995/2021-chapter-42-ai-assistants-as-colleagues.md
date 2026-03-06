@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-文字变成能力的入口。
-
-本章要点：文字变成能力的入口。
-
----
-
 ## English
 
 Text becomes an interface to capability.
 
 Key point: Text becomes an interface to capability.
+
+---
+
+## 中文
+
+文字变成能力的入口。
+
+本章要点：文字变成能力的入口。

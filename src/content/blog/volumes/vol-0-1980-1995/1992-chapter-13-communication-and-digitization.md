@@ -5,16 +5,16 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1992 年，信息开始更频繁地流动，组织开始感到速度的差异。
-
-本章要点：速度差异会变成竞争差异。
-
----
-
 ## English
 
 In 1992, information moves more frequently, and organizations start to feel the difference speed makes.
 
 Key point: speed differences become competitive differences.
+
+---
+
+## 中文
+
+1992 年，信息开始更频繁地流动，组织开始感到速度的差异。
+
+本章要点：速度差异会变成竞争差异。

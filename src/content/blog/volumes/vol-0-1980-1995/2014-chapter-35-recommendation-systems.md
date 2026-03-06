@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-选择被外包。
-
-本章要点：选择被外包。
-
----
-
 ## English
 
 Choice is outsourced.
 
 Key point: Choice is outsourced.
+
+---
+
+## 中文
+
+选择被外包。
+
+本章要点：选择被外包。

@@ -5,16 +5,6 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1989 年，数据不再只是记录，它开始像权力。
-
-谁能看、谁能改、谁来定义口径，开始决定组织内部的秩序。
-
-本章要点：1989 年，数据治理的雏形出现。
-
----
-
 ## English
 
 In 1989, data stops being mere record and begins to resemble power.
@@ -22,3 +12,13 @@ In 1989, data stops being mere record and begins to resemble power.
 Who can view, who can edit, who defines meanings—these begin to shape internal order.
 
 Key point: in 1989, the early shape of data governance appears.
+
+---
+
+## 中文
+
+1989 年，数据不再只是记录，它开始像权力。
+
+谁能看、谁能改、谁来定义口径，开始决定组织内部的秩序。
+
+本章要点：1989 年，数据治理的雏形出现。

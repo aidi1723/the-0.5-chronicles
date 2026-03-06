@@ -5,6 +5,38 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-4.jpg'
 ---
 
+## English
+
+1990 matters because the world begins to organize itself in a way that resembles the web, even before the web fully arrives.
+
+The key shift is not merely that personal computing becomes more normal. It is that a new organizing logic appears: information is no longer only stored, but linked; knowledge is no longer only archived, but made structurally accessible; systems are no longer only local, but move toward a more navigable and connected future.
+
+### One-sentence summary
+
+> **The key to 1990 is that the world had not yet entered the age of the web, but it had already begun to prepare itself according to the web’s logic.**
+
+### Why this year matters
+
+If 1988 and 1989 made people increasingly aware of the importance of connection, 1990 goes further:
+
+- connection becomes more than a technical need,
+- structured access becomes historically important,
+- and the information world begins to resemble a navigable space.
+
+### Three key signals
+
+1. **The idea of the World Wide Web appears.**
+2. **Personal computing becomes a precondition for networked life.**
+3. **The world begins to accept that information should be navigable.**
+
+### Historical position
+
+1990 is a real turning point.
+On the surface, it looks like the continued normalization of personal computing.
+At a deeper level, it lays the groundwork for web logic, open linking, and public digital space.
+
+---
+
 ## 中文
 
 1990 年的关键，是世界开始按网页的方式组织自己，尽管那时“网页时代”本身还没有真正铺开。
@@ -49,35 +81,3 @@ heroImage: '../../../../assets/blog-placeholder-4.jpg'
 
 从这一年开始，世界不只是学会使用计算机，
 而是开始学会把自己组织成一个可以被链接的系统。
-
----
-
-## English
-
-1990 matters because the world begins to organize itself in a way that resembles the web, even before the web fully arrives.
-
-The key shift is not merely that personal computing becomes more normal. It is that a new organizing logic appears: information is no longer only stored, but linked; knowledge is no longer only archived, but made structurally accessible; systems are no longer only local, but move toward a more navigable and connected future.
-
-### One-sentence summary
-
-> **The key to 1990 is that the world had not yet entered the age of the web, but it had already begun to prepare itself according to the web’s logic.**
-
-### Why this year matters
-
-If 1988 and 1989 made people increasingly aware of the importance of connection, 1990 goes further:
-
-- connection becomes more than a technical need,
-- structured access becomes historically important,
-- and the information world begins to resemble a navigable space.
-
-### Three key signals
-
-1. **The idea of the World Wide Web appears.**
-2. **Personal computing becomes a precondition for networked life.**
-3. **The world begins to accept that information should be navigable.**
-
-### Historical position
-
-1990 is a real turning point.
-On the surface, it looks like the continued normalization of personal computing.
-At a deeper level, it lays the groundwork for web logic, open linking, and public digital space.

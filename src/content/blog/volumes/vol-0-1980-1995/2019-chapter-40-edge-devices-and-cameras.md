@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-感知下沉到边缘。
-
-本章要点：感知下沉到边缘。
-
----
-
 ## English
 
 Sensing moves to the perimeter.
 
 Key point: Sensing moves to the perimeter.
+
+---
+
+## 中文
+
+感知下沉到边缘。
+
+本章要点：感知下沉到边缘。

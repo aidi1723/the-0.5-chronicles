@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-工作流取代单点工具。
-
-本章要点：工作流取代单点工具。
-
----
-
 ## English
 
 Workflows replace single tools.
 
 Key point: Workflows replace single tools.
+
+---
+
+## 中文
+
+工作流取代单点工具。
+
+本章要点：工作流取代单点工具。

@@ -5,6 +5,23 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
+## English
+
+Volume I of **The 0.5 Chronicles** now has a stable shape.
+
+Working title: **Digital Eve (1980–1993)**  
+Subtitle: **From the tail of the mechanical age to the moment the network grew a public entrance.**
+
+Its core question is simple:
+
+> How did digital civilization acquire machine form, workflow logic, connection structure, and public visibility before it became fully normal?
+
+At this stage, the main through-line from **1981 to 1993** has been drafted, while **1980** still needs to be upgraded into a stronger opening chapter.
+
+This site will continue publishing the project in stages: framework pages, current notes, and selected chapter drafts.
+
+---
+
 ## 中文
 
 《地球文明0.5编年史》第一卷，现在已经形成了比较稳定的卷结构。
@@ -59,20 +76,3 @@ heroImage: '../../assets/blog-placeholder-1.jpg'
 2. 把“参考线索”升级成正式参考文献
 3. 统一细修第一卷标题、卷前与章节结尾格式
 4. 继续推进第二卷（1994—1999）
-
----
-
-## English
-
-Volume I of **The 0.5 Chronicles** now has a stable shape.
-
-Working title: **Digital Eve (1980–1993)**  
-Subtitle: **From the tail of the mechanical age to the moment the network grew a public entrance.**
-
-Its core question is simple:
-
-> How did digital civilization acquire machine form, workflow logic, connection structure, and public visibility before it became fully normal?
-
-At this stage, the main through-line from **1981 to 1993** has been drafted, while **1980** still needs to be upgraded into a stronger opening chapter.
-
-This site will continue publishing the project in stages: framework pages, current notes, and selected chapter drafts.

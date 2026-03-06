@@ -5,6 +5,50 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-4.jpg'
 ---
 
+## English
+
+1993 matters because the network acquired something it had never had before:
+a genuine public entrance.
+
+### One-sentence summary
+
+> **In 1993, the network grew its first public entrance, and began to shift from a future system into a future medium.**
+
+### Why this year matters
+
+Before 1993, accessing the network required expertise:
+
+- technical knowledge,
+- specific equipment,
+- comfort with command lines and protocols.
+
+The arrival of the Mosaic browser changed this:
+
+- graphical interfaces made the network visible,
+- clicking and scrolling replaced command typing,
+- ordinary people began to feel that "maybe I could use this."
+
+Meanwhile, CERN's decision to make core web technology freely available
+meant that the logic of diffusion was explicitly written as **open rather than closed**.
+
+### Three key signals
+
+1. **Graphical browsers lowered barriers to entry.**
+2. **Open standards established the logic of diffusion.**
+3. **In China, informatization began to be understood as part of future competitiveness.**
+
+### Historical position
+
+1993 is a turning point:
+
+- Before: the network belonged to technicians
+- After: the network opens to everyone
+
+The appearance of a public entrance meant that the network shifted
+from "future technology worth watching" to "future infrastructure that will become universal."
+
+---
+
 ## 中文
 
 1993 年的关键，不只是网络继续扩张，
@@ -57,47 +101,3 @@ Mosaic 不是第一个浏览器，但它是第一个让普通人敢靠近的浏�
 
 大众入口的出现，意味着网络从“值得关注的未来技术”
 变成“终将普及的未来基础设施”。
-
----
-
-## English
-
-1993 matters because the network acquired something it had never had before:
-a genuine public entrance.
-
-### One-sentence summary
-
-> **In 1993, the network grew its first public entrance, and began to shift from a future system into a future medium.**
-
-### Why this year matters
-
-Before 1993, accessing the network required expertise:
-
-- technical knowledge,
-- specific equipment,
-- comfort with command lines and protocols.
-
-The arrival of the Mosaic browser changed this:
-
-- graphical interfaces made the network visible,
-- clicking and scrolling replaced command typing,
-- ordinary people began to feel that "maybe I could use this."
-
-Meanwhile, CERN's decision to make core web technology freely available
-meant that the logic of diffusion was explicitly written as **open rather than closed**.
-
-### Three key signals
-
-1. **Graphical browsers lowered barriers to entry.**
-2. **Open standards established the logic of diffusion.**
-3. **In China, informatization began to be understood as part of future competitiveness.**
-
-### Historical position
-
-1993 is a turning point:
-
-- Before: the network belonged to technicians
-- After: the network opens to everyone
-
-The appearance of a public entrance meant that the network shifted
-from "future technology worth watching" to "future infrastructure that will become universal."

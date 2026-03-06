@@ -6,6 +6,33 @@ heroImage: "../../assets/blog-placeholder-2.jpg"
 tags: ["method","bilingual","0.5-chronicles"]
 ---
 
+## English
+
+This is not a chapter about a specific year. It is a user manual for the project: what is included, how claims are supported, and how you can search it.
+
+### 1) Scope
+- Time span: 1980–2045
+- Focus: how technology enters organizations and daily life—and reshapes workflows, industries, and individual outcomes
+- Avoid: slogans as history, opinions as facts, emotion as evidence
+
+### 2) Three formats
+- Yearbook: one chapter per year, describing what was actually felt and used
+- Tracks: cross-year mechanisms (PC, networks, software, manufacturing, trade, media, AI)
+- Artifacts: hard details—objects, manuals, ads, version numbers, price lists, photos
+
+### 3) Evidence levels
+- Fact: checkable materials (photos, scans, links, model numbers, version numbers, prices, timestamps)
+- Memory: personal or oral accounts, explicitly labeled, with cross-check cues when possible
+- Inference: mechanism explanations, explicitly labeled
+
+### 4) Tagging (suggested)
+Tracks, format, region, and domain tags are treated as an index—not decoration.
+
+### 5) Pace
+Make it passable first (timeline skeleton), then make it clear (tracks), then make it citable (artifacts).
+
+---
+
 ## 中文
 
 这篇不是某一年的历史，而是这本书的“使用说明”。它只回答三件事：我记录什么、我如何证明、你如何检索。
@@ -33,30 +60,3 @@ tags: ["method","bilingual","0.5-chronicles"]
 
 ### 5) 写作节奏
 先把时间线写通（可读骨架），再把主题线拉直（机制清楚），最后用档案条目加固（可引用）。
-
----
-
-## English
-
-This is not a chapter about a specific year. It is a user manual for the project: what is included, how claims are supported, and how you can search it.
-
-### 1) Scope
-- Time span: 1980–2045
-- Focus: how technology enters organizations and daily life—and reshapes workflows, industries, and individual outcomes
-- Avoid: slogans as history, opinions as facts, emotion as evidence
-
-### 2) Three formats
-- Yearbook: one chapter per year, describing what was actually felt and used
-- Tracks: cross-year mechanisms (PC, networks, software, manufacturing, trade, media, AI)
-- Artifacts: hard details—objects, manuals, ads, version numbers, price lists, photos
-
-### 3) Evidence levels
-- Fact: checkable materials (photos, scans, links, model numbers, version numbers, prices, timestamps)
-- Memory: personal or oral accounts, explicitly labeled, with cross-check cues when possible
-- Inference: mechanism explanations, explicitly labeled
-
-### 4) Tagging (suggested)
-Tracks, format, region, and domain tags are treated as an index—not decoration.
-
-### 5) Pace
-Make it passable first (timeline skeleton), then make it clear (tracks), then make it citable (artifacts).

@@ -5,28 +5,6 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1985 年的变化更像“靠近”。
-
-当计算逐渐变得可见（在学校、在单位、在媒体叙事里），它才有机会进入普通人的想象。
-
-### 1) 全球切片：界面与体验开始决定传播
-
-当工具足够可见、足够可学，扩散会加速。界面不是装饰，它决定了谁能进入。
-
-### 2) 国内切片：从机房到公众叙事
-
-在国内，计算仍常与机房、实验室相连，但它开始出现在公众叙事里：作为“先进”“现代化”的象征，也作为一种新的技能预期。
-
-### 3) 机制：可见性创造需求
-
-很多需求不是先有再满足，而是先看见，再想要。可见性会创造训练、创造岗位、创造市场。
-
-本章要点：1985 年，计算开始从组织内部走向社会想象。
-
----
-
 ## English
 
 The change of 1985 feels like proximity.
@@ -46,3 +24,25 @@ Computing remains tied to computer rooms and labs, but it begins to show up in p
 Demand is often not discovered; it is produced. People see a capability, then begin to want it. Visibility creates training, creates jobs, creates markets.
 
 Key point: in 1985, computing begins to travel from internal capability toward social imagination.
+
+---
+
+## 中文
+
+1985 年的变化更像“靠近”。
+
+当计算逐渐变得可见（在学校、在单位、在媒体叙事里），它才有机会进入普通人的想象。
+
+### 1) 全球切片：界面与体验开始决定传播
+
+当工具足够可见、足够可学，扩散会加速。界面不是装饰，它决定了谁能进入。
+
+### 2) 国内切片：从机房到公众叙事
+
+在国内，计算仍常与机房、实验室相连，但它开始出现在公众叙事里：作为“先进”“现代化”的象征，也作为一种新的技能预期。
+
+### 3) 机制：可见性创造需求
+
+很多需求不是先有再满足，而是先看见，再想要。可见性会创造训练、创造岗位、创造市场。
+
+本章要点：1985 年，计算开始从组织内部走向社会想象。

@@ -5,16 +5,16 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1994 年，很多人开始在心理上等待一个东西：更快的连接、更容易的获取。
-
-本章要点：预期本身会推动基础设施。
-
----
-
 ## English
 
 In 1994, many begin to wait for something: faster connection, easier access.
 
 Key point: expectations themselves push infrastructure.
+
+---
+
+## 中文
+
+1994 年，很多人开始在心理上等待一个东西：更快的连接、更容易的获取。
+
+本章要点：预期本身会推动基础设施。

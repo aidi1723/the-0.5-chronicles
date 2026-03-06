@@ -5,16 +5,6 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1987 年，“孤岛”的问题更明确。
-
-当数据越来越多，协作越来越复杂，系统之间的隔离会变成痛点。网络未必普及，但连接的渴望已经出现。
-
-本章要点：1987 年，连接成为下一阶段的方向。
-
----
-
 ## English
 
 In 1987, the pain of islands becomes clearer.
@@ -22,3 +12,13 @@ In 1987, the pain of islands becomes clearer.
 As data grows and coordination becomes complex, isolation turns into a bottleneck. Networks may not be widespread yet, but the desire to connect is already present.
 
 Key point: in 1987, connection becomes the direction of the next stage.
+
+---
+
+## 中文
+
+1987 年，“孤岛”的问题更明确。
+
+当数据越来越多，协作越来越复杂，系统之间的隔离会变成痛点。网络未必普及，但连接的渴望已经出现。
+
+本章要点：1987 年，连接成为下一阶段的方向。

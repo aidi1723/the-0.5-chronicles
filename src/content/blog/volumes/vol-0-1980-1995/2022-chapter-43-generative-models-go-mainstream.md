@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-创作成本骤降。
-
-本章要点：创作成本骤降。
-
----
-
 ## English
 
 Creation becomes cheap.
 
 Key point: Creation becomes cheap.
+
+---
+
+## 中文
+
+创作成本骤降。
+
+本章要点：创作成本骤降。

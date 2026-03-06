@@ -5,6 +5,59 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
+## English
+
+Today, Volume I of **The 0.5 Chronicles**, *Digital Eve*, can be formally marked as complete in its first full draft.
+
+This does not mean it will never be revised again, nor that every detail has reached final form. Its significance is simpler and more important: **as a volume, it has closed.** From the opening chapter to the yearly line, from the editorial framing to the chapter entry structure, Volume I now stands as a complete historical unit.
+
+### What this volume has completed
+
+Volume I covers the years **1980–1995**.
+
+Its central question is:
+
+> Before digital civilization became ordinary daily life, how did humanity first assemble its machine structure, workflow logic, connection pattern, knowledge form, and social psychology?
+
+As of today, this volume has:
+
+- established a stable volume structure,
+- completed the main chapter entry line from **1980 to 1995**,
+- formed its preface, editorial framing, and core declaration,
+- made public its position that ordinary people also have the right to leave a draft of the age,
+- and turned The 0.5 Chronicles from scattered writing into a real expandable volume-based historical project.
+
+### Why this counts as a line of completion
+
+Many writing projects accumulate material without ever becoming a volume.
+But once a volume closes, it stops being merely a set of articles. It becomes a unit of history that can be read, revisited, and extended.
+
+So the completion of Volume I is not just a matter of “several more chapters written.” It is the first proof that this project can:
+
+- write history from an ordinary-person perspective,
+- record past and present in a dual-track method,
+- and organize the formation of an era in the structure of a volume.
+
+### What this completion note means
+
+This is a line of completion,
+but not a finish line.
+
+From this point, Volume I moves into its next phase:
+
+- unified revision,
+- stronger references,
+- chapter-level refinement,
+- and clearer handoff into the next volume.
+
+In other words, **Volume I has completed the move from nothing to form. What comes next is the move from form to maturity.**
+
+### One sentence for the record
+
+> **On March 6, 2026, Volume I of The 0.5 Chronicles, *Digital Eve*, completed its first full draft.**
+
+---
+
 ## 中文
 
 今天，《地球文明0.5编年史》第一卷 **《数字前夜》** 可以正式宣布完成首轮完整成稿。
@@ -58,56 +111,3 @@ heroImage: '../../assets/blog-placeholder-1.jpg'
 
 这是这套书的一个里程碑，
 也是“平民历史”第一次真正站成一卷的时刻。
-
----
-
-## English
-
-Today, Volume I of **The 0.5 Chronicles**, *Digital Eve*, can be formally marked as complete in its first full draft.
-
-This does not mean it will never be revised again, nor that every detail has reached final form. Its significance is simpler and more important: **as a volume, it has closed.** From the opening chapter to the yearly line, from the editorial framing to the chapter entry structure, Volume I now stands as a complete historical unit.
-
-### What this volume has completed
-
-Volume I covers the years **1980–1995**.
-
-Its central question is:
-
-> Before digital civilization became ordinary daily life, how did humanity first assemble its machine structure, workflow logic, connection pattern, knowledge form, and social psychology?
-
-As of today, this volume has:
-
-- established a stable volume structure,
-- completed the main chapter entry line from **1980 to 1995**,
-- formed its preface, editorial framing, and core declaration,
-- made public its position that ordinary people also have the right to leave a draft of the age,
-- and turned The 0.5 Chronicles from scattered writing into a real expandable volume-based historical project.
-
-### Why this counts as a line of completion
-
-Many writing projects accumulate material without ever becoming a volume.
-But once a volume closes, it stops being merely a set of articles. It becomes a unit of history that can be read, revisited, and extended.
-
-So the completion of Volume I is not just a matter of “several more chapters written.” It is the first proof that this project can:
-
-- write history from an ordinary-person perspective,
-- record past and present in a dual-track method,
-- and organize the formation of an era in the structure of a volume.
-
-### What this completion note means
-
-This is a line of completion,
-but not a finish line.
-
-From this point, Volume I moves into its next phase:
-
-- unified revision,
-- stronger references,
-- chapter-level refinement,
-- and clearer handoff into the next volume.
-
-In other words, **Volume I has completed the move from nothing to form. What comes next is the move from form to maturity.**
-
-### One sentence for the record
-
-> **On March 6, 2026, Volume I of The 0.5 Chronicles, *Digital Eve*, completed its first full draft.**

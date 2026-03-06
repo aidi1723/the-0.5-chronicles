@@ -5,6 +5,35 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
+## English
+
+A few days ago, with the help of AI, I went through multiple rounds of discussion with Alibaba Cloud customer service around a concrete technical problem.
+
+What makes this worth recording is not whether AI was right or the engineer was right. What matters is that the structure of technical problem-solving is clearly changing.
+
+In this process, AI was genuinely useful:
+
+- it helped me understand the structure of the problem faster,
+- expanded the range of possible solutions,
+- improved how I organized questions and compared options,
+- and increased the efficiency of communication.
+
+But in the end, the more reliable closure still came from a more experienced human engineer. The Alibaba engineer's method and conclusion turned out to be correct.
+
+This does not mean AI failed. It means we are living through a transitional pattern:
+
+> **AI can already participate deeply in technical problem-solving, but in complex systems, real-world environments, and experience-based judgment, human engineers still hold stronger final authority.**
+
+That is a very typical scene of the 0.5 era.
+
+Today, AI expands the solution space. In the future, it will increasingly move into device control, system scheduling, fault diagnosis, runtime optimization, and automated execution.
+
+At that point, AI will no longer be only a tool for answering questions. It will become part of the driving layer behind machines and systems.
+
+So this experience confirmed something important for me: AI is not yet the final judge in every technical case, but its rise as a major future driver of systems and machines already feels irreversible.
+
+---
+
 ## 中文
 
 前几天，我在人工智能的帮助下，和阿里云客服围绕一个具体技术问题进行了多轮讨论。
@@ -55,32 +84,3 @@ heroImage: '../../assets/blog-placeholder-2.jpg'
 
 这不是一个已经完成的时代，
 但它已经非常清楚地开始了。
-
----
-
-## English
-
-A few days ago, with the help of AI, I went through multiple rounds of discussion with Alibaba Cloud customer service around a concrete technical problem.
-
-What makes this worth recording is not whether AI was right or the engineer was right. What matters is that the structure of technical problem-solving is clearly changing.
-
-In this process, AI was genuinely useful:
-
-- it helped me understand the structure of the problem faster,
-- expanded the range of possible solutions,
-- improved how I organized questions and compared options,
-- and increased the efficiency of communication.
-
-But in the end, the more reliable closure still came from a more experienced human engineer. The Alibaba engineer's method and conclusion turned out to be correct.
-
-This does not mean AI failed. It means we are living through a transitional pattern:
-
-> **AI can already participate deeply in technical problem-solving, but in complex systems, real-world environments, and experience-based judgment, human engineers still hold stronger final authority.**
-
-That is a very typical scene of the 0.5 era.
-
-Today, AI expands the solution space. In the future, it will increasingly move into device control, system scheduling, fault diagnosis, runtime optimization, and automated execution.
-
-At that point, AI will no longer be only a tool for answering questions. It will become part of the driving layer behind machines and systems.
-
-So this experience confirmed something important for me: AI is not yet the final judge in every technical case, but its rise as a major future driver of systems and machines already feels irreversible.

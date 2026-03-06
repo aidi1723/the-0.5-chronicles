@@ -5,6 +5,44 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-5.jpg'
 ---
 
+## English
+
+1994 matters because the internet acquired something beyond mere accessibility:
+it began to have **media character, commercial energy, and social invitation**.
+
+### One-sentence summary
+
+> **In 1994, the internet not only had an entrance—it began to have the inviting quality that makes ordinary people want to approach and stay.**
+
+### Why this year matters
+
+1993 made the network usable. 1994 made it worth staying for.
+
+This year's changes included:
+
+- Netscape's emergence intensified browser competition,
+- Yahoo!'s birth made "navigation" a genuine need,
+- W3C's formation brought standards and order,
+- commercial energy appeared—the network began to look like it would reshape the economy.
+
+In China, 1994 marked full functional connection to the global internet,
+meaning the future finally had a clear coordinate.
+
+### Three key signals
+
+1. **Browser wars revealed media power.**
+2. **Navigation and search became essential needs.**
+3. **China completed full internet access.**
+
+### Historical position
+
+1994 is the year when the internet moved from "worth a look" to "worth staying for."
+
+It was no longer just a technical spectacle,
+but began to resemble a new infrastructure about to embed itself in daily life.
+
+---
+
 ## 中文
 
 1994 年的关键，不只是网络有了入口，
@@ -50,41 +88,3 @@ Yahoo! 的出现预示着信息架构将成为核心能力。
 
 网络不再只是技术奇观，
 而开始像一种即将嵌入日常生活的新基础设施。
-
----
-
-## English
-
-1994 matters because the internet acquired something beyond mere accessibility:
-it began to have **media character, commercial energy, and social invitation**.
-
-### One-sentence summary
-
-> **In 1994, the internet not only had an entrance—it began to have the inviting quality that makes ordinary people want to approach and stay.**
-
-### Why this year matters
-
-1993 made the network usable. 1994 made it worth staying for.
-
-This year's changes included:
-
-- Netscape's emergence intensified browser competition,
-- Yahoo!'s birth made "navigation" a genuine need,
-- W3C's formation brought standards and order,
-- commercial energy appeared—the network began to look like it would reshape the economy.
-
-In China, 1994 marked full functional connection to the global internet,
-meaning the future finally had a clear coordinate.
-
-### Three key signals
-
-1. **Browser wars revealed media power.**
-2. **Navigation and search became essential needs.**
-3. **China completed full internet access.**
-
-### Historical position
-
-1994 is the year when the internet moved from "worth a look" to "worth staying for."
-
-It was no longer just a technical spectacle,
-but began to resemble a new infrastructure about to embed itself in daily life.

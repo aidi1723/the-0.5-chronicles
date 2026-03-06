@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-产品开始可组合。
-
-本章要点：产品开始可组合。
-
----
-
 ## English
 
 Products become composable.
 
 Key point: Products become composable.
+
+---
+
+## 中文
+
+产品开始可组合。
+
+本章要点：产品开始可组合。

@@ -5,16 +5,16 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1993 年，孤岛不再只是不方便，而开始变成成本。
-
-本章要点：连接会在后面成为爆炸点。
-
----
-
 ## English
 
 In 1993, islands stop being mere inconvenience and begin to become cost.
 
 Key point: connectivity becomes an approaching ignition point.
+
+---
+
+## 中文
+
+1993 年，孤岛不再只是不方便，而开始变成成本。
+
+本章要点：连接会在后面成为爆炸点。
