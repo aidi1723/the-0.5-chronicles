@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-拨号上网让网络变得可听、可触。
-
-本章要点：拨号上网让网络变得可听、可触。
-
----
-
 ## English
 
 Dial-up makes the network audible and tactile.
 
 Key point: Dial-up makes the network audible and tactile.
+
+---
+
+## 中文
+
+拨号上网让网络变得可听、可触。
+
+本章要点：拨号上网让网络变得可听、可触。

@@ -5,6 +5,45 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-3.jpg'
 ---
 
+## English
+
+1991 matters because the network began to change its character.
+It was no longer only a backend system for institutions and specialists. It started to show the outline of a space: something enterable, something that could hold content, structure knowledge, and support collaboration.
+
+### One-sentence summary
+
+> **In 1991, the network began to shift from a technical system into the early form of public space.**
+
+### Why this year matters
+
+The importance of 1991 is not that everyday life suddenly became online. It did not.
+The importance is that the future function of the network started to change.
+
+Before this point, networks were largely seen as infrastructure:
+
+- they connected systems,
+- they served research and professional communication,
+- and they belonged mainly to institutions and technical communities.
+
+In 1991, that started to change:
+
+- the World Wide Web opened toward wider use,
+- Linux made distributed open collaboration more visible,
+- and the network began to resemble a place for knowledge, coordination, and expression.
+
+### Three key signals
+
+1. **The public logic of the Web begins to appear.**
+2. **Open collaboration becomes historically visible.**
+3. **In China, the internet remains distant from ordinary life, but the pressure of the future grows stronger.**
+
+### Historical position
+
+1991 is not yet the year when the public fully enters the network.
+It is the year when the network starts to be prepared as a public medium.
+
+---
+
 ## 中文
 
 1991 年的关键，不只是又多了一项技术进展，而是网络的性质开始悄悄改变：
@@ -59,42 +98,3 @@ Linux 的出现，不只是软件史事件。
 
 网络先成为公共空间的雏形，
 后来才成为普通人的日常入口。
-
----
-
-## English
-
-1991 matters because the network began to change its character.
-It was no longer only a backend system for institutions and specialists. It started to show the outline of a space: something enterable, something that could hold content, structure knowledge, and support collaboration.
-
-### One-sentence summary
-
-> **In 1991, the network began to shift from a technical system into the early form of public space.**
-
-### Why this year matters
-
-The importance of 1991 is not that everyday life suddenly became online. It did not.
-The importance is that the future function of the network started to change.
-
-Before this point, networks were largely seen as infrastructure:
-
-- they connected systems,
-- they served research and professional communication,
-- and they belonged mainly to institutions and technical communities.
-
-In 1991, that started to change:
-
-- the World Wide Web opened toward wider use,
-- Linux made distributed open collaboration more visible,
-- and the network began to resemble a place for knowledge, coordination, and expression.
-
-### Three key signals
-
-1. **The public logic of the Web begins to appear.**
-2. **Open collaboration becomes historically visible.**
-3. **In China, the internet remains distant from ordinary life, but the pressure of the future grows stronger.**
-
-### Historical position
-
-1991 is not yet the year when the public fully enters the network.
-It is the year when the network starts to be prepared as a public medium.

@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-自然语言成为控制面。
-
-本章要点：自然语言成为控制面。
-
----
-
 ## English
 
 Natural language becomes a control surface.
 
 Key point: Natural language becomes a control surface.
+
+---
+
+## 中文
+
+自然语言成为控制面。
+
+本章要点：自然语言成为控制面。

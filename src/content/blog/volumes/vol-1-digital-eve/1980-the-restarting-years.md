@@ -5,6 +5,40 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-1.jpg'
 ---
 
+## English
+
+The importance of 1980 does not lie in ordinary people already owning computers. It lies in something earlier: the era began to restart, and “computing” was quietly placed on the map of the future.
+
+For most people, digital life was still far away. Households still revolved around radios, televisions, bicycles, sewing machines, and work-unit order. Information moved mainly through newspapers, broadcasts, face-to-face talk, and institutional channels. Computers were not everyday objects. They belonged mostly to laboratories, research institutes, industrial management, education systems, and a small number of professional settings.
+
+### One-sentence summary
+
+> **The key to 1980 is that computing had not yet entered the home, but it had already begun to enter institutions, education, and the imagination of the future.**
+
+### Why this year matters
+
+If the later digital era is the age in which everyone eventually encounters computing, 1980 is still the preface. What it opens is not mass adoption, but direction.
+
+Three shifts matter:
+
+1. **Computing begins to move from scarce resource toward organized capability.**
+2. **In China, the future becomes newly tied to technical capacity.**
+3. **Ordinary people hear rumors before they form direct experience.**
+
+### Three key signals
+
+- Institutional entry: computing becomes more serious in statistics, research, engineering, and administration.
+- Educational entry: computing begins to be seen as a future skill.
+- Imagined entry: even without machines at home, people begin to feel that the future will be different.
+
+### Historical position
+
+1980 is not yet the year of digital life. It is the year digital civilization is quietly placed on the historical table.
+
+It is like a distant first light: not yet inside every household, but already changing the angle from which society looks at the future.
+
+---
+
 ## 中文
 
 1980 年的重要性，不在于普通人已经拥有了电脑，而在于这个时代开始重新起步，并且第一次把“计算”放进了未来的方向里。
@@ -46,37 +80,3 @@ heroImage: '../../../../assets/blog-placeholder-1.jpg'
 它像一道很远的晨光：还没有照进每个家庭，但已经改变了人们看待未来的角度。
 
 从这一年开始，计算不再只是少数机构内部的技术问题，而开始变成一个会重新组织工作、知识、效率、训练与社会分工的时代问题。
-
----
-
-## English
-
-The importance of 1980 does not lie in ordinary people already owning computers. It lies in something earlier: the era began to restart, and “computing” was quietly placed on the map of the future.
-
-For most people, digital life was still far away. Households still revolved around radios, televisions, bicycles, sewing machines, and work-unit order. Information moved mainly through newspapers, broadcasts, face-to-face talk, and institutional channels. Computers were not everyday objects. They belonged mostly to laboratories, research institutes, industrial management, education systems, and a small number of professional settings.
-
-### One-sentence summary
-
-> **The key to 1980 is that computing had not yet entered the home, but it had already begun to enter institutions, education, and the imagination of the future.**
-
-### Why this year matters
-
-If the later digital era is the age in which everyone eventually encounters computing, 1980 is still the preface. What it opens is not mass adoption, but direction.
-
-Three shifts matter:
-
-1. **Computing begins to move from scarce resource toward organized capability.**
-2. **In China, the future becomes newly tied to technical capacity.**
-3. **Ordinary people hear rumors before they form direct experience.**
-
-### Three key signals
-
-- Institutional entry: computing becomes more serious in statistics, research, engineering, and administration.
-- Educational entry: computing begins to be seen as a future skill.
-- Imagined entry: even without machines at home, people begin to feel that the future will be different.
-
-### Historical position
-
-1980 is not yet the year of digital life. It is the year digital civilization is quietly placed on the historical table.
-
-It is like a distant first light: not yet inside every household, but already changing the angle from which society looks at the future.

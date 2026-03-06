@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-自下而上的组织方式开始挑战目录。
-
-本章要点：自下而上的组织方式开始挑战目录。
-
----
-
 ## English
 
 Bottom-up organization competes with catalogs.
 
 Key point: Bottom-up organization competes with catalogs.
+
+---
+
+## 中文
+
+自下而上的组织方式开始挑战目录。
+
+本章要点：自下而上的组织方式开始挑战目录。

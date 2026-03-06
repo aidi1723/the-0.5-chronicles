@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-办公室变成可选项。
-
-本章要点：办公室变成可选项。
-
----
-
 ## English
 
 The office becomes optional.
 
 Key point: The office becomes optional.
+
+---
+
+## 中文
+
+办公室变成可选项。
+
+本章要点：办公室变成可选项。

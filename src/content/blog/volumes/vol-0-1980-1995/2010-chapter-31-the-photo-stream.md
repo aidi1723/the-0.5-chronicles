@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-图片开始承担沟通。
-
-本章要点：图片开始承担沟通。
-
----
-
 ## English
 
 Images become communication.
 
 Key point: Images become communication.
+
+---
+
+## 中文
+
+图片开始承担沟通。
+
+本章要点：图片开始承担沟通。

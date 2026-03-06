@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-常久在线改变习惯。
-
-本章要点：常久在线改变习惯。
-
----
-
 ## English
 
 Always-on changes habits.
 
 Key point: Always-on changes habits.
+
+---
+
+## 中文
+
+常久在线改变习惯。
+
+本章要点：常久在线改变习惯。

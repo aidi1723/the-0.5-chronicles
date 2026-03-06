@@ -5,6 +5,78 @@ pubDate: "Feb 24 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
+## English
+
+### 1. The world in 1980: personal computing begins to look buyable, usable, and expandable
+
+From a global vantage point, 1980 is not “the beginning of computers.” Large systems already exist. What becomes newly tangible around this time is shape: personal computing starts to resemble a scalable consumer form; software begins to carry independent value; and computing slowly descends from institutional capability toward personal tool.
+
+Three shifts matter:
+
+- Computing moves from “resource” to “tool.” Resources are scheduled; tools are held.
+- Software moves from “accessory” to “product.” Over time, ecosystems outlive hardware advantages.
+- Standards and compatibility become quiet power. Formats and interfaces decide migration costs.
+
+### 2. The same year in China: computing as a capability you request, not a thing you own
+
+In 1980, computing is largely absent from the household and everyday consumption. It enters through three doors: institutions, industry, and education.
+
+#### 2.1 Institutions: statistics, finance, archives, research
+
+Scarce computing is first used where information is dense and mistakes are expensive. The earliest transformation is not expression but organization: how data is collected, entered, checked, and archived.
+
+#### 2.2 Industry: making engineering and management computable
+
+For factories, the first step is rarely “computers on the shop floor.” It is engineering, planning, and quality records—the parts of production that set the cadence of management. Plans become finer; tracking becomes more frequent; feedback tightens.
+
+#### 2.3 Education: computing becomes a skill
+
+The point of education is not how many machines exist, but that a society starts to declare: this capability will matter. Once taught as a skill, computing produces a skill gap—and skill gaps reorder jobs.
+
+### 3. The difference is not “machines vs. no machines,” but organization
+
+What separates the two slices is less the existence of hardware than the way computing is organized:
+
+- availability: scarce capability vs. common tool
+- distribution: internal utility vs. market circulation
+- standards: formats and interfaces as borders
+
+### 4. Three early signals: eras often begin as inconveniences
+
+1) the cost of data entry surfaces
+
+2) compatibility becomes a contest
+
+3) job definitions begin to shift
+
+### 5. Closing: computing becomes organized capability
+
+The significance of 1980 is not a particular machine. It is that computing starts to be treated as an organizational capability—trainable, repeatable, expandable. It has not entered the home, but it is already changing how institutions think about information.
+
+### 6. A personal vignette: what the seniors said (oral memory)
+
+(Note: the following is reconstructed from oral accounts and memory; details may drift with time.)
+
+I first felt “computing” become real not by seeing a specific machine, but by hearing older students talk about it.
+
+They did not romanticize it. Their stories were practical, almost hushed:
+
+“It’s expensive. It’s scarce.”
+“You don’t just touch it—you queue.”
+“You prepare everything before you go in. One mistake wastes precious time.”
+
+When they spoke of going on the machine, the scene was always the same: the computer room, the lab, the door closing behind you, the room turning quiet. There was a kind of discipline in the air—write it clearly first, then hand your time to the machine. To make a program run correctly sounded less like magic than like craft.
+
+One line stayed with me:
+
+“The computer won’t think for you. It only amplifies the way you think. Whatever you write—that’s what it will do.”
+
+Plain words, back then. But they forecast the decades that followed: tools do not guarantee correctness. Correctness comes from clear definitions, reliable data, and processes you can inspect.
+
+So I end this chapter here: computing has not yet entered the household, but it has entered the stories—carried in the voices of those who saw it earlier. An era often begins that way: rumor first, then skill, then institutions—then, finally, mass adoption.
+
+---
+
 ## 中文
 
 ### 1. 这一年的世界：个人计算开始有了“可买、可用、可扩展”的形态
@@ -76,75 +148,3 @@ tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 这句话在当年很朴素，但它其实预告了后来几十年的现实：工具并不会自动带来正确，正确来自清晰的定义、可靠的数据、可检查的过程。
 
 这一章就停在这里：计算尚未进入家庭，但它已经开始进入叙事——进入那些更早看见它的人嘴里。时代往往就是这样开始的：先有传闻，再有技能，再有制度，最后才有普及。
-
----
-
-## English
-
-### 1. The world in 1980: personal computing begins to look buyable, usable, and expandable
-
-From a global vantage point, 1980 is not “the beginning of computers.” Large systems already exist. What becomes newly tangible around this time is shape: personal computing starts to resemble a scalable consumer form; software begins to carry independent value; and computing slowly descends from institutional capability toward personal tool.
-
-Three shifts matter:
-
-- Computing moves from “resource” to “tool.” Resources are scheduled; tools are held.
-- Software moves from “accessory” to “product.” Over time, ecosystems outlive hardware advantages.
-- Standards and compatibility become quiet power. Formats and interfaces decide migration costs.
-
-### 2. The same year in China: computing as a capability you request, not a thing you own
-
-In 1980, computing is largely absent from the household and everyday consumption. It enters through three doors: institutions, industry, and education.
-
-#### 2.1 Institutions: statistics, finance, archives, research
-
-Scarce computing is first used where information is dense and mistakes are expensive. The earliest transformation is not expression but organization: how data is collected, entered, checked, and archived.
-
-#### 2.2 Industry: making engineering and management computable
-
-For factories, the first step is rarely “computers on the shop floor.” It is engineering, planning, and quality records—the parts of production that set the cadence of management. Plans become finer; tracking becomes more frequent; feedback tightens.
-
-#### 2.3 Education: computing becomes a skill
-
-The point of education is not how many machines exist, but that a society starts to declare: this capability will matter. Once taught as a skill, computing produces a skill gap—and skill gaps reorder jobs.
-
-### 3. The difference is not “machines vs. no machines,” but organization
-
-What separates the two slices is less the existence of hardware than the way computing is organized:
-
-- availability: scarce capability vs. common tool
-- distribution: internal utility vs. market circulation
-- standards: formats and interfaces as borders
-
-### 4. Three early signals: eras often begin as inconveniences
-
-1) the cost of data entry surfaces
-
-2) compatibility becomes a contest
-
-3) job definitions begin to shift
-
-### 5. Closing: computing becomes organized capability
-
-The significance of 1980 is not a particular machine. It is that computing starts to be treated as an organizational capability—trainable, repeatable, expandable. It has not entered the home, but it is already changing how institutions think about information.
-
-### 6. A personal vignette: what the seniors said (oral memory)
-
-(Note: the following is reconstructed from oral accounts and memory; details may drift with time.)
-
-I first felt “computing” become real not by seeing a specific machine, but by hearing older students talk about it.
-
-They did not romanticize it. Their stories were practical, almost hushed:
-
-“It’s expensive. It’s scarce.”
-“You don’t just touch it—you queue.”
-“You prepare everything before you go in. One mistake wastes precious time.”
-
-When they spoke of going on the machine, the scene was always the same: the computer room, the lab, the door closing behind you, the room turning quiet. There was a kind of discipline in the air—write it clearly first, then hand your time to the machine. To make a program run correctly sounded less like magic than like craft.
-
-One line stayed with me:
-
-“The computer won’t think for you. It only amplifies the way you think. Whatever you write—that’s what it will do.”
-
-Plain words, back then. But they forecast the decades that followed: tools do not guarantee correctness. Correctness comes from clear definitions, reliable data, and processes you can inspect.
-
-So I end this chapter here: computing has not yet entered the household, but it has entered the stories—carried in the voices of those who saw it earlier. An era often begins that way: rumor first, then skill, then institutions—then, finally, mass adoption.

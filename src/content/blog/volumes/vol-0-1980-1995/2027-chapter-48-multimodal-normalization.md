@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-看与听成为默认输入。
-
-本章要点：看与听成为默认输入。
-
----
-
 ## English
 
 Seeing and hearing become default inputs.
 
 Key point: Seeing and hearing become default inputs.
+
+---
+
+## 中文
+
+看与听成为默认输入。
+
+本章要点：看与听成为默认输入。

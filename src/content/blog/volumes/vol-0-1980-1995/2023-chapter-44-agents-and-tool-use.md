@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-模型开始“做事”，不只是回答。
-
-本章要点：模型开始“做事”，不只是回答。
-
----
-
 ## English
 
 Models start to act, not just answer.
 
 Key point: Models start to act, not just answer.
+
+---
+
+## 中文
+
+模型开始“做事”，不只是回答。
+
+本章要点：模型开始“做事”，不只是回答。

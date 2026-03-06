@@ -5,6 +5,33 @@ pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-2.jpg'
 ---
 
+## English
+
+1988 matters because the shadow of network society becomes visible for the first time.
+
+Computing is still not part of ordinary daily life in a broad sense, and the internet has not yet entered the public household. But the meaning of computing is beginning to change. It is no longer only about making a machine work, or handling files and records more efficiently. It is increasingly about connection, coordination, flow, and remote relations.
+
+### One-sentence summary
+
+> **The key to 1988 is that the network was not yet widespread, but the logic of network society had already begun to appear.**
+
+### Why this year matters
+
+From 1980 to 1987, computing mainly trained society to accept machines, files, software, and organizational workflow. In 1988, another layer begins to emerge: people start to sense that what will really change the world is not just the machine itself, but the connection between machines.
+
+### Three key signals
+
+1. **Local connection and collaborative awareness grow.**
+2. **Global network incidents make interconnection visible.**
+3. **In China, the future begins to feel not only computational, but connected.**
+
+### Historical position
+
+1988 is not the year the network age fully arrives.
+It is the year the next stage becomes visible in outline: digital civilization will not only be stronger machines, but a more connected world.
+
+---
+
 ## 中文
 
 1988 年的关键，不是互联网已经进入普通人的生活，而是**网络社会的影子第一次露出来了**。
@@ -47,30 +74,3 @@ heroImage: '../../../../assets/blog-placeholder-2.jpg'
 社会第一次更明确地意识到，
 数字文明的下一阶段，不只是让机器更强，
 而是让世界更连。
-
----
-
-## English
-
-1988 matters because the shadow of network society becomes visible for the first time.
-
-Computing is still not part of ordinary daily life in a broad sense, and the internet has not yet entered the public household. But the meaning of computing is beginning to change. It is no longer only about making a machine work, or handling files and records more efficiently. It is increasingly about connection, coordination, flow, and remote relations.
-
-### One-sentence summary
-
-> **The key to 1988 is that the network was not yet widespread, but the logic of network society had already begun to appear.**
-
-### Why this year matters
-
-From 1980 to 1987, computing mainly trained society to accept machines, files, software, and organizational workflow. In 1988, another layer begins to emerge: people start to sense that what will really change the world is not just the machine itself, but the connection between machines.
-
-### Three key signals
-
-1. **Local connection and collaborative awareness grow.**
-2. **Global network incidents make interconnection visible.**
-3. **In China, the future begins to feel not only computational, but connected.**
-
-### Historical position
-
-1988 is not the year the network age fully arrives.
-It is the year the next stage becomes visible in outline: digital civilization will not only be stronger machines, but a more connected world.

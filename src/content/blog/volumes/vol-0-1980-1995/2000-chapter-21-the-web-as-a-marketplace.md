@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-网页开始像门店一样运转。
-
-本章要点：网页开始像门店一样运转。
-
----
-
 ## English
 
 Web pages become storefronts.
 
 Key point: Web pages become storefronts.
+
+---
+
+## 中文
+
+网页开始像门店一样运转。
+
+本章要点：网页开始像门店一样运转。

@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-每个动作都留下痕迹。
-
-本章要点：每个动作都留下痕迹。
-
----
-
 ## English
 
 Every action leaves a trace.
 
 Key point: Every action leaves a trace.
+
+---
+
+## 中文
+
+每个动作都留下痕迹。
+
+本章要点：每个动作都留下痕迹。

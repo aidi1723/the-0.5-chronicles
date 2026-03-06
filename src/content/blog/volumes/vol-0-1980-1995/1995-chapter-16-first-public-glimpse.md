@@ -5,16 +5,16 @@ pubDate: "Feb 25 2026"
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
-## 中文
-
-1995 年，很多人第一次在更公开的场合看见计算：少年宫、学校、展览、单位演示。它像一束光，照亮了一条可能的路。
-
-本章要点：可见性让下一阶段的普及成为可能。
-
----
-
 ## English
 
 In 1995, many people catch their first public glimpse of computing—youth centers, schools, exhibitions, workplace demos. It is like a beam of light that reveals a possible road.
 
 Key point: visibility makes the next phase of mass adoption possible.
+
+---
+
+## 中文
+
+1995 年，很多人第一次在更公开的场合看见计算：少年宫、学校、展览、单位演示。它像一束光，照亮了一条可能的路。
+
+本章要点：可见性让下一阶段的普及成为可能。

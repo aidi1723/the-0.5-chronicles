@@ -5,16 +5,16 @@ pubDate: "Feb 27 2026"
 tags: ["yearbook","china","global","vol-0"]
 ---
 
-## 中文
-
-生活开始默认被存档。
-
-本章要点：生活开始默认被存档。
-
----
-
 ## English
 
 Life starts to be archived by default.
 
 Key point: Life starts to be archived by default.
+
+---
+
+## 中文
+
+生活开始默认被存档。
+
+本章要点：生活开始默认被存档。
