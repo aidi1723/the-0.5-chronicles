@@ -1,112 +1,72 @@
 ---
-title: "Preface: Why a Regular Programmer Writes History / 序言：为什么一个普通程序员要写历史"
-description: "A personal preface from Jinan (Spring 2025): why I must write, what I will record, and what I hope future readers will see. / 2025年春于济南：我为何必须写、我将记录什么、以及我希望未来读者看到什么。"
-pubDate: "Feb 24 2026"
+title: "The 0.5 Chronicles / 0.5纪元"
+description: "A personal and verifiable chronicle of the transition from the mechanical age to the AI era, beginning in 1980 and continuing forward. / 一部从1980年开始、持续记录机械时代向 AI 时代过渡过程的个人化、可验证编年史。"
+pubDate: "Feb 25 2026"
 heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
-## English
+## Preface / 前言
 
-### Preface: Why a Regular Programmer Writes History
+A personal and verifiable chronicle of the transition from the mechanical age to the AI era, beginning in 1980 and continuing forward.  
+一部从1980年开始、持续记录机械时代向 AI 时代过渡过程的个人化、可验证编年史。
 
-Why write this book?
+**Feb 25, 2026**
 
-I am not a historian, not a journalist, and not a famous writer. I am just a regular post-80s programmer living in a small apartment in Jinan—worrying, like everyone else, about the mortgage, my child’s education, and my parents’ medical bills.
+I am not a historian, not a journalist, and not a famous writer. I am an ordinary Chinese software engineer born in the 1980s, living in Jinan, trying to keep pace with mortgages, education, and the small anxieties that come with a changing world.
 
-But I have to write these words.
+我不是历史学家，不是记者，也不是著名作家。我只是一个普通的中国软件工程师，生于20世纪80年代，生活在济南，努力应对房贷、教育，以及这个不断变化的世界所带来的种种细小焦虑。
 
-Because I am witnessing an era unlike anything before: human civilization is upgrading from version 0.5 to 1.0. This is not a scene from science fiction. It is our daily reality.
+But I still have to write these pages.
 
-In the morning I read that Elon launched another rocket successfully. At noon near Quancheng Square, I see a delivery rider running anxiously because an algorithm lowered his rating. At night I ask an AI assistant to help check my child’s homework—and then I catch myself worrying: will he one day be replaced by an even smarter AI?
+但我仍然必须写下这些文字。
 
-These fragments look unrelated, but they belong to the same story—just filed under different chapters. Yet few people record the story as a whole. Official history will write down “AGI was born in 2025” and “a Mars base was established in 2030.” It will not write down how Uncle Zhang could not enter the market because he did not know how to use the health-code app. It will not write down Aunt Li hesitating between an AI doctor and a human doctor. It will not write down the look in Uncle Wang’s eyes when the factory he worked in for thirty years was fully replaced by robots.
+*The 0.5 Chronicles* is neither a grand narrative of world history nor a pure memoir. It is an attempt to record the long transition from the late mechanical age to the digital era, and from the digital era into the age of AI. As long as I am able to write, I will continue this record. I also hope that, one day, others will carry it forward.
 
-And these “small things” are often the real history. Ordinary people’s struggle, adaptation, confusion, and hope are the most precious slices of a civilization in transition.
+《0.5纪元》既不是一部宏大的世界史，也不是纯粹的个人回忆录。它试图记录人类社会如何从机械时代的尾声进入数字时代，又如何从数字时代继续迈向 AI 时代。只要我还能写，我就会把这份记录继续下去。我也希望将来会有人把它接续下去。
 
-So I will write—not to become a great historian, but so that future readers can know how ordinary people lived, how they thought, and how they tried to hold on to humanity and dignity in the middle of a massive transformation.
+**Milestones (verifiable) / 里程碑（可验证）**  
+A small set of checkable events each year—across technology, science, and culture—with dates and names whenever possible.  
+每年选取少量可以核查的事件，涵盖技术、科学与文化，并尽可能标注清楚日期与名称。
 
-Who am I?
+**Daily life (felt) / 日常生活（可感）**  
+The texture of ordinary life—appliances, communication, entertainment, school, work, and family—and the way major changes arrive in the lives of real people.  
+记录普通生活的质感——家电、通信、娱乐、学校、工作与家庭——以及那些宏大变化如何真正落到具体的人身上。
 
-My name is Yang Yu. I was born in 1985 in a small county town in Shandong. I graduated in 2007 with a computer science degree and caught the golden years of China’s internet boom. I worked as a programmer in Jinan for more than a decade, watching how this ancient city tried to find its footing in the digital age.
+**Why “0.5”? / 为什么是“0.5”？**  
+0.5 means transition. It is neither the end of the old era nor the final form of the new one. It is the unstable middle, where both still coexist.
 
-My trajectory is ordinary:
+0.5 意味着过渡。它既不是旧时代的终结，也不是新世界的最终形态。它是一种尚未定型的中间状态，是两种时代并存、交错、彼此牵引的阶段。
 
-- 2007: earning 2,500 RMB a month, renting a tiny room in Jinan
-- 2015: joining a local tech company and buying an apartment
-- 2023: working in building-materials foreign trade, pushing forward for life and for my daughter
-- 2024: being “optimized” for real
-- 2025: starting over as a freelance writer and independent developer
+The machines keep running, but information starts flowing.  
+机器仍在运转，但信息已经开始流动。
 
-Like countless people born in the 1980s, I both enjoy the convenience technology brings and endure the pain of technological disruption. We are the last generation that had to memorize phone numbers—and the first generation to empathize with AI. We lived through the whole arc from dial-up internet to interplanetary exploration. From this angle, I feel responsible for recording what we are passing through.
+The family gathers around a television, but a network quietly forms behind the screen.  
+一家人仍围坐在电视机前，但屏幕背后，网络已经悄然成形。
 
-What is this book?
+Experience travels by word of mouth, but knowledge becomes searchable and reproducible.  
+经验仍通过口耳相传，但知识已经变得可搜索、可复制。
 
-This is not a book with a fixed end date. It is an ongoing historical record. As long as I am alive, I will keep writing. And if one day I am no longer here, I hope someone will take over and continue recording the story of this era.
+**Method: Milestones + Vignettes / 方法：里程碑 + 生活片段**  
+These two threads calibrate each other. Milestones keep the direction accurate; vignettes keep the human temperature real. When I am uncertain, I will say so plainly and mark what still needs verification.
 
-I will record the big events: breakthroughs in AI, rockets lifting off, the colonization of Mars.
+这两条线索彼此校准。里程碑保证方向尽量准确，生活片段保留普通人经验的真实温度。凡有不确定之处，我会明确说明，并标出仍需核实的内容。
 
-I will also record the small events: a neighbor’s complaint, a child’s question, my own doubts.
+**Point of view / 视角**  
+This chronicle begins in 1980 and continues forward as an ongoing record. It does not claim equal first-hand memory of every year. For the earlier period, the narrative relies more on family accounts and surviving traces of everyday life, such as photographs, receipts, letters, and objects. From 1985 onward, it gradually enters the range of my own lived experience.
 
-I will use a programmer’s logic to analyze technological trends, and also a regular person’s sensitivity to feel the temperature of the times.
+这部编年史从1980年开始，并将作为一项持续性的记录不断写下去。它并不声称对其中每一年都拥有同等程度的第一手记忆。对于较早阶段的内容，叙述更多依赖于家庭讲述，以及照片、票据、书信、实物等日常生活留下的痕迹；从1985年以后，这份记录也逐渐进入我个人亲历经验的范围。
 
-If someone in the future reads this book, I hope they will see a real mid-21st century—not a utopia or dystopia dramatized by media, but the real human world: full of contradictions, hope, fear, and love.
+**Boundaries / 边界**  
+I avoid political positioning and focus on technology, culture, economy, and everyday life.  
+我避免政治立场表达，专注于技术、文化、经济与日常生活。
 
-This is why I—a regular programmer—began writing a history that may never be finished.
+I respect facts: key milestones should be checkable, and uncertainty should remain visible.  
+我尊重事实：关键里程碑应当可以核查，不确定性也应当被保留下来。
 
-— Yang Yu
+I respect ordinary people: major changes always end up in specific families, schools, and jobs.  
+我尊重普通人：再大的变化，最终也总会落到具体的家庭、学校与工作岗位上。
 
-Spring 2025, Jinan
+**Who am I? / 我是谁？**  
+My name is Yang Yu. I was born in 1985 in a small county in Shandong, studied computer science, and worked in Jinan for many years as a software engineer. To make a living, I have also done foreign trade work. If you still remember your first radio, your first cassette tape, your first dial-up connection, or your first AI-assisted draft, I hope you may find a shadow of your own life here.
 
----
-
-## 中文
-
-### 序言：为什么一个普通程序员要写历史
-
-为什么要写这本书？
-
-我不是历史学家，不是记者，也不是什么知名作家。我只是一个普通的 80 后程序员，住在济南的一套小公寓里，每天为房贷、孩子的教育费和父母的医疗费操心。
-
-但我必须写下这些文字。
-
-因为我正在见证一个前所未有的时代——人类文明正在从 0.5 版本向 1.0 版本升级。这不是科幻小说里的场景，而是我们每天都在经历的现实。
-
-每天早上，我看到新闻里 Elon 的火箭又成功发射了一次；中午，我在泉城广场附近看到外卖小哥因为算法评分下降而焦虑地奔跑；晚上，我用 AI 助手帮孩子检查作业，却又忍不住担心：他将来会不会被更聪明的 AI 取代。
-
-这些看似不相干的片段，其实属于同一个故事——只是被写在不同的章节里。可很少有人把这些故事完整记录下来。官方的历史会记载“2025 年 AGI 诞生”“2030 年火星基地建立”这样的大事，却不会记录张大爷因为不会用健康码而进不了菜市场；不会记录李阿姨在 AI 医生与人类医生之间犹豫不决；也不会记录王叔叔看着自己干了三十年的工厂被机器人完全替代时的眼神。
-
-而这些“小事”，往往才是最真实的历史。普通人的挣扎、适应、困惑与希望，才是文明转型期最珍贵的切片。
-
-所以我要写。不是为了成为伟大的历史学家，而是为了让未来的人知道：在这个技术爆炸的时代，普通人是怎样生活、怎样思考，又怎样在巨大的变革里尽力保持人性与尊严。
-
-我是谁？
-
-我叫杨宇，1985 年出生在山东的一个小县城。2007 年大学计算机专业毕业，赶上了中国互联网的黄金时代。我在济南做了十几年的程序员，也见证了这座古城如何在数字时代寻找自己的位置。
-
-我的人生轨迹很普通：
-
-- 2007 年：拿着 2500 元月薪，在济南租了个小单间
-- 2015 年：跳槽到本地科技公司，买了房子
-- 2023 年：在从事建材外贸工作，为了生活和女儿而努力
-- 2024 年：真的被“优化”了
-- 2025 年：开始做自由撰稿人与独立开发者
-
-我和千千万万的 80 后一样，既享受技术带来的便利，也承受技术变革的阵痛。我们是最后一批需要记电话号码的人，也是第一批与 AI 共情的人。我们完整经历了从拨号上网到星际探索的全过程——这种独特的视角，让我觉得自己有责任记录下这一切。
-
-这本书是什么？
-
-这不是一本有固定截止日期的书，而是一份持续更新的历史记录。只要我还活着，我就会继续写下去。也许有一天我不在这个世界了，但我希望有人能接替我，继续记录这个时代的故事。
-
-我会记录大事：AI 的突破、火箭的升空、火星的殖民。
-
-我也会记录小事：邻居的抱怨、孩子的疑问、自己的困惑。
-
-我会用程序员的逻辑去分析技术趋势，也会用普通人的感性去感受时代温度。
-
-如果未来有人读到这本书，我希望他们看到的是真实的 21 世纪中叶——不是媒体渲染的乌托邦或反乌托邦，而是充满矛盾、希望、恐惧与爱的真实人间。
-
-这就是我，一个普通程序员，为什么要开始写这本可能永远不会完结的历史书。
-
-—— 杨宇
-
-2025 年春，于济南
+我叫杨宇，1985年出生于山东一个小县城，学习计算机专业，在济南做了多年的软件工程师。为了生活，我也做过外贸工作。如果你还记得你的第一台收音机、第一盘磁带、第一次拨号上网，或者第一篇由 AI 协助完成的草稿，我希望你也能在这里看见自己生活的一点影子。
