@@ -2,6 +2,7 @@
 title: "Chapter 22 (2001): Digital Cameras and Cheap Memory / 第22章（2001）：数码相机与廉价存储"
 description: "Life starts to be archived by default. / 生活开始默认被存档。"
 pubDate: "Feb 27 2026"
+unlisted: true
 tags: ["yearbook","china","global","vol-0"]
 ---
 

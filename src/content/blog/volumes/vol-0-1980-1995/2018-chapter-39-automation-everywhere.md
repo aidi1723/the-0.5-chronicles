@@ -2,6 +2,7 @@
 title: "Chapter 39 (2018): Automation Everywhere / 第39章（2018）：自动化无处不在"
 description: "Workflows replace single tools. / 工作流取代单点工具。"
 pubDate: "Feb 27 2026"
+unlisted: true
 tags: ["yearbook","china","global","vol-0"]
 ---
 

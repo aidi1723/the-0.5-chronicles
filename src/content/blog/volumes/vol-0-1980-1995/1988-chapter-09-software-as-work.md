@@ -2,6 +2,7 @@
 title: "Chapter 9 (1988): Software as Work: Tools Begin to Stabilize / 第9章（1988）：软件作为工作：工具开始定型"
 description: "In 1988, software moves from usable to routinely used; tools stabilize and habits form. / 1988年，软件从“能用”走向“常用”，工具开始定型，习惯开始形成。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

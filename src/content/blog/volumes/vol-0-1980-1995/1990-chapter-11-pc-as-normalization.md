@@ -2,6 +2,7 @@
 title: "Chapter 11 (1990): PC Normalization / 第11章（1990）：个人计算的常态化"
 description: "In 1990, personal computing further normalizes; tools become defaults. / 1990年，个人计算进一步常态化：工具成为默认。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

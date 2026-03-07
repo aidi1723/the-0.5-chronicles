@@ -7,10 +7,6 @@ tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 
 ## English
 
-> **Positioning**: English is the main text. The Chinese section above is the corresponding bilingual companion.
-
-> **Chapter stance:** 1981 is the year the story shifts from “can it compute?” to “can it be used—repeatedly, reliably, and by more people?” Usability is not a UI polish contest; it is the ability to survive reality: imperfect data, human mistakes, and the friction of workflow.
-
 In 1981, change may not look dramatic, but it becomes decisive. If 1980 still asks whether computing can enter an organization at all, 1981 begins to ask a harder, more practical question: **can it be used—repeatedly, reliably, and by more people?**
 
 Technology history is often told as a story of machines. For most organizations, the machine is only the beginning. The real difficulty comes later: how data gets in, how errors are discovered, how workflows connect, and how results become trustworthy.
@@ -87,48 +83,22 @@ The meaning of 1981 is a shift in narrative: from “a machine exists” to “a
 
 At the same time, usability was being trained in everyday life. A neighbor’s TV turns a screen into a shared interface; a radio dial turns information into something you can scan and select; an antenna turns clarity into an outcome you can improve by adjustment. These are small behaviors, but they build the expectation that systems should be operable and repeatable.
 
-Next (Chapter 3, 1982), I will follow the same line: once usability becomes the goal, toolchains, standardization, and collaboration begin to take shape.
+What 1981 leaves behind is a stable historical threshold: once organizations and households begin to demand repeatable use rather than isolated computation, the next stage is unavoidable. Toolchains, standards, collaboration, and larger-scale diffusion all follow from this pressure.
 
 ---
 
-## References (starter list)
+## References
 
-> Note: This is a starter list to anchor verifiability. We can refine and add China-specific sources after a focused bibliography pass.
-
-- IBM. *IBM Personal Computer (Model 5150) / IBM PC* — official / archival material. (To be linked)
-- Wikipedia (as secondary index): *IBM Personal Computer*, *VisiCalc*. (Replace/augment with primary sources)
-- General history of personal computing and consumer electronics interfaces (books / essays). (To be linked)
-
----
-
-## Key Facts (1981)
-
-- Usability becomes a practical constraint: input cost, workflows, and error handling determine adoption.
-- Toolchains start to matter more than raw performance.
-- As data accumulates, migration costs rise and standards become pressure.
-- Computing spreads as trained skill (institutions) and as commodity access (markets).
-- Household electronics (TV/radio) quietly train interface habits: selection, repetition, shared schedules.
-
-## FAQ
-
-**Q: Why include TV and radio in a chapter about usability?**  
-A: Because they trained mass interface habits—tuning, selecting, repeating—before most people touched a computer.
-
-**Q: What turns “calculable” into “usable”?**  
-A: When a system can ingest data reliably, survive errors, and fit into real workflows for ordinary users.
-
-## References (placeholders)
-
-- IBM PC (1981) launch and early ecosystem — add a verifiable source.
-- Spreadsheet history (VisiCalc) and the “paper-like” interface — add a verifiable source.
-- Consumer electronics adoption and interface habits (TV/radio) — add verifiable sources.
-- China-side statistics or historical accounts of TV/radio popularization — add verifiable sources.
+- IBM Archives. *IBM Personal Computer (Model 5150)*.
+- Daniel Bricklin and Bob Frankston archival materials on VisiCalc and early spreadsheet history.
+- Martin Campbell-Kelly and William Aspray, *Computer: A History of the Information Machine*.
+- Oral histories and institutional accounts of television and radio diffusion in reform-era China as background for interface habits.
 
 ---
 
 ## 中文
 
-> **本章定位（中文对应段落）**：英文为主文，本段为对应中文。1981 年的变化不一定显眼，但它很“决定命运”。如果说 1980 还在回答“计算能不能进入组织”，那么 1981 开始回答一个更具体、更难的问题：**它能不能被真正用起来，并且被更多人用起来？**
+1981 年的变化不一定显眼，但它很“决定命运”。如果说 1980 还在回答“计算能不能进入组织”，那么 1981 开始回答一个更具体、更难的问题：**它能不能被真正用起来，并且被更多人用起来？**
 
 技术史常被写成机器的故事。但对多数组织而言，机器只是开始。真正的难点在后面：数据怎么进来、错误怎么发现、流程怎么衔接、结果怎么被信任。
 
@@ -193,4 +163,4 @@ A: When a system can ingest data reliably, survive errors, and fit into real wor
 
 1981 的意义，是把叙事从“机器出现”转向“系统可用”。从这一年开始，计算不再只是技术能力，而越来越像一种组织能力：能否让更多人参与，能否让错误可控，能否让流程可持续。
 
-下一章（第三章，1982）我会继续沿着这条线写：当可用性成为目标，工具链、标准化与协作方式会怎样开始塑形。
+1981 留下的真正历史门槛，是组织与家庭都开始要求“可重复使用”，而不再满足于“偶尔算得出来”。一旦这种要求形成，后面的工具链、标准化、协作方式与更大规模的扩散，就都只是时间问题。

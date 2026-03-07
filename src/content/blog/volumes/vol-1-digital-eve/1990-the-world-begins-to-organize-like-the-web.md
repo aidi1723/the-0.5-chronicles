@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 11 (1990): The World Begins to Organize Itself Like the Web / 第11章（1990）：世界开始按网页的方式组织自己'
-description: 'A draft chapter for Volume I on how 1990 marked the shift from isolated computing toward linked pages, shared structures, and the coming logic of the web. / 第一卷章节样稿：1990 年，世界如何从孤立计算转向链接、页面结构与即将成形的网页逻辑。'
+description: 'A Volume I chapter on how 1990 marked the shift from isolated computing toward linked pages, shared structures, and the coming logic of the web. / 第一卷章节：1990 年，世界如何从孤立计算转向链接、页面结构与即将成形的网页逻辑。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-4.jpg'
 ---

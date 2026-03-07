@@ -2,6 +2,7 @@
 title: "Chapter 14 (1993): Toward Connectivity: Systems No Longer Accept Islands / 第14章（1993）：走向连接：系统不再满足于孤岛"
 description: "In 1993, the demand for connectivity becomes clearer; the cost of islands rises. / 1993年，连接需求更明确，孤岛系统的代价上升。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 
