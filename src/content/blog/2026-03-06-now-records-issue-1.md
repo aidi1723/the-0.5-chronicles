@@ -1,24 +1,257 @@
 ---
 title: 'Now Records, Issue 1 / 当下记录第一辑'
-description: 'Seven field notes on AI collaboration, workflow, writing, and what it feels like to live inside the 0.5 era. / 关于 AI 协作、工作流、写作与“活在 0.5 时代”的七则现场笔记。'
+description: 'Seven field notes on AI collaboration, workflow, writing, and what it feels like to live inside the 0.5 era. / 关于 AI 协作、工作流、写作与"活在 0.5 时代"的七则现场笔记。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 ## English
 
-“Now Records” is not a diary and not a column of instant commentary.
-It is a field notebook for the transition era: how tools enter daily work, how AI alters writing rhythms, and how a person becomes both participant and witness at the same time.
+"Now Records" is not a diary and not a column of instant commentary. It is a field notebook for the transition era: how tools enter daily work, how AI alters writing rhythms, and how a person becomes both participant and witness at the same time.
 
-Issue 1 gathers seven field chapters written around March 6, 2026.
-Its core themes are:
+Issue 1 gathers seven field chapters written around March 6, 2026. Its core themes are: shifting human–AI relations, the split identity of witness and historical repairer, workflow as the true historical layer of the AI era, and the wider technological background formed by commercial spaceflight, robotics, brain–machine interfaces, and machine systems entering everyday life.
 
-- shifting human–AI relations,
-- the split identity of witness and historical repairer,
-- workflow as the true historical layer of the AI era,
-- and the wider technological background formed by commercial spaceflight, robotics, brain–machine interfaces, and machine systems entering everyday life.
+---
 
-The Chinese body below is the main text for this issue.
+### Chapter 01 | Mar 6, 2026: Treating Today as Historical Material
+
+#### What happened today
+
+Today I became more acutely aware than in previous days that I am no longer simply "using tools"—I am working alongside a new force of the era. This realization did not emerge from a slogan; it surfaced gradually through many small, concrete actions throughout the day.
+
+When I opened my computer this morning, I did not immediately start writing. Instead, I processed information: reviewing yesterday's outlines, flipping through recent notes, organizing tasks for today. Previously, these actions relied almost entirely on me: recalling, categorizing, piecing together scattered threads into coherent patterns. Now it is different. I first let AI handle the initial round of organization. It does not make conclusions for me; it pulls out the key points from yesterday's writing, lays out possible directions for today, and places several disconnected pieces of information on the same plane. It acts like an assistant with fast reactions, strong memory, but unstable judgment—clearing the desk first so I can enter the work state more quickly.
+
+This change appears small, but it is not. It means AI is no longer participating only at the final layer of drafting—polishing, continuing, filling in sentences—but at an earlier stage: task decomposition, material gathering, rhythm preparation, writing initiation. It is moving from the end of work into the middle ground.
+
+More noticeably, as I handled my own writing tasks while scanning the day's technology and industry news, the feeling that "today itself is becoming history" grew very strong. Recently, several threads have been converging: commercial aerospace continues advancing, with heavy rocket testing, recovery, and capacity organization slowly becoming engineering progress rather than just science-fiction news; robots, especially humanoid robots, are moving from demonstration actions toward real labor scenarios—factories, warehouses, transport, inspection; brain-machine interfaces are beginning to move from laboratory concepts into human trials and limited functional verification; and AI has already entered the middle layer of cognitive work—writing, research, customer service, coding, organizational collaboration.
+
+Taken separately, each has its own significance: rockets relate to space capacity and civilization's outward expansion; robots relate to labor structure and industrial site rewriting; brain-machine interfaces touch body boundaries, perception boundaries, and the question of "what is human"; AI relates to how humans rearrange cognitive labor. But when I place them alongside my own work desk today, what truly moves me is not any single piece of news, but an overall atmosphere: an entire new technological system is simultaneously entering different layers of human life—sky, ground, factory, screen, body, mind, even the writing desk.
+
+#### Why this is worth recording
+
+It is worth recording not because something absolutely astonishing happened today, but because "change entering the everyday" is itself history.
+
+Many truly important era changes, when they occur, are not grand enough to overwhelm everyone. When personal computers entered offices, not everyone immediately realized they would rewrite decades of work methods; when the internet entered homes, not everyone immediately knew it would restructure commerce, communication, and social life; when smartphones first spread, many simply saw them as more convenient communication tools, not as a total entry point that would swallow maps, cameras, wallets, media, and identity systems. History often does not take effect at the "most sensational" moment, but when ordinary people incorporate something new into daily actions—only then does it truly penetrate society.
+
+Today's AI, rockets, robots, and brain-machine interfaces are in this stage. Their development progress varies: AI has already deeply entered many people's work desks; robots are still in the transition from pilot demonstrations to stable deployment; brain-machine interfaces remain quite early; commercial aerospace has already crossed concept verification in some areas and entered engineering systems. But together they indicate one thing: machines are no longer just extending human physical power, but increasingly entering deeper layers—cognition, perception, judgment, action, and infrastructure organization.
+
+If you only stare at parameters, these changes appear fragmented: longer model context, higher rocket recovery rates, smoother robot movements, finer brain-machine interface signals. But from the perspective of civilizational history, they point in the same direction—humans are rearranging "which capabilities belong to humans, which can be outsourced to machines, which are completed by human-machine collaboration." And this rearrangement process happens precisely in daily work, in ordinary people's daily arrangements, judgment methods, and energy allocation.
+
+#### What role I play in this
+
+My role here is not simply that of a user, nor merely a bystander. I am more like an organizer of a small work system, and a field recorder trying to stay as clear-headed as possible.
+
+On one hand, I am indeed using these new tools. I let AI help me organize outlines, assist with drafting, summarize materials, even push a vague idea into a discussable state. At many stages, it can significantly reduce startup costs, leaving me more energy for judgment, editing, and tone-setting. At this level, I am not standing outside change commenting on it; I am working inside change.
+
+But on the other hand, I cannot fully surrender myself. Because the smoother these tools become, the easier they create an illusion: as long as the interface is smooth, the expression fluent, the progress fast, things are already done correctly. But this is not true. AI is best at spreading things out, but does not naturally take responsibility; robots are most striking when their movements resemble humans, but this does not mean they truly understand the complexity of human labor; brain-machine interfaces are most shocking in the imagination of "mind control," but the truly long-term issues may lie in ethics, dependency, risk, and inequality. That is, I cannot be merely an excited user; I must also be someone who constantly verifies, constantly slows down, constantly retrieves judgment.
+
+#### How this might be viewed in the future
+
+Years from now, if someone looks back at around 2026, what truly matters may not be the name of a specific model, not the number of a rocket test flight, not what a particular robot did in a video, not the hype around a brain-machine interface company, but the moment when this stage first made increasing numbers of people feel: machines are no longer just displaying capabilities from a distance, but beginning to enter human arrangements, rhythms, work, and imagination.
+
+If this chapter can still stand then, I hope what it leaves behind is not just the emotion of "I was very excited at the time," but a relatively calm field judgment: **What happened earliest in the 0.5 era was not machines replacing humans, but humans beginning to learn how to hand over part of their work to machines while taking heavier responsibilities back into their own hands.** This process of redistribution may be more worth recording than any single technological breakthrough.
+
+---
+
+### Chapter 02 | Mar 6, 2026: Playing Witness and Historical Repairer Simultaneously
+
+#### What happened today
+
+Today I truly split the writing of "The 0.5 Chronicles" into two lines: one line continuing to fill in past historical chapters, one line recording changes happening today. Previously I always hesitated between "fill old chapters first" or "record today first," as if only one could be done; but today I became increasingly certain that this either/or can no longer slow down the writing. The past needs organizing, today needs preserving, and they actually belong to the same thing.
+
+In the morning I was still organizing the structure of Volume I's old chapters: looking at how computers in the 1980s approached individuals, entered offices, slowly became tools ordinary people could touch. In the afternoon, returning to the work desk before me, seeing AI already helping me break down tasks, provide drafts, organize catalogs, push collaboration, I suddenly realized: while I am filling in "how the digital era entered ordinary people's lives," I am actually experiencing the continued version of this process. The past line and today's line are not separate. They are like upstream and downstream of the same river; when writing old chapters, I understand today; when recording today, I also correct my understanding of the past.
+
+This feeling grows stronger when scanning news. Commercial aerospace continues pushing toward infrastructure, robots enter factory and logistics systems, brain-machine interfaces begin pushing the "body-machine interface" from concept toward reality, AI directly enters the everyday layer of writing, customer service, coding, knowledge organization, and task arrangement. They all remind me: today is not a calm period after history, but precisely the scene of history.
+
+#### Why this is worth recording
+
+It is worth recording because this is not simply a change in writing strategy, but a change in identity.
+
+Previously I more easily understood myself as a "historical repairer"—returning to the 1980s, 1990s, organizing transitions that had already happened but had not been sufficiently recorded from ordinary people's perspectives. But today I increasingly realize that if I only act as a repairer, I will actually miss another scarcer material: changes I am currently experiencing.
+
+Many truly important parts of an era are not visible only after history has settled. On the contrary, many details, if not recorded at the time, will rapidly evaporate afterward. How people hesitated to use new tools, how they fumbled for boundaries in uncertainty, how they relied while remaining vigilant, how they missed the earliest moments of change entering the everyday amid the psychology of "this isn't really a big deal yet." What truly disappears easily is not big events, but the fine daily texture before entering big events.
+
+Therefore dual-line writing is not a temporary measure, but a necessary method. The repairer line gives "The 0.5 Chronicles" structure, depth, historical continuity; the present line preserves heat, granularity, and field presence. The former prevents us from writing only fragments; the latter prevents us from writing only conclusions. Together, they more closely resemble a complete record of "how an era enters ordinary people's lives."
+
+#### What role I play in this
+
+I am no longer merely someone organizing old materials, but simultaneously playing witness and historical repairer.
+
+As repairer, I return to those overlooked nodes, rewriting clearly questions like "how computers entered offices," "how networks entered public view," "how ordinary people first contacted digital civilization." As witness, I must promptly preserve what is happening today: how AI changed my writing initiation, how it changed task distribution, how it transformed workflow from one person's linear progression into a relay process between human and machine.
+
+The biggest difference between witness and repairer is that the repairer faces completed events, while the witness faces situations still in flux. The former more easily pursues structure; the latter more needs to preserve uncertainty. Precisely for this reason, both identities must coexist. Without repair, witness shatters; without witness, repair grows cold.
+
+#### How this might be viewed in the future
+
+Looking back later, perhaps the most valuable aspect of "The 0.5 Chronicles" will not be merely what it wrote, but how it chose to write: not only standing after history reviewing, not only immersing in the emotions of the day, but living in the era while writing the era.
+
+If this writing method can stand, what it leaves behind may be a texture closer to real history: the past is not already sealed chapters, today is not insignificant temporary records. They illuminate each other. **The repairer line gives today scale; the present line gives history breath.**
+
+---
+
+### Chapter 03 | Mar 6, 2026: AI Collaboration Becoming a New Craft
+
+#### What happened today
+
+Today I increasingly clearly felt that AI is no longer just a tool I pick up and use at will, but is beginning to resemble a new craft requiring gradual exploration of rhythm, boundaries, and process.
+
+By "craft," I do not mean mystery, but that it cannot be solved by a single command. You must know when to let it spread out, when to rein it in; when to let it do the first round of rough organization, when you must pull it back to concrete facts; when to use it to try writing a passage, when to simply let it stand aside while you handle it yourself. It is not a once-and-for-all answer machine, but more like a work partner requiring domestication, cooperation, and repeated calibration.
+
+When writing "Now Records" and organizing "The 0.5 Chronicles" chapters today, the most obvious feeling was: using AI differently in the same writing task produces vastly different results. Simply asking it to "write a chapter" usually yields text that appears fluent but is actually hollow; first asking it to summarize threads, list layers, propose several organizational approaches, then taking the useful parts myself produces completely different results. The difference here is no longer as simple as "whether AI is used," but the difference of "whether one knows how to use this new craft."
+
+#### Why this is worth recording
+
+It is worth recording because AI's true impact on labor may not be merely improving efficiency, but changing how labor is organized.
+
+Previously much cognitive labor was completed continuously by one person: researching materials, thinking structure, writing first draft, revising later, forming final draft. Now more work is being split into multiple layers: some layers completed by humans, some by models, some by human-machine relay. Thus, a person who originally only needed to practice "writing" ability now must also practice "decomposition" ability, "delegation" ability, "acceptance" ability, "retrieval of judgment" ability. Craft is no longer just how well the final stroke is written, but how you organize the entire process.
+
+This corresponds to the larger era background. Robots entering factories is not just movements becoming more human-like, but production processes being re-decomposed; rockets becoming high-frequency engineering is not just sending things to space, but space infrastructure organization being rewritten; if brain-machine interfaces truly continue developing, they will not just provide a flashier input method, but redefine how "commands pass from human to machine." AI is the same: what it truly changes is often not a single output, but the entire process before output.
+
+#### What role I play in this
+
+My role in this matter is more like a process arranger than a mere executor.
+
+I must judge which steps can be delegated, which must be held in my own hands; utilize AI's ability to spread out, while preventing myself from being carried away by its fluent but not necessarily reliable expression. I must identify its deviations like a carpenter reading wood grain: where it is too smooth and therefore suspicious, where it sounds too much like summary-speak and therefore distant from the scene, where it appears structured but is merely repetition with different skin, where it truly advances the problem.
+
+This is why I increasingly feel AI collaboration is not like a button, but like a craft. Buttons only need pressing; craft requires time, judgment, and repeated trial and error. It requires human experience to continue existing, not to be eliminated.
+
+#### How this might be viewed in the future
+
+Looking back later, perhaps what people remember will not be "how strong a certain model was at the time," but this stage when humans began universally learning a new competence: **how to decompose their cognitive labor to machines, then leave responsibility and direction to themselves.**
+
+If the important ability of the industrial era was operating machines, then one of the important abilities of the 0.5 era may be organizing machine participation in cognitive labor. It does not eliminate human craft, but forces humans to grow a new craft.
+
+---
+
+### Chapter 04 | Mar 6, 2026: From Writing Assistant to Collaboration Partner
+
+#### What happened today
+
+Today I increasingly clearly felt that AI is no longer like a traditional "writing assistant" to me. It is more like a collaboration partner: not a static tool, not a colleague you can fully entrust, but a semi-intelligent presence requiring back-and-forth catching, constant correction, and joint advancement.
+
+The word "assistant" actually carries an older tool imagination: I issue commands, it executes tasks, it is merely an extension of capability. But today's real work situation is not like this. In reality, I often first give it a direction, let it try spreading out; then see if its spread is too scattered, too fake, too flat, and take back the usable parts; then I revise a sentence, it continues generating along that sentence; I judge again whether this time it is closer to what I want. This process is not like "I am using a tool," but more like "I am working with an unstable but potentially capable partner."
+
+This feeling is especially obvious in writing. Traditional tools do not misunderstand you, but also do not actively expand parts you have not fully expressed; AI will actively move forward, only the direction it moves is often not completely right. So you must continuously catch beside it: sometimes it helps you open a new angle, sometimes it smoothly brings out a string of judgments that are not necessarily credible. It surprises you, and also tires you. This complex relationship is no longer adequately described by "assistant."
+
+#### Why this is worth recording
+
+It is worth recording because this shows the relationship between humans and machines is undergoing a subtle but profound change.
+
+Previously it was "human uses tool"; now it increasingly resembles "human advances work with a semi-intelligent system." The most important change here is not whether the machine is already like a human, but that humans must learn to collaborate with a system that is not fully controllable but indeed productive. This is a new type of relationship.
+
+And this relationship does not exist only on the writing desk. After robots enter factories, workers face no longer just rigid mechanical arms, but systems with sensors, path planning, and adaptive capabilities; if brain-machine interfaces continue developing, the relationship between humans and devices will also move from "button control" toward more direct but more complex signal interaction. The change happening on the writing desk is merely a corner of a larger transformation.
+
+#### What role I play in this
+
+My role in this relationship is still boundary, direction, choice, and ultimate responsibility. But the work process is no longer unidirectional control, but dynamic catching.
+
+I need to continuously judge when it is useful, when it starts talking nonsense, when to let go and let it spread out, when I must pull it back. In a sense, today's writers must not only know how to write, but how to lead a semi-intelligent partner: know when to give it space, and when to immediately call stop; be able to utilize its speed, and not be carried away by its speed.
+
+#### How this might be viewed in the future
+
+Looking back at today in the future, people may say: what mattered most in those years was not just that AI became faster, but that humans first began learning at scale how to collaborate with semi-intelligent systems.
+
+This is not the old tool relationship, nor the complete personified partnership in science fiction films, but a transitional form: machines first possess partial collaboration capabilities, humans first learn partial collaboration methods. **In the 0.5 era, machines are not yet complete "colleagues," but they are no longer just quiet tools.**
+
+---
+
+### Chapter 05 | Mar 6, 2026: Why Workflow Matters More Than Parameters
+
+#### What happened today
+
+Today I became increasingly certain that if we want to leave truly valuable era materials for the future, what most deserves recording is often not parameters, but workflow.
+
+Parameters are certainly important. How large is the model, how fast is the speed, how long is the context, what is the price, who leads and who lags—these can all reflect a stage's technical state. But the problem is that parameters change too fast. They look big in the moment, but looking back months later, they often fade as quickly as old news. What truly remains is not necessarily a set of numbers, but how these numbers entered human work methods, how they changed human division of labor, rhythm, and judgment.
+
+Today's clearest feeling is that work is not rewritten by a parameter in an instant, but by an entire new process gradually rewritten. For example, the same writing task can now first have AI spread out ideas, then I set the structure; website content can first be drafted, then return to human proofreading and publishing; node machine division of labor can be rearranged, which tasks run on the host, which tasks wait on standby nodes—no longer just competing on machine configuration, but competing on process design. The meaning of tools increasingly manifests in "how they are organized," not just in single indicators.
+
+#### Why this is worth recording
+
+This is worth recording because civilizational history and technological history are not entirely the same thing.
+
+Technological history cares about parameters, versions, how much stronger one generation of product is than the previous; civilizational history cares more about how these changes entered human life, how they changed organizational methods, labor relations, and daily rhythms. Looking back at the 1980s, what truly mattered was not just a specific computer's configuration, but how computers entered offices, changed typesetting, changed document processing, changed human imagination of future work. Machine parameters are one layer of technological history; workflow change is the layer of civilizational history. The former tells you tools became stronger; the latter tells you society therefore rearranged.
+
+Today's AI is the same. Even as model capabilities, prices, and interfaces continue changing, what matters more is: writing, research, building websites, organizing information, arranging tasks—these works are beginning to no longer be completed linearly by one person, but becoming a relay process between human and model. Parameters are just background; workflow is where traces are left.
+
+#### What role I play in this
+
+I am not recording for model rankings, but recording for era transformation.
+
+I care more about: how a person begins to decompose writing into outline, drafting, tightening, proofreading stages, and hands part to AI; how a project rearranges main work nodes and standby nodes; how a website forms new collaboration links between "content, structure, publishing, verification." These things record not temporary technical rankings, but the reorganization of human-technology relations.
+
+#### How this might be viewed in the future
+
+Perhaps many years later, no one will remember what a certain model's context window was on a certain day, what its reasoning score was, what its price was; but people will remember that it was at this stage that writing, research, building websites, organizing information, arranging tasks—these works began to no longer be completed alone linearly by one person, but became a relay process between human and model, human and system, human and node.
+
+**Parameters are that day's news; workflow is the fingerprint the era leaves behind.** If this chapter can remain, I hope what it leaves is this sentence.
+
+---
+
+### Chapter 06 | Mar 6, 2026: Why Rhythm Changes Before Answers
+
+#### What happened today
+
+Today I became increasingly certain that what AI changes first is often not the answer, but rhythm.
+
+When many people talk about AI, their first reaction is still "whether its answers are correct," "whether its writing is good," "whether it has surpassed humans." These certainly matter, because answer quality determines whether it can enter real work. But standing in the field, I increasingly feel that the earliest, most obvious, and most real change in human-machine collaboration actually happens at the rhythm layer.
+
+Previously when one person worked, progression, pause, retreat, restart were mainly borne by one person's mental power and emotion. When you couldn't write, you just got stuck; when you couldn't find materials, you just stopped; when an idea was not yet formed, you often had to wait for time to slowly cook it out. Now once AI is incorporated into workflow, many pauses are first punctured. It can quickly give outlines, try several angles, list possible paths, preventing you from remaining trapped in blankness and delay. It does not necessarily immediately give you the best answer, but it easily changes the speed and breathing of your work today.
+
+This rhythm change has been particularly obvious in my work these past few days: I no longer always get stuck long at initiation, but more like advancing in a cycle of "spread out—filter—retrieve—advance again." Rhythm changes from one long single line into shorter, denser, more like multiple small sprints. Even if conclusions still ultimately depend on me, rhythm has already changed first.
+
+#### Why this is worth recording
+
+It is worth recording because rhythm-layer changes often enter reality earlier than answer-layer changes.
+
+A system completely replacing human judgment is difficult, but changing human work breathing first is not difficult. It first lets you start faster, try faster, compare faster, retrieve faster. Thus, a person's day is re-sliced: previously it was one large block of continuous thinking, now it may become multiple rounds of rapid back-and-forth; previously it was long preparation before writing, now it may be writing first then constantly tightening; previously much work waited for "thinking clearly" before starting, now it may be "first let the system spread out the vague parts with you, then think clearly in the advancement."
+
+And once rhythm changes, work feeling also changes. Forms of anxiety change, forms of fatigue change, sources of control feeling change. You may no longer fear initiation, but worry more about being carried off course by too-fast advancement; you may less often be trapped by blankness, but more easily dragged down by too many possibilities. Human-machine collaboration does not automatically eliminate difficulties; it just moves difficulties from one position to another.
+
+#### What role I play in this
+
+In this rhythm change, my most important role is not pursuing faster, but judging when to be fast and when I must be slow.
+
+AI's speed is very tempting. It can make work advancement appear to fly, but flying fast does not equal flying correctly. Thus I must learn new rhythm management: when to let it quickly spread out, when to forcibly stop and verify, when to return to original materials, when to simply turn it off and judge independently. This is actually no longer simple "tool use," but "collaboration rhythm management."
+
+#### How this might be viewed in the future
+
+Looking back later, perhaps people will say that what AI truly changed first was not the answer itself, but the time structure of work. It first changed a person's day's breathing, then slowly changed results.
+
+**What machines first take over is often not conclusions, but that period of hesitation, trial, spread, and restart before conclusions.** This is why rhythm deserves to be written as a separate chapter.
+
+---
+
+### Chapter 07 | Mar 6, 2026: Why AI Changes Writing's Start, Not Its End
+
+#### What happened today
+
+Today I became increasingly certain that AI's earliest and most significant impact on writing is not writing "that final article" for me, but first changing how writing starts.
+
+The hardest step in the past was often not writing to the end, but beginning. Facing a blank document, people are easily dragged down by hesitation, vagueness, and self-demands. Often it is not having no ideas at all, but ideas not yet pushed to a state where you can start writing. Now AI indeed has great influence at this step: it can help me first organize scattered feelings into several directions, turn vague judgments into several tryable structures, push "I roughly want to write this" into "I can start from here." It is like finding several switches for me in the dark first.
+
+But what it changes is mainly the start, not the end. The true end—article judgment, flavor, force, choice, rhythm, ethical position, that final nail sentence—still more depends on the author. AI can help you push the door open, but cannot replace you in deciding whether to enter this room, how to arrange this room, whether to painfully delete certain sentences that look very smooth.
+
+#### Why this is worth recording
+
+This is worth recording because it reveals AI's most realistic path into writing.
+
+Many people first ask: Can AI replace writers? Can it directly write good articles? These questions are certainly big, but what has already happened at scale is actually more plain: it first changed startup costs. It first lets more people enter writing faster, lets ideas originally stopped in the brain more easily fall into structure, lets outlines, summaries, drafts, angles that could not begin for a long time first have a touchable shape.
+
+This is isomorphic with the larger technological background. Rockets do not first let everyone immigrate to space, but first rewrite capacity logic; robots do not first possess complete human labor capacity, but first enter some stable scenarios; brain-machine interfaces do not first rewrite all humanity, but first open entry at some limited actions and specific interfaces. AI in writing is the same: it first rewrites entry, then slowly influences depth.
+
+#### What role I play in this
+
+My role here is the person who decides "where to start, where to end."
+
+AI can help me reduce friction at startup, but it also easily guides writing toward a direction that appears smooth but actually has no real position. So I must both utilize it to break topics, and guard the article's final judgment power. I can let it give me three openings, but I still must decide which one is more like me; I can let it list five ways to write a theme, but I still must decide which one is worth keeping.
+
+Therefore, AI entering writing does not make the author disappear, but makes the author's latter-stage responsibility more prominent: the easier it is to start, the more you must know what should be kept, what should be deleted, what should be tightened, what should be written yourself even when it is not smooth.
+
+#### How this might be viewed in the future
+
+Looking back in the future, people may not first remember the 2020s as the era when "AI had already written all articles," but more likely as the era when "AI began changing how humans start writing at scale."
+
+**What it changed first was not writing's end, but those few minutes of hesitation before the blank page.** And it was precisely in those few minutes that an era quietly changed writing's method.
 
 ---
 
@@ -79,17 +312,6 @@ The Chinese body below is the main text for this issue.
 
 如果这一章以后还能成立，我希望它能留下的，不只是“我当时很激动”这种情绪，而是一种比较冷静的现场判断：**0.5 时代最早发生的，不是机器取代人，而是人开始学会怎样把自己的一部分工作交给机器，同时把更重的责任重新拿回手里。** 这个重新分工的过程，也许比任何单一技术突破都更值得记录。
 
-### 关键词
-
-AI协作、工作流变化、时代现场、商业航天、机器人进厂、脑机接口、认知劳动重组、当下即史料
-
-### 可回收到章节
-
-- AI时代总论
-- 人机协作
-- 认知劳动拆层
-- 个人生产力革命
-
 ---
 
 ## 02｜2026年3月6日：我开始同时扮演见证者和补史者
@@ -126,17 +348,6 @@ AI协作、工作流变化、时代现场、商业航天、机器人进厂、脑
 
 如果这套写法能成立，那它留下的或许会是一种更接近真实历史的质感：过去并不是已经封存的章节，今天也不是无足轻重的临时记录。两者彼此照亮。**补史线给今天以尺度，当下线给历史以呼吸。**
 
-### 关键词
-
-双线写作、见证者、补史者、当下史料、历史与现实同步书写、现场方法论
-
-### 可回收到章节
-
-- 全书方法论
-- AI时代总论
-- 历史书写方式变化
-- 时代现场与个人见证
-
 ---
 
 ## 03｜2026年3月6日：AI 协作开始像一种新的手艺
@@ -171,17 +382,6 @@ AI协作、工作流变化、时代现场、商业航天、机器人进厂、脑
 
 如果说工业时代的重要能力是操作机器，那么 0.5 时代的重要能力之一，可能就是组织机器参与认知劳动。它不是消灭人的手艺，而是在逼着人长出一套新的手艺。
 
-### 关键词
-
-AI协作手艺化、认知劳动拆层、任务分配、验收能力、工序组织、人保留判断权
-
-### 可回收到章节
-
-- AI时代总论
-- 人机协作
-- 劳动结构变化
-- 数字工作流日常化
-
 ---
 
 ## 04｜2026年3月6日：从写作助手到协作搭子
@@ -214,17 +414,6 @@ AI协作手艺化、认知劳动拆层、任务分配、验收能力、工序组
 
 这不是旧式工具关系，也不是科幻电影里那种完整人格化的伙伴关系，而是一种过渡形态：机器先拥有部分协作能力，人类先学会部分协作方法。**在 0.5 时代，机器还不是完整的“同事”，但它已经不再只是安静的工具。**
 
-### 关键词
-
-协作搭子、半智能协作、人主导但非单向使用、动态接球、工作关系变化、写作方式变化
-
-### 可回收到章节
-
-- AI时代总论
-- 人机协作
-- 写作方式变化
-- 半智能系统与个人劳动
-
 ---
 
 ## 05｜2026年3月6日：为什么今天最该记录的是工作流，而不是参数
@@ -256,17 +445,6 @@ AI协作手艺化、认知劳动拆层、任务分配、验收能力、工序组
 也许很多年后，没人还记得某天某个模型的上下文窗口究竟是多少、推理分数是多少、价格是多少；但人们会记得，就是在这一阶段，写作、研究、做网站、整理信息、安排任务这些工作，开始不再由一个人独自线性完成，而是变成了人和模型、人和系统、人和节点之间来回接力的过程。
 
 **参数是当天的新闻，工作流才是时代留下来的指纹。** 如果这一章能留下来，我希望它留下的是这句话。
-
-### 关键词
-
-工作流、参数过时性、文明史与技术史、人机接力、任务拆层、过程重组、系统分工
-
-### 可回收到章节
-
-- AI时代总论
-- 人机协作
-- 劳动结构变化
-- 数字工作流日常化
 
 ---
 
@@ -302,17 +480,6 @@ AI 的速度很有诱惑力。它能让工作推进看起来像在飞，但飞�
 
 **机器先接管的，常常不是结论，而是结论之前那一段犹豫、试探、铺开与重启的时间。** 这就是为什么节奏值得被单独写成一章。
 
-### 关键词
-
-节奏变化、人机协作、起步成本、推进结构、工作呼吸、时间结构、节奏管理
-
-### 可回收到章节
-
-- AI时代总论
-- 人机协作
-- 劳动结构变化
-- 数字工作流日常化
-
 ---
 
 ## 07｜2026年3月6日：AI 为什么先改变了写作的起步方式，而不是写作的终点
@@ -346,17 +513,6 @@ AI 能帮我把起步时的摩擦降下来，但它也很容易把写作引向�
 未来回头看，也许人们不会把 2020 年代首先记成“AI 已经写完了所有文章”的年代，而更可能记成“AI 开始大规模改变人类写作起步方式”的年代。
 
 **它先改变的，不是写作的终点，而是空白页前那几分钟的犹豫。** 而正是在那几分钟里，一个时代悄悄改了写作的方法。
-
-### 关键词
-
-写作起步、空白页、起步成本、AI写作、作者判断、入口改变、后段责任
-
-### 可回收到章节
-
-- AI时代总论
-- 写作方式变化
-- 人机协作
-- 创作劳动的再分工
 
 ---
 
