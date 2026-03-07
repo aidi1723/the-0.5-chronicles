@@ -2,6 +2,7 @@
 title: "Chapter 16 (1995): The First Public Glimpse: Computing Enters Wider Sight / 第16章（1995）：第一次公开瞥见：计算进入更广的视野"
 description: "In 1995, computing becomes visible to more people, entering public sight and imagination. / 1995年，计算对更多人变得可见，进入公众视野与想象。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

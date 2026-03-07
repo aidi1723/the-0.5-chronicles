@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 9 (1988): The Shadow of Network Society Appears / 第9章（1988）：网络社会第一次露出它的影子'
-description: 'A draft chapter for Volume I on how 1988 revealed that computing was no longer only about machines and files, but about the coming social logic of connection. / 第一卷章节样稿：1988 年，计算不再只是机器和文件的问题，网络社会的连接逻辑第一次清楚露出影子。'
+description: 'A Volume I chapter on how 1988 revealed that computing was no longer only about machines and files, but about the coming social logic of connection. / 第一卷章节：1988 年，计算不再只是机器和文件的问题，网络社会的连接逻辑第一次清楚露出影子。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-2.jpg'
 ---

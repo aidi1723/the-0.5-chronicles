@@ -2,6 +2,7 @@
 title: "Chapter 12 (1991): Learning to Program: Languages, Textbooks, Training / 第12章（1991）：学习编程：语言、教材与训练"
 description: "In 1991, programming education becomes more systematic: languages, textbooks, training paths. / 1991年，编程学习更系统：语言、教材与训练路径出现。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

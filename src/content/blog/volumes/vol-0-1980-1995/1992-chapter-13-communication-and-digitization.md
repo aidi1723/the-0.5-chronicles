@@ -2,6 +2,7 @@
 title: "Chapter 13 (1992): Communication and Accelerating Digitization / 第13章（1992）：通信与数字化的加速"
 description: "In 1992, communication and digitization reinforce each other; information flow accelerates. / 1992年，通信与数字化互相推动，信息流动加速。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

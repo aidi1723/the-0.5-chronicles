@@ -2,6 +2,7 @@
 title: "Chapter 10 (1989): Data and Control: Definitions, Permissions, Order / 第10章（1989）：数据与控制：口径、权限与秩序"
 description: "In 1989, data is treated more seriously: definitions, permissions, and control grow in importance. / 1989年，数据的价值被更严肃地对待：口径、权限与控制开始变得重要。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

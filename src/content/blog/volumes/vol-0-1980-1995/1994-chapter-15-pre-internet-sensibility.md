@@ -2,6 +2,7 @@
 title: "Chapter 15 (1994): Pre-Internet Sensibility: Expectation of Information and Connection / 第15章（1994）：互联网前夜的敏感：信息与连接的预期"
 description: "In 1994, pre-internet expectations form: people begin to imagine always-available information. / 1994年，互联网前夜的预期形成：人开始想象“随时获取信息”。"
 pubDate: "Feb 25 2026"
+unlisted: true
 tags: ["yearbook","track-pc","track-software","china","global","vol-0"]
 ---
 

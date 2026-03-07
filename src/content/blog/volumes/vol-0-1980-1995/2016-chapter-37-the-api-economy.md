@@ -2,6 +2,7 @@
 title: "Chapter 37 (2016): The API Economy / 第37章（2016）：API 经济"
 description: "Products become composable. / 产品开始可组合。"
 pubDate: "Feb 27 2026"
+unlisted: true
 tags: ["yearbook","china","global","vol-0"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 15 (1994): The Internet Becomes Something Ordinary People Want to Try / 第15章（1994）：互联网开始像一件普通人愿意试试的东西'
-description: 'A draft chapter for Volume I on how 1994 marked the moment when the internet acquired media character, commercial energy, and social invitation. / 第一卷章节样稿：1994 年，互联网如何获得媒介气质、商业能量与社会邀请力。'
+description: 'A Volume I chapter on how 1994 marked the moment when the internet acquired media character, commercial energy, and social invitation. / 第一卷章节：1994 年，互联网如何获得媒介气质、商业能量与社会邀请力。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-5.jpg'
 ---
@@ -12,7 +12,7 @@ it began to have **media character, commercial energy, and social invitation**.
 
 ### One-sentence summary
 
-> **In 1994, the internet not only had an entrance—it began to have the inviting quality that makes ordinary people want to approach and stay.**
+> **The key to 1994 is that the internet not only had an entrance—it began to have the inviting quality that made ordinary people want to approach and stay.**
 
 ### Why this year matters
 
@@ -66,7 +66,7 @@ but began to resemble a new infrastructure about to embed itself in daily life.
 在中国，1994 年完成全功能接入国际互联网，
 这意味着未来第一次有了明确的坐标。
 
-### 三个关键变化
+### 三个关键信号
 
 #### 1. 浏览器战争显现媒介力量
 
@@ -82,7 +82,7 @@ Yahoo! 的出现预示着信息架构将成为核心能力。
 对中国而言，1994 年是元年。
 从这一年开始，中国互联网的历史可以被真正书写。
 
-### 这一年的历史位置
+### 历史位置
 
 1994 是从“值得看一眼”走向“值得持续停留”的年份。
 

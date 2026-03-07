@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 12 (1991): The Network Starts to Become Public Space / 第12章（1991）：网络开始从工具系统变成公共空间'
-description: 'A draft chapter for Volume I on how 1991 marked the internet’s shift from backend system toward a space for public knowledge, collaboration, and future social life. / 第一卷章节样稿：1991 年，网络如何从后台工具系统转向承载知识、协作与公共空间想象。'
+description: 'A Volume I chapter on how 1991 marked the internet’s shift from backend system toward a space for public knowledge, collaboration, and future social life. / 第一卷章节：1991 年，网络如何从后台工具系统转向承载知识、协作与公共空间想象。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-3.jpg'
 ---
@@ -12,7 +12,7 @@ It was no longer only a backend system for institutions and specialists. It star
 
 ### One-sentence summary
 
-> **In 1991, the network began to shift from a technical system into the early form of public space.**
+> **The key to 1991 is that the network began to shift from a technical system into the early form of public space.**
 
 ### Why this year matters
 
@@ -74,7 +74,7 @@ It is the year when the network starts to be prepared as a public medium.
 这意味着，网络不再只是“把东西传过去”，
 而开始像“人会进去活动的地方”。
 
-### 三个关键变化
+### 三个关键信号
 
 #### 1. Web 的公共性开始浮现
 
@@ -91,7 +91,7 @@ Linux 的出现，不只是软件史事件。
 在中国，互联网在 1991 年还远没有进入普通人的现实生活，
 但“必须跟上”已经越来越像一种时代判断。
 
-### 这一年的历史位置
+### 历史位置
 
 1991 不一定是大众真正“用上网络”的年份，
 但它是网络开始被世界准备成公共媒介的年份。

@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 10 (1989): The World Learns to Live on the Edge of Networks / 第10章（1989）：世界开始学着在网络边缘生活'
-description: 'A draft chapter for Volume I on how 1989 made data, permissions, order, and network-dependent systems feel more serious and more social. / 第一卷章节样稿：1989 年，数据、权限、秩序与网络依赖如何开始显出更严肃、更社会化的面貌。'
+description: 'A Volume I chapter on how 1989 made data, permissions, order, and network-dependent systems feel more serious and more social. / 第一卷章节：1989 年，数据、权限、秩序与网络依赖如何开始显出更严肃、更社会化的面貌。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-3.jpg'
 ---

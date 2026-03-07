@@ -2,6 +2,7 @@
 title: "Chapter 18 (1997): Email and the First Inbox / 第18章（1997）：电子邮件与第一个收件箱"
 description: "Asynchronous communication becomes normal. / 异步沟通开始成为日常。"
 pubDate: "Feb 27 2026"
+unlisted: true
 tags: ["yearbook","china","global","vol-0"]
 ---
 

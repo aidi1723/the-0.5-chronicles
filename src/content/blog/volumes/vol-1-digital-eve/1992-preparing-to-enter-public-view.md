@@ -1,6 +1,6 @@
 ---
 title: 'Chapter 13 (1992): The Network Prepares to Enter Public View / 第13章（1992）：网络开始准备进入大众视野'
-description: 'A draft chapter for Volume I on how 1992 prepared the social, technical, and psychological conditions for the internet to move toward a broader public. / 第一卷章节样稿：1992 年，互联网如何在技术规模、终端形态与社会预期中为走向大众做准备。'
+description: 'A Volume I chapter on how 1992 prepared the social, technical, and psychological conditions for the internet to move toward a broader public. / 第一卷章节：1992 年，互联网如何在技术规模、终端形态与社会预期中为走向大众做准备。'
 pubDate: 'Mar 6 2026'
 heroImage: '../../../../assets/blog-placeholder-4.jpg'
 ---
@@ -12,7 +12,13 @@ It is the year in which the conditions for broader public entry begin to align.
 
 ### One-sentence summary
 
-> **In 1992, the network was not yet mainstream, but it was preparing—technically, materially, and psychologically—to enter public view.**
+> **The key to 1992 is that the network was not yet mainstream, but it was already preparing—technically, materially, and psychologically—to enter public view.**
+
+### Why this year matters
+
+1992 matters because the internet becomes a realistic expectation before it becomes a normal habit.
+
+The key shift is not that everyday life suddenly moves online. It does not. The key shift is that scale, terminal form, and public expectation begin to align around the possibility of broader entry.
 
 ### Three key signals
 
@@ -41,6 +47,12 @@ It is the year in which the conditions for broader public entry begin to align.
 ### 一句总结
 
 > **1992 年的关键，是网络虽然尚未真正大众化，却已经在技术规模、终端形态和社会预期中准备进入更广泛的公众视野。**
+
+### 为什么这一年重要
+
+1992 的重要性，不在它已经给出了成熟结果，而在它让网络先成为一种现实预期，随后才慢慢成为现实生活。
+
+这一年的关键变化，不是普通人忽然全面上网，而是规模、终端形态与社会心理开始同时朝“大众入口”这个方向靠拢。
 
 ### 三个关键信号
 

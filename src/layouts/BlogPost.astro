@@ -76,11 +76,26 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 
 			.prose :global(h2) {
-				margin-top: 2rem;
+				margin-top: 2.25rem;
+				padding-top: 1rem;
+				border-top: 1px solid rgba(var(--line), 0.55);
 			}
 
 			.prose :global(h3) {
-				margin-top: 1.5rem;
+				margin-top: 1.6rem;
+			}
+
+			.prose :global(h2 + p),
+			.prose :global(h3 + p) {
+				margin-top: 0.55rem;
+			}
+
+			.prose :global(blockquote) {
+				margin: 1.2rem 0 1.4rem;
+			}
+
+			.prose :global(hr) {
+				margin: 2.25rem 0;
 			}
 
 			@media (max-width: 720px) {

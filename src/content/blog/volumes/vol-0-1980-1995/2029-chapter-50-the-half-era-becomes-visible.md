@@ -2,6 +2,7 @@
 title: "Chapter 50 (2029): The Half-Era Becomes Visible / 第50章（2029）：0.5 纪元变得可见"
 description: "A new civilizational layer is named. / 新的文明层被命名。"
 pubDate: "Feb 27 2026"
+unlisted: true
 tags: ["yearbook","china","global","vol-0"]
 ---
 
