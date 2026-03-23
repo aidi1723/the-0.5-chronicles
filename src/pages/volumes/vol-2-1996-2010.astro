@@ -1,0 +1,123 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const chapters = [
+  { year: 1996, title: 'Modems and the sound of connection / 拨号与连接之声', href: '/blog/volumes/vol-0-1980-1995/1996-chapter-17-modems-and-the-sound-of-connection/' },
+  { year: 1997, title: 'Email and the first inbox / 电子邮件与第一个收件箱', href: '/blog/volumes/vol-0-1980-1995/1997-chapter-18-email-and-the-first-inbox/' },
+  { year: 1998, title: 'Search as a new sense / 搜索作为新的感官', href: '/blog/volumes/vol-0-1980-1995/1998-chapter-19-search-as-a-new-sense/' },
+  { year: 1999, title: 'Cybercafes and shared screens / 网吧与共享屏幕', href: '/blog/volumes/vol-0-1980-1995/1999-chapter-20-cybercafes-and-shared-screens/' },
+  { year: 2000, title: 'The web as a marketplace / 网页成为市场', href: '/blog/volumes/vol-0-1980-1995/2000-chapter-21-the-web-as-a-marketplace/' },
+  { year: 2001, title: 'Digital cameras and cheap memory / 数码相机与廉价存储', href: '/blog/volumes/vol-0-1980-1995/2001-chapter-22-digital-cameras-and-cheap-memory/' },
+  { year: 2002, title: 'Instant messaging / 即时通讯', href: '/blog/volumes/vol-0-1980-1995/2002-chapter-23-instant-messaging/' },
+  { year: 2003, title: 'Forums and usernames / 论坛与用户名', href: '/blog/volumes/vol-0-1980-1995/2003-chapter-24-forums-and-usernames/' },
+  { year: 2004, title: 'Broadband quietly arrives / 宽带悄悄到来', href: '/blog/volumes/vol-0-1980-1995/2004-chapter-25-broadband-quietly-arrives/' },
+  { year: 2005, title: 'The feed / 信息流', href: '/blog/volumes/vol-0-1980-1995/2005-chapter-26-the-feed/' },
+  { year: 2006, title: 'Tags and folk taxonomies / 标签与民间分类法', href: '/blog/volumes/vol-0-1980-1995/2006-chapter-27-tags-and-folk-taxonomies/' },
+  { year: 2007, title: 'Touchscreens and pocket computing / 触屏与口袋计算', href: '/blog/volumes/vol-0-1980-1995/2007-chapter-28-touchscreens-and-pocket-computing/' },
+  { year: 2008, title: 'Apps and a new distribution order / 应用与新的分发秩序', href: '/blog/volumes/vol-0-1980-1995/2008-chapter-29-apps-and-a-new-distribution-order/' },
+  { year: 2009, title: 'The cloud becomes a verb / 云开始变成动词', href: '/blog/volumes/vol-0-1980-1995/2009-chapter-30-the-cloud-becomes-a-verb/' },
+  { year: 2010, title: 'Photo streams and real-time life / 照片流与实时生活', href: '/blog/volumes/vol-0-1980-1995/2010-chapter-31-photo-streams-and-real-time-life/' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`${SITE_TITLE} · Volume II`}
+      description="Volume II (1996–2010): the years when the internet moved from technical threshold to ordinary life, then into the pocket, the cloud, and the stream."
+    />
+    <style>
+      .hero,
+      .section {
+        padding: 1.35rem 1.45rem;
+        border-radius: 22px;
+        border: 1px solid rgba(var(--line), 0.8);
+        background: rgba(255,255,255,0.76);
+        box-shadow: var(--box-shadow);
+      }
+      .hero + .section,
+      .section + .section {
+        margin-top: 1.2rem;
+      }
+      .eyebrow {
+        margin: 0 0 0.5rem;
+        color: rgb(var(--gray));
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.85rem;
+      }
+      .lead {
+        max-width: 44rem;
+      }
+      .chapter-list {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .chapter-list li + li {
+        margin-top: 0.45rem;
+      }
+      .chapter-list a {
+        text-decoration: none;
+      }
+      .muted {
+        color: rgb(var(--gray));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Volume II / 第二卷</p>
+        <h1>The Age of Connection / 连接的年代</h1>
+        <p class="lead">
+          This volume follows the years when the internet stopped being a technical threshold and became an
+          ordinary social environment: entering homes, inboxes, cybercafes, markets, identities, pockets,
+          clouds, and the visible stream of daily life.
+        </p>
+        <p class="muted">
+          这一卷写的是互联网如何从技术门槛，变成普通社会环境：它进入家庭、收件箱、网吧、市场、身份、口袋、云端，
+          也进入了日常生活那条持续可见的时间流。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Editorial note / 编辑说明</h2>
+        <p>
+          <strong>如果第一卷写的是数字文明的前夜，那么第二卷写的就是数字文明第一次进入普通人的生活内部。</strong>
+          这不只是技术继续进步的十几年，而是连接、搜索、沟通、身份、存储、分发与展示逐渐重组日常经验的十几年。
+          互联网不再只是少数人的技术环境，而开始成为更多人生活中的默认背景、默认入口和默认节奏。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Included chapter entries / 已纳入章节入口</h2>
+        <ol class="chapter-list">
+          {chapters.map((chapter) => (
+            <li>
+              {chapter.href ? (
+                <a href={chapter.href}>{chapter.year}: {chapter.title}</a>
+              ) : (
+                <span class="muted">{chapter.year}: {chapter.title}</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Companion materials / 配套材料</h2>
+        <ul>
+          <li><a href="/blog/2026-03-23-volume-extension-1996-2006/">Volume extension note / 卷扩展说明</a></li>
+          <li><a href="/blog/01-method-volume/">Method volume / 方法卷</a></li>
+          <li><a href="/volumes/vol-1-1980-1995/">Back to Volume I / 返回第一卷</a></li>
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
