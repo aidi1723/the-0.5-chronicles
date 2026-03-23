@@ -1,0 +1,116 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const chapters = [
+  { year: 2011, title: 'Mobile payments as habit / 移动支付开始成为习惯', href: '/blog/volumes/vol-0-1980-1995/2011-chapter-32-mobile-payments-as-habit/' },
+  { year: 2012, title: 'Messaging super-apps / 通讯录变成生态入口', href: '/blog/volumes/vol-0-1980-1995/2012-chapter-33-messaging-super-apps/' },
+  { year: 2013, title: 'Data as exhaust / 数据成为生活的尾气', href: '/blog/volumes/vol-0-1980-1995/2013-chapter-34-data-as-exhaust/' },
+  { year: 2014, title: 'Recommendation systems / 推荐系统接管注意力', href: '/blog/volumes/vol-0-1980-1995/2014-chapter-35-recommendation-systems/' },
+  { year: 2015, title: 'Deep learning breaks through / 深度学习突破进入公共叙事', href: '/blog/volumes/vol-0-1980-1995/2015-chapter-36-deep-learning-breaks-through/' },
+  { year: 2016, title: 'The API economy / API 经济与平台化协作', href: '/blog/volumes/vol-0-1980-1995/2016-chapter-37-the-api-economy/' },
+  { year: 2017, title: 'Voice as interface / 语音开始成为界面', href: '/blog/volumes/vol-0-1980-1995/2017-chapter-38-voice-as-interface/' },
+  { year: 2018, title: 'Automation everywhere / 自动化进入生活深处', href: '/blog/volumes/vol-0-1980-1995/2018-chapter-39-automation-everywhere/' },
+  { year: 2019, title: 'Edge devices and cameras / 摄像头、边缘设备与被持续感知的世界', href: '/blog/volumes/vol-0-1980-1995/2019-chapter-40-edge-devices-and-cameras/' },
+  { year: 2020, title: 'Remote work at scale / 大规模远程化与平台社会定型', href: '/blog/volumes/vol-0-1980-1995/2020-chapter-41-remote-work-at-scale/' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`${SITE_TITLE} · Volume III`}
+      description="Volume III (2011–2020): the years when platforms, mobile systems, data, and algorithms reorganized ordinary life."
+    />
+    <style>
+      .hero,
+      .section {
+        padding: 1.35rem 1.45rem;
+        border-radius: 22px;
+        border: 1px solid rgba(var(--line), 0.8);
+        background: rgba(255,255,255,0.76);
+        box-shadow: var(--box-shadow);
+      }
+      .hero + .section,
+      .section + .section {
+        margin-top: 1.2rem;
+      }
+      .eyebrow {
+        margin: 0 0 0.5rem;
+        color: rgb(var(--gray));
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.85rem;
+      }
+      .lead {
+        max-width: 44rem;
+      }
+      .chapter-list {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .chapter-list li + li {
+        margin-top: 0.45rem;
+      }
+      .chapter-list a {
+        text-decoration: none;
+      }
+      .muted {
+        color: rgb(var(--gray));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Volume III / 第三卷</p>
+        <h1>The Platform Age / 平台时代</h1>
+        <p class="lead">
+          This volume follows the years when the internet no longer merely entered daily life, but began to
+          organize daily life through mobile systems, payment interfaces, recommendation logic, platform
+          gateways, and data-driven coordination.
+        </p>
+        <p class="muted">
+          这一卷写的是互联网不再只是进入生活，而开始通过移动系统、支付界面、推荐逻辑、平台入口和数据驱动协作，
+          直接组织普通生活的阶段。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Editorial note / 编辑说明</h2>
+        <p>
+          <strong>如果第二卷写的是网络如何进入普通人的生活，那么第三卷写的就是：平台如何进一步接管普通人的生活组织方式。</strong>
+          在这一卷里，入口变得更集中，行为变得更可测量，算法开始接管分发，平台开始深度嵌入支付、沟通、消费、协作与注意力结构。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Included chapter entries / 已纳入章节入口</h2>
+        <ol class="chapter-list">
+          {chapters.map((chapter) => (
+            <li>
+              {chapter.href ? (
+                <a href={chapter.href}>{chapter.year}: {chapter.title}</a>
+              ) : (
+                <span class="muted">{chapter.year}: {chapter.title}</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Companion materials / 配套材料</h2>
+        <ul>
+          <li><a href="/volumes/vol-2-1996-2010/">Back to Volume II / 返回第二卷</a></li>
+          <li><a href="/blog/01-method-volume/">Method volume / 方法卷</a></li>
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
