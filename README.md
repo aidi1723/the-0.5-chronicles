@@ -60,6 +60,7 @@ The repo went through a structural cleanup in April 2026 to retire the misleadin
 See:
 
 - `STRUCTURE_MIGRATION_2026-04.md`
+- `MAINTENANCE_WORKFLOW.md`
 
 ## Local Development
 
@@ -93,6 +94,10 @@ npm run preview
 2. Decide whether the entry should be `public`, `unlisted`, or `draft`.
 3. Wire chapter access from the relevant volume page in `src/pages/volumes/`.
 4. Keep project-level framing pages up to date when a new volume or structural change becomes public.
+
+For the recurring repository-side maintenance routine, release timing, and GitHub hygiene rules, see:
+
+- `MAINTENANCE_WORKFLOW.md`
 
 ## Deployment
 
