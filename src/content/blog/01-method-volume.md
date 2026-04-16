@@ -11,7 +11,7 @@ tags: ["method","bilingual","0.5-chronicles"]
 This is not a chapter about a specific year. It is a user manual for the project: what is included, how claims are supported, and how you can search it.
 
 ### 1) Scope
-- Time span: 1980–2045
+- Time span: 1980 onward
 - Focus: how technology enters organizations and daily life—and reshapes workflows, industries, and individual outcomes
 - Avoid: slogans as history, opinions as facts, emotion as evidence
 
@@ -38,7 +38,7 @@ Make it passable first (timeline skeleton), then make it clear (tracks), then ma
 这篇不是某一年的历史，而是这本书的“使用说明”。它只回答三件事：我记录什么、我如何证明、你如何检索。
 
 ### 1) 范围
-- 时间范围：1980–2045
+- 时间范围：从 1980 年开始，并继续向前
 - 关注：技术如何进入组织与日常，并改变工作流程、产业结构与个人命运
 - 回避：口号式历史、观点冒充事实、情绪代替证据
 
