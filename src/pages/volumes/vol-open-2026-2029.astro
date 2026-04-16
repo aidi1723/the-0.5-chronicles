@@ -1,0 +1,105 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const chapters = [
+  { year: 2026, title: 'Local-first AI / 本地优先的 AI', href: '/blog/volumes/vol-open-2026-2029/2026-chapter-47-local-first-ai/' },
+  { year: 2027, title: 'Multimodal normalization / 多模态常态化', href: '/blog/volumes/vol-open-2026-2029/2027-chapter-48-multimodal-normalization/' },
+  { year: 2028, title: 'Governance of models / 模型治理', href: '/blog/volumes/vol-open-2026-2029/2028-chapter-49-governance-of-models/' },
+  { year: 2029, title: 'The half-era becomes visible / 0.5 纪元变得可见', href: '/blog/volumes/vol-open-2026-2029/2029-chapter-50-the-half-era-becomes-visible/' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`${SITE_TITLE} · Open Volume`}
+      description="Open volume notes for 2026-2029: a forward line kept intentionally open while the period is still unfolding."
+    />
+    <style>
+      .hero,
+      .section {
+        padding: 1.35rem 1.45rem;
+        border-radius: 22px;
+        border: 1px solid rgba(var(--line), 0.8);
+        background: rgba(255,255,255,0.76);
+        box-shadow: var(--box-shadow);
+      }
+      .hero + .section,
+      .section + .section {
+        margin-top: 1.2rem;
+      }
+      .eyebrow {
+        margin: 0 0 0.5rem;
+        color: rgb(var(--gray));
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.85rem;
+      }
+      .lead {
+        max-width: 46rem;
+      }
+      .chapter-list {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .chapter-list li + li {
+        margin-top: 0.45rem;
+      }
+      .muted {
+        color: rgb(var(--gray));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Open volume / 开放卷</p>
+        <h1>2026-2029 Working Line / 2026-2029 开放线</h1>
+        <p class="lead">
+          This section keeps the 2026+ material visible without pretending the period is already settled.
+          It is not a closed formal volume yet. It is a forward line for themes that are still unfolding in
+          real time across AI, interfaces, governance, and ordinary work.
+        </p>
+        <p class="muted">
+          这一部分把 2026 年之后的材料先公开保留下来，但不假装这个阶段已经可以被完整收口。
+          它还不是正式定稿的一卷，而是一条持续展开中的前瞻线，记录 AI、界面、治理与日常工作仍在变化的现实。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Editorial note / 编辑说明</h2>
+        <p>
+          <strong>第四卷先停在 2025，是为了让已经沉淀的部分能被当作历史处理。</strong>
+          2026 年之后的材料则暂时保留在这一条开放卷里，避免把仍在快速演化的现实过早写成结论。
+          等这一段时间有了更稳定的边界，再决定是否收束为新的正式卷。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Open chapter line / 开放章节线</h2>
+        <ol class="chapter-list">
+          {chapters.map((chapter) => (
+            <li>
+              <a href={chapter.href}>{chapter.year}: {chapter.title}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Context links / 相关入口</h2>
+        <ul>
+          <li><a href="/volumes/vol-4-2021-2025/">Volume IV / 第四卷</a></li>
+          <li><a href="/blog/2026-03-23-volume-roadmap/">Volume roadmap / 项目卷路线图</a></li>
+          <li><a href="/blog/2026-03-06-now-records-issue-1/">Now Records / 当下记录</a></li>
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

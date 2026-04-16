@@ -1,0 +1,101 @@
+---
+export function getStaticPaths() {
+  const sameName = (targetDir, slugs) =>
+    slugs.map((slug) => ({
+      old: slug,
+      target: `/blog/volumes/${targetDir}/${slug}/`,
+    }));
+
+  const redirects = [
+    ...sameName('vol-1-1980-1995', [
+      '1981-chapter-2-usable-computing',
+      '1982-chapter-03-toolchain-and-standards',
+      '1983-chapter-04-files-and-backups',
+      '1984-chapter-05-training-and-division-of-labor',
+      '1985-chapter-06-interfaces-and-visibility',
+      '1986-chapter-07-reliability-and-procurement',
+      '1987-chapter-08-networks-as-idea',
+    ]),
+    ...sameName('vol-2-1996-2010', [
+      '1996-chapter-17-modems-and-the-sound-of-connection',
+      '1997-chapter-18-email-and-the-first-inbox',
+      '1998-chapter-19-search-as-a-new-sense',
+      '1999-chapter-20-cybercafes-and-shared-screens',
+      '2000-chapter-21-the-web-as-a-marketplace',
+      '2001-chapter-22-digital-cameras-and-cheap-memory',
+      '2002-chapter-23-instant-messaging',
+      '2003-chapter-24-forums-and-usernames',
+      '2004-chapter-25-broadband-quietly-arrives',
+      '2005-chapter-26-the-feed',
+      '2006-chapter-27-tags-and-folk-taxonomies',
+      '2007-chapter-28-touchscreens-and-pocket-computing',
+      '2008-chapter-29-apps-and-a-new-distribution-order',
+      '2009-chapter-30-the-cloud-becomes-a-verb',
+      '2010-chapter-31-photo-streams-and-real-time-life',
+    ]),
+    ...sameName('vol-3-2011-2020', [
+      '2011-chapter-32-mobile-payments-as-habit',
+      '2012-chapter-33-messaging-super-apps',
+      '2013-chapter-34-data-as-exhaust',
+      '2014-chapter-35-recommendation-systems',
+      '2015-chapter-36-deep-learning-breaks-through',
+      '2016-chapter-37-the-api-economy',
+      '2017-chapter-38-voice-as-interface',
+      '2018-chapter-39-automation-everywhere',
+      '2019-chapter-40-edge-devices-and-cameras',
+      '2020-chapter-41-remote-work-at-scale',
+    ]),
+    ...sameName('vol-4-2021-2025', [
+      '2021-chapter-42-remote-first-habits-and-cloud-workplaces',
+      '2022-chapter-43-generative-ai-enters-public-life',
+      '2023-chapter-44-foundation-models-become-infrastructure',
+      '2024-chapter-45-agents-begin-entering-workflows',
+      '2025-chapter-46-human-machine-collaboration-as-basic-skill',
+    ]),
+    ...sameName('vol-0-early-archive', [
+      '1980-computing-enters',
+      '1988-chapter-09-software-as-work',
+      '1989-chapter-10-data-and-control',
+      '1990-chapter-11-pc-as-normalization',
+      '1991-chapter-12-learning-to-program',
+      '1992-chapter-13-communication-and-digitization',
+      '1993-chapter-14-toward-connectivity',
+      '1994-chapter-15-pre-internet-sensibility',
+      '1995-chapter-16-first-public-glimpse',
+      '2021-chapter-42-ai-assistants-as-colleagues',
+      '2022-chapter-43-generative-models-go-mainstream',
+      '2023-chapter-44-agents-and-tool-use',
+      '2024-chapter-45-the-prompt-as-specification',
+      '2025-chapter-46-personal-automation',
+    ]),
+    ...sameName('vol-open-2026-2029', [
+      '2026-chapter-47-local-first-ai',
+      '2027-chapter-48-multimodal-normalization',
+      '2028-chapter-49-governance-of-models',
+      '2029-chapter-50-the-half-era-becomes-visible',
+    ]),
+  ];
+
+  return redirects.map((item) => ({
+    params: { slug: item.old },
+    props: item,
+  }));
+}
+
+const { target } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>
+      Redirecting to <a href={target}>{target}</a>
+    </p>
+  </body>
+</html>
