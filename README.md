@@ -1,5 +1,8 @@
 # The 0.5 Chronicles / 《地球文明0.5编年史》
 
+[![Site](https://img.shields.io/badge/site-www.0500005.xyz-0f766e)](https://www.0500005.xyz)
+[![Deploy to GitHub Pages](https://github.com/aidi1723/the-0.5-chronicles/actions/workflows/deploy.yml/badge.svg)](https://github.com/aidi1723/the-0.5-chronicles/actions/workflows/deploy.yml)
+
 `The 0.5 Chronicles` is a bilingual, volume-based historical writing project about how ordinary life crossed from the late mechanical age into the AI era.
 
 It is not a flat blog. The repo combines a public Astro site, structured chapter files, editorial notes, and manuscript material that is still being shaped into publishable volumes.
