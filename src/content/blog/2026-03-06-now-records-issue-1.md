@@ -2,6 +2,7 @@
 title: 'Now Records, Issue 1 / 当下记录第一辑'
 description: 'Seven field notes on AI collaboration, workflow, writing, and what it feels like to live inside the 0.5 era. / 关于 AI 协作、工作流、写作与"活在 0.5 时代"的七则现场笔记。'
 pubDate: 'Mar 6 2026'
+category: 'now-records'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
