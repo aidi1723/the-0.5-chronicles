@@ -1,0 +1,50 @@
+name: Bug Report
+description: Report a routing, build, content-state, or site behavior problem.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for broken routes, build failures, rendering issues, or incorrect content-state behavior.
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: Which part is affected?
+      placeholder: Example: volume page, blog route, GitHub Pages deploy, archive listing
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL or file path
+      description: Provide the affected page URL or repo path.
+      placeholder: Example: https://www.0500005.xyz/volumes/vol-4-2021-2025/ or src/pages/volumes.astro
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is happening?
+      description: Describe the current behavior and the expected behavior.
+      placeholder: The page returns 404, but it should resolve because the chapter is unlisted rather than draft.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: List the smallest reliable set of steps.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Notice ...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Include screenshots, commit SHA, browser, or deployment run details if useful.
