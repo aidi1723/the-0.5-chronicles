@@ -1,0 +1,51 @@
+name: Editorial or Content Task
+description: Request a new chapter, revision, migration cleanup, or editorial follow-up.
+title: "[Editorial] "
+labels:
+  - editorial
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for volume planning, chapter revisions, structure cleanup, archive decisions, and editorial documentation work.
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task type
+      options:
+        - New chapter or note
+        - Revise existing content
+        - Volume structure or routing cleanup
+        - Archive / unlisted / draft decision
+        - Documentation or README update
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Target scope
+      description: Which volume, page, route, or document is affected?
+      placeholder: Example: Volume III, README, /volumes/ page, vol-open-2026-2029
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested change
+      description: State the actual editorial or structural change needed.
+      placeholder: Move a chapter into the formal volume line, add an archive note, or revise the framing copy.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this matters
+      description: Explain the editorial, navigational, or historical reason.
+      placeholder: The current namespace is misleading, or the published framing no longer matches the real volume structure.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link related posts, commits, screenshots, notes, or source materials.
