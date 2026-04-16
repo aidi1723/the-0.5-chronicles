@@ -46,13 +46,21 @@ In one sentence:
 
 > **Volume III is about platforms, mobile systems, data, and algorithms becoming the everyday machinery of social continuity.**
 
-### What comes next
+### Volume IV — Machine Collaborators (2021–2025)
 
-The likely next historical line is a fourth volume covering the years after 2020.
+Volume IV has now been launched as the next historical line after the platform era.
 
-That volume would likely follow the acceleration of remote-first habits, foundation models, generative AI, agent-like workflows, and the growing shift from platform society toward machine-mediated cognition and labor.
+It follows the years in which remote-first coordination settles, generative AI enters public life, foundation models become infrastructure, agents begin entering workflows, and human-machine collaboration starts becoming a baseline professional skill.
 
-The exact title and final scope remain open, but the direction is already visible.
+In one sentence:
+
+> **Volume IV is about machines becoming visible collaborators inside cognition, work, and coordination.**
+
+### What remains open
+
+The next unresolved question is no longer whether a fourth volume exists, but how the project should continue after 2025.
+
+For now, the repo treats 2026 and beyond more cautiously: as a mix of unlisted chapter experiments, present-tense notes, and `Now Records`, rather than as a fully stabilized new volume.
 
 ### Why the project is called “0.5”
 
@@ -69,6 +77,7 @@ At this stage, the public architecture of the project is:
 - **Volume I** — the formation of digital civilization
 - **Volume II** — the normalization of networked life
 - **Volume III** — the platform organization of ordinary life
+- **Volume IV** — machine collaborators entering ordinary work and cognition
 - **Now Records** — notes from inside the present transition
 
 This is the current map of the book.
@@ -116,13 +125,21 @@ This is the current map of the book.
 
 > **第三卷写的是平台、移动系统、数据与算法如何成为维持社会连续性的日常机器。**
 
-### 接下来会写什么
+### 第四卷——《机器合作者》（2021—2025）
 
-下一条最可能出现的历史线，是 2020 年之后的第四卷。
+第四卷现在已经作为平台时代之后的下一条历史主线正式启动。
 
-那一卷大概率会写：远程化习惯的加速、基础模型、生成式 AI、代理式工作流，以及平台社会如何进一步转向由机器中介认知与劳动的阶段。
+它写的是远程优先协作如何沉淀下来、生成式 AI 如何进入公众生活、基础模型如何成为基础设施、Agent 如何进入工作流，以及人机协作如何开始变成一种新的职业基本功。
 
-它的最终卷名和精确范围还没有完全确定，但方向已经很清楚了。
+一句话说：
+
+> **第四卷写的是机器如何开始成为认知、工作与协作中的可见合作者。**
+
+### 目前仍然开放的问题
+
+现在真正还没有完全定型的，已经不是“第四卷会不会出现”，而是 2025 年之后应该怎样继续组织。
+
+目前仓库对 2026 年及以后保持更谨慎的处理：它们更多作为未完全定稿的章节试写、当下笔记和 `Now Records` 材料存在，而不是被直接写死成一条已经稳定的新卷。
 
 ### 为什么叫“0.5纪元”
 
@@ -139,6 +156,7 @@ This is the current map of the book.
 - **第一卷** —— 数字文明的形成
 - **第二卷** —— 网络生活的日常化
 - **第三卷** —— 平台对普通生活的组织
+- **第四卷** —— 机器合作者进入日常工作与认知
 - **当下记录** —— 从过渡现场内部留下的实时材料
 
 这就是这本书当前的地图。

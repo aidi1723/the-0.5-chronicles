@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Generate chapters 17-50 (bilingual minimal style) for vol-0.
+"""Generate legacy minimal draft chapters 17-50 for archival comparison.
 
-This matches the existing vol-0 writing style in this repo:
+This matches the compact early-draft style preserved in the legacy archive:
 - Frontmatter: title/description/pubDate/tags
 - Body: short CN + EN with a key point
 
-We keep it intentionally compact so you can later expand chapters that matter.
+We keep it intentionally compact so you can compare the old draft line against the
+stronger volume-specific chapters that now live in the formal volume directories.
 """
 
 from __future__ import annotations
@@ -13,7 +14,7 @@ from __future__ import annotations
 import datetime as dt
 from pathlib import Path
 
-OUT_DIR = Path(__file__).resolve().parents[1] / "src" / "content" / "blog" / "volumes" / "vol-0-1980-1995"
+OUT_DIR = Path(__file__).resolve().parents[1] / "src" / "content" / "blog" / "volumes" / "vol-0-early-archive"
 PUBDATE = dt.date.today().strftime("%b %d %Y")
 
 
@@ -31,8 +32,8 @@ def slugify(s: str) -> str:
     )
 
 
-# Chapter plan: keep year progression beyond 1995 while staying in vol-0 as requested.
-# One chapter per year from 1996 onward.
+# Legacy chapter plan: keep the first compact draft line in the archive rather than in
+# the formal volume directories.
 CHAPTERS = [
     (1996, 17, "Modems and the Sound of Connection", "拨号与连接之声", "Dial-up makes the network audible and tactile.", "拨号上网让网络变得可听、可触。"),
     (1997, 18, "Email and the First Inbox", "电子邮件与第一个收件箱", "Asynchronous communication becomes normal.", "异步沟通开始成为日常。"),
@@ -113,7 +114,7 @@ def main() -> None:
             continue
         path.write_text(render(year, chap, en, cn, en_desc, cn_desc), encoding="utf-8")
         written += 1
-    print(f"written {written} files to {OUT_DIR}")
+    print(f"written {written} legacy files to {OUT_DIR}")
 
 
 if __name__ == "__main__":

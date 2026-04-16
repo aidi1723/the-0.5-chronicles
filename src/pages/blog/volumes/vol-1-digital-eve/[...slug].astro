@@ -1,0 +1,39 @@
+---
+export function getStaticPaths() {
+  const redirects = [
+    '1980-the-restarting-years',
+    '1988-the-shadow-of-network-society',
+    '1989-living-on-the-edge-of-networks',
+    '1990-the-world-begins-to-organize-like-the-web',
+    '1991-network-becomes-public-space',
+    '1992-preparing-to-enter-public-view',
+    '1993-first-public-entrance',
+    '1994-internet-becomes-inviting',
+  ].map((slug) => ({
+    old: slug,
+    target: `/blog/volumes/vol-1-1980-1995/${slug}/`,
+  }));
+
+  return redirects.map((item) => ({
+    params: { slug: item.old },
+    props: item,
+  }));
+}
+
+const { target } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>
+      Redirecting to <a href={target}>{target}</a>
+    </p>
+  </body>
+</html>

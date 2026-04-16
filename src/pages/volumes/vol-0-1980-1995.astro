@@ -1,33 +1,42 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog'))
-  .filter((post) => !post.data.draft && !post.data.unlisted)
-  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
-
-const vol0Prefix = 'volumes/vol-0-1980-1995/';
-const vol0Posts = posts.filter((p) => (p.slug || '').startsWith(vol0Prefix));
-
-const outline = [
-  { n: 1, year: 1980, titleEn: 'Computing Enters', titleZh: '计算进入日常（序章）', href: '/blog/volumes/vol-0-1980-1995/1980-computing-enters/' },
-  { n: 2, year: 1981, titleEn: 'From Calculable to Usable', titleZh: '从算得出来到用得起来', href: '/blog/volumes/vol-0-1980-1995/1981-chapter-2-usable-computing/' },
-  { n: 3, year: 1982, titleEn: 'Toolchains and the First Pressure of Standards', titleZh: '工具链与标准化的开端', href: '/blog/volumes/vol-0-1980-1995/1982-chapter-03-toolchain-and-standards/' },
-  { n: 4, year: 1983, titleEn: 'Files and Backups', titleZh: '文件与备份', href: '/blog/volumes/vol-0-1980-1995/1983-chapter-04-files-and-backups/' },
-  { n: 5, year: 1984, titleEn: 'Training and Division of Labor', titleZh: '训练、分工与“会用的人”', href: '/blog/volumes/vol-0-1980-1995/1984-chapter-05-training-and-division-of-labor/' },
-  { n: 6, year: 1985, titleEn: 'Interfaces and Visibility', titleZh: '界面与可见性', href: '/blog/volumes/vol-0-1980-1995/1985-chapter-06-interfaces-and-visibility/' },
-  { n: 7, year: 1986, titleEn: 'Reliability, Procurement, and Systemization', titleZh: '可靠性、采购与系统化落地', href: '/blog/volumes/vol-0-1980-1995/1986-chapter-07-reliability-and-procurement/' },
-  { n: 8, year: 1987, titleEn: 'Networks as an Idea', titleZh: '网络作为一种观念', href: '/blog/volumes/vol-0-1980-1995/1987-chapter-08-networks-as-idea/' },
+const promotedIntoVolumeI = [
+  { year: 1981, titleEn: 'From Calculable to Usable', titleZh: '从算得出来到用得起来', href: '/blog/volumes/vol-1-1980-1995/1981-chapter-2-usable-computing/' },
+  { year: 1982, titleEn: 'Toolchains and the First Pressure of Standards', titleZh: '工具链与标准化的开端', href: '/blog/volumes/vol-1-1980-1995/1982-chapter-03-toolchain-and-standards/' },
+  { year: 1983, titleEn: 'Files and Backups', titleZh: '文件与备份', href: '/blog/volumes/vol-1-1980-1995/1983-chapter-04-files-and-backups/' },
+  { year: 1984, titleEn: 'Training and Division of Labor', titleZh: '训练、分工与“会用的人”', href: '/blog/volumes/vol-1-1980-1995/1984-chapter-05-training-and-division-of-labor/' },
+  { year: 1985, titleEn: 'Interfaces and Visibility', titleZh: '界面与可见性', href: '/blog/volumes/vol-1-1980-1995/1985-chapter-06-interfaces-and-visibility/' },
+  { year: 1986, titleEn: 'Reliability, Procurement, and Systemization', titleZh: '可靠性、采购与系统化落地', href: '/blog/volumes/vol-1-1980-1995/1986-chapter-07-reliability-and-procurement/' },
+  { year: 1987, titleEn: 'Networks as an Idea', titleZh: '网络作为一种观念', href: '/blog/volumes/vol-1-1980-1995/1987-chapter-08-networks-as-idea/' },
 ];
 
-function postHrefFor(href) {
-  const slug = href.replace(/^\/blog\//, '').replace(/\/$/, '');
-  const found = vol0Posts.find((p) => p.slug === slug);
-  return found ? `/blog/${found.slug}/` : null;
-}
+const retainedDrafts = [
+  { year: 1980, titleEn: 'Computing Enters', titleZh: '计算进入日常（序章）', href: '/blog/volumes/vol-0-early-archive/1980-computing-enters/' },
+  { year: 1988, titleEn: 'Software as Work', titleZh: '软件成为工作的一部分', href: '/blog/volumes/vol-0-early-archive/1988-chapter-09-software-as-work/' },
+  { year: 1989, titleEn: 'Data and Control', titleZh: '数据与控制', href: '/blog/volumes/vol-0-early-archive/1989-chapter-10-data-and-control/' },
+  { year: 1990, titleEn: 'PC as Normalization', titleZh: '个人电脑开始常态化', href: '/blog/volumes/vol-0-early-archive/1990-chapter-11-pc-as-normalization/' },
+  { year: 1991, titleEn: 'Learning to Program', titleZh: '学习编程', href: '/blog/volumes/vol-0-early-archive/1991-chapter-12-learning-to-program/' },
+  { year: 1992, titleEn: 'Communication and Digitization', titleZh: '沟通与数字化', href: '/blog/volumes/vol-0-early-archive/1992-chapter-13-communication-and-digitization/' },
+  { year: 1993, titleEn: 'Toward Connectivity', titleZh: '走向连接', href: '/blog/volumes/vol-0-early-archive/1993-chapter-14-toward-connectivity/' },
+  { year: 1994, titleEn: 'Pre-Internet Sensibility', titleZh: '前互联网感受力', href: '/blog/volumes/vol-0-early-archive/1994-chapter-15-pre-internet-sensibility/' },
+  { year: 1995, titleEn: 'First Public Glimpse', titleZh: '第一次公共显现', href: '/blog/volumes/vol-0-early-archive/1995-chapter-16-first-public-glimpse/' },
+];
+
+const laterExperiments = [
+  { year: 2021, titleEn: 'AI Assistants as Colleagues', titleZh: 'AI 助手像同事', href: '/blog/volumes/vol-0-early-archive/2021-chapter-42-ai-assistants-as-colleagues/' },
+  { year: 2022, titleEn: 'Generative Models Go Mainstream', titleZh: '生成式模型走向大众', href: '/blog/volumes/vol-0-early-archive/2022-chapter-43-generative-models-go-mainstream/' },
+  { year: 2023, titleEn: 'Agents and Tool Use', titleZh: '智能体与工具使用', href: '/blog/volumes/vol-0-early-archive/2023-chapter-44-agents-and-tool-use/' },
+  { year: 2024, titleEn: 'The Prompt as Specification', titleZh: '提示词作为规格书', href: '/blog/volumes/vol-0-early-archive/2024-chapter-45-the-prompt-as-specification/' },
+  { year: 2025, titleEn: 'Personal Automation', titleZh: '个人自动化', href: '/blog/volumes/vol-0-early-archive/2025-chapter-46-personal-automation/' },
+  { year: 2026, titleEn: 'Local-First AI', titleZh: '本地优先的 AI', href: '/blog/volumes/vol-open-2026-2029/2026-chapter-47-local-first-ai/' },
+  { year: 2027, titleEn: 'Multimodal Normalization', titleZh: '多模态常态化', href: '/blog/volumes/vol-open-2026-2029/2027-chapter-48-multimodal-normalization/' },
+  { year: 2028, titleEn: 'Governance of Models', titleZh: '模型治理', href: '/blog/volumes/vol-open-2026-2029/2028-chapter-49-governance-of-models/' },
+  { year: 2029, titleEn: 'The Half-Era Becomes Visible', titleZh: '0.5 纪元变得可见', href: '/blog/volumes/vol-open-2026-2029/2029-chapter-50-the-half-era-becomes-visible/' },
+];
 ---
 
 <!doctype html>
@@ -73,12 +82,15 @@ function postHrefFor(href) {
     <main>
       <section class="panel">
         <p class="eyebrow">Early archive / 早期档案</p>
-        <h1>Volume 0 (1980–1995) / 第零卷（1980—1995）</h1>
+        <h1>Legacy Draft Archive / 早期草稿档案</h1>
         <p>
-          This page is kept as an early archive hub from the first drafting phase. It now preserves only the stronger early chapters that still help explain how the project evolved before Volume I was formalized.
+          This page is kept as a legacy archive hub from the first drafting phase. The misleading
+          `vol-0-1980-1995` content namespace has been retired, but the older draft line is still
+          preserved here for reference.
         </p>
         <p class="muted">
-          这个页面现在保留为“早期档案入口”，对应项目第一轮搭框架时留下的较早章节。它不再承担正式卷目录功能，而是作为写作演变过程的一部分保留。
+          这个页面现在保留为“早期草稿档案入口”。原先误导性的 `vol-0-1980-1995` 内容命名已经退役，
+          但第一轮搭框架时留下的旧稿线索仍然作为写作演变过程的一部分保留。
         </p>
       </section>
 
@@ -93,20 +105,43 @@ function postHrefFor(href) {
       </section>
 
       <section class="panel">
-        <h2>Retained early chapters / 保留的早期章节</h2>
+        <h2>Promoted into Volume I / 已并入第一卷的章节</h2>
         <ol class="list">
-          {outline.map((item) => {
-            const href = postHrefFor(item.href);
-            return (
-              <li>
-                {href ? (
-                  <a href={href}>{item.year}: {item.titleEn} / {item.titleZh}</a>
-                ) : (
-                  <span class="muted">{item.year}: {item.titleEn} / {item.titleZh}</span>
-                )}
-              </li>
-            );
-          })}
+          {promotedIntoVolumeI.map((item) => (
+            <li>
+              <a href={item.href}>{item.year}: {item.titleEn} / {item.titleZh}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="panel">
+        <h2>Retained early archive drafts / 保留的早期档案草稿</h2>
+        <ol class="list">
+          {retainedDrafts.map((item) => (
+            <li>
+              <a href={item.href}>{item.year}: {item.titleEn} / {item.titleZh}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="panel">
+        <h2>Later experiment line / 后续实验稿线</h2>
+        <p class="muted">
+          These later notes are not the canonical volume route. They are kept because they show an
+          earlier framing before the stronger 2021-2025 line and the open 2026+ notes were separated.
+        </p>
+        <p>
+          <strong>Current forward entry:</strong>
+          <a href="/volumes/vol-open-2026-2029/">Open Volume (2026-2029) / 开放卷（2026—2029）</a>
+        </p>
+        <ol class="list">
+          {laterExperiments.map((item) => (
+            <li>
+              <a href={item.href}>{item.year}: {item.titleEn} / {item.titleZh}</a>
+            </li>
+          ))}
         </ol>
       </section>
     </main>

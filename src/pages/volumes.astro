@@ -4,7 +4,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
-const volumes = [
+const mainVolumes = [
   {
     slug: 'vol-1-1980-1995',
     titleEn: 'Volume I (1980-1995)',
@@ -21,7 +21,7 @@ const volumes = [
     descEn: 'The internet moves from technical threshold to ordinary life, then into the pocket, the cloud, and the stream.',
     descZh: '互联网从技术门槛变成生活环境，并进一步进入口袋、云端与生活流。',
     href: '/volumes/vol-2-1996-2010/',
-    status: 'Draft line established / 主线初稿已建立',
+    status: 'Chapter line published / 章节主线已挂出',
   },
   {
     slug: 'vol-3-2011-2020',
@@ -30,7 +30,7 @@ const volumes = [
     descEn: 'Platforms, mobile systems, data, and algorithms begin to reorganize ordinary life at full scale.',
     descZh: '平台、移动系统、数据与算法开始全面重组普通生活。',
     href: '/volumes/vol-3-2011-2020/',
-    status: 'Opening chapters underway / 起笔章节已启动',
+    status: 'Chapter line published / 章节主线已挂出',
   },
   {
     slug: 'vol-4-2021-2025',
@@ -39,7 +39,28 @@ const volumes = [
     descEn: 'Machines begin acting less like tools and more like collaborators inside cognition, work, and coordination.',
     descZh: '机器开始越来越不像工具，而越来越像认知、工作与协作中的合作者。',
     href: '/volumes/vol-4-2021-2025/',
-    status: 'Boundary and launch note established / 边界与启动说明已建立',
+    status: 'Launch note and chapter line live / 启动说明与章节线已上线',
+  },
+];
+
+const supportingTracks = [
+  {
+    slug: 'vol-open-2026-2029',
+    titleEn: 'Open Volume (2026-2029)',
+    titleZh: '开放卷（2026—2029）',
+    descEn: 'A forward line kept intentionally open while the post-2025 period is still unfolding.',
+    descZh: '2025 年之后仍在展开的现实先以开放线形式保留，而不提前收口成定稿卷。',
+    href: '/volumes/vol-open-2026-2029/',
+    status: 'Open working line / 开放工作线',
+  },
+  {
+    slug: 'vol-0-1980-1995',
+    titleEn: 'Legacy Draft Archive',
+    titleZh: '早期草稿档案',
+    descEn: 'Retained for writing history, abandoned chapter lines, and earlier framing passes.',
+    descZh: '保留写作演变过程、旧章节线和更早一轮搭框架时留下的材料。',
+    href: '/volumes/vol-0-1980-1995/',
+    status: 'Reference only / 仅供参考',
   },
 ];
 ---
@@ -57,6 +78,9 @@ const volumes = [
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+      }
+      .section + .section {
+        margin-top: 1.6rem;
       }
       .card {
         border: 1px solid rgba(var(--line), 0.8);
@@ -84,6 +108,13 @@ const volumes = [
         margin: 0 0 0.5rem;
         font-size: 1.2rem;
       }
+      .section-label {
+        margin: 0 0 0.85rem;
+        color: rgb(var(--gray));
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.82rem;
+      }
       .meta { color: rgb(var(--gray)); margin: 0.25rem 0; line-height: 1.7; }
     </style>
   </head>
@@ -101,18 +132,37 @@ const volumes = [
         </p>
       </section>
 
-      <div class="grid">
-        {volumes.map(v => (
-          <article class="card">
-            <a href={v.href}>
-              <span class="status">{v.status}</span>
-              <p class="title">{v.titleEn} / {v.titleZh}</p>
-              <p class="meta">{v.descEn}</p>
-              <p class="meta">{v.descZh}</p>
-            </a>
-          </article>
-        ))}
-      </div>
+      <section class="section">
+        <p class="section-label">Formal volumes / 正式卷</p>
+        <div class="grid">
+          {mainVolumes.map(v => (
+            <article class="card">
+              <a href={v.href}>
+                <span class="status">{v.status}</span>
+                <p class="title">{v.titleEn} / {v.titleZh}</p>
+                <p class="meta">{v.descEn}</p>
+                <p class="meta">{v.descZh}</p>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="section-label">Supporting lines / 辅助线索</p>
+        <div class="grid">
+          {supportingTracks.map(v => (
+            <article class="card">
+              <a href={v.href}>
+                <span class="status">{v.status}</span>
+                <p class="title">{v.titleEn} / {v.titleZh}</p>
+                <p class="meta">{v.descEn}</p>
+                <p class="meta">{v.descZh}</p>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
     </main>
     <Footer />
   </body>
