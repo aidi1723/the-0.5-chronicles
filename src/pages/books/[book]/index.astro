@@ -1,0 +1,136 @@
+---
+import BaseHead from '../../../components/BaseHead.astro';
+import Footer from '../../../components/Footer.astro';
+import Header from '../../../components/Header.astro';
+import { BOOKS, getBookMeta, isBookSlug, type BookSlug } from '../../../lib/books';
+
+export function getStaticPaths() {
+	return Object.keys(BOOKS).map((book) => ({ params: { book } }));
+}
+
+const bookSlug = Astro.params.book;
+if (!bookSlug || !isBookSlug(bookSlug)) {
+	return Astro.redirect('/books/');
+}
+
+const book = getBookMeta(bookSlug as BookSlug);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${book.title} / ${book.titleZh}`} description={book.description} />
+		<style>
+			.book-landing {
+				display: grid;
+				grid-template-columns: 1.1fr 0.9fr;
+				gap: 1.1rem;
+				align-items: stretch;
+			}
+
+			.panel {
+				padding: 1.35rem;
+				border-radius: 22px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.78);
+				box-shadow: var(--box-shadow);
+			}
+
+			.kicker {
+				margin: 0 0 0.7rem;
+				color: rgb(var(--gray));
+				font-size: 0.86rem;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+			}
+
+			.actions {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.65rem;
+				margin-top: 1.15rem;
+			}
+
+			.actions a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.66rem 0.9rem;
+				border-radius: 999px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.68);
+				text-decoration: none;
+			}
+
+			.actions .primary {
+				border-color: rgba(var(--accent), 0.28);
+				background: rgba(var(--accent), 0.1);
+			}
+
+			.lang-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			.lang-list li + li {
+				margin-top: 0.85rem;
+			}
+
+			.lang-list a {
+				display: block;
+				text-decoration: none;
+			}
+
+			.lang-list strong {
+				display: block;
+			}
+
+			.meta {
+				color: rgb(var(--gray));
+				font-size: 0.92rem;
+			}
+
+			@media (max-width: 820px) {
+				.book-landing {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="book-landing">
+				<div class="panel">
+					<p class="kicker">Book / 书</p>
+					<h1>{book.titleZh}<br />{book.title}</h1>
+					<p><strong>{book.subtitleZh}</strong></p>
+					<p>{book.descriptionZh}</p>
+					<p>{book.description}</p>
+					<div class="actions">
+						<a class="primary" href={`/books/${book.slug}/zh/`}>进入中文版</a>
+						<a href={`/books/${book.slug}/en/`}>Read English version</a>
+					</div>
+				</div>
+				<div class="panel">
+					<p class="kicker">Language Pairing / 双语对应</p>
+					<ul class="lang-list">
+						<li>
+							<a href={`/books/${book.slug}/zh/`}>
+								<strong>中文版</strong>
+								<span class="meta">原文发布线：指南、目录、序言与第一章。</span>
+							</a>
+						</li>
+						<li>
+							<a href={`/books/${book.slug}/en/`}>
+								<strong>English</strong>
+								<span class="meta">Polished English edition, paired page by page with the Chinese version.</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

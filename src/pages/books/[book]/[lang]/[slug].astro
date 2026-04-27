@@ -1,0 +1,29 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BookPage from '../../../../layouts/BookPage.astro';
+import { getAlternateEntry, getPublishedBookEntries, getSiblingEntries } from '../../../../lib/books';
+
+type BookEntry = CollectionEntry<'books'>;
+
+export async function getStaticPaths() {
+	const entries = (await getCollection('books')).filter((entry) => !entry.data.draft);
+	return entries.map((entry) => ({
+		params: {
+			book: entry.data.book,
+			lang: entry.data.lang,
+			slug: entry.data.pageSlug,
+		},
+		props: entry,
+	}));
+}
+
+const entry = Astro.props as BookEntry;
+const allEntries = await getPublishedBookEntries();
+const { Content } = await render(entry);
+const alternate = getAlternateEntry(entry, allEntries);
+const { previous, next } = getSiblingEntries(entry, allEntries);
+---
+
+<BookPage {...entry.data} alternate={alternate} previous={previous} next={next}>
+	<Content />
+</BookPage>

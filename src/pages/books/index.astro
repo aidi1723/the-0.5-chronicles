@@ -1,0 +1,103 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { BOOKS } from '../../lib/books';
+
+const books = Object.values(BOOKS);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Books / 书系" description="Independent bilingual book projects from The 0.5 Chronicles." />
+		<style>
+			.books-hero {
+				max-width: 880px;
+				margin-bottom: 1.3rem;
+			}
+
+			.kicker {
+				margin: 0 0 0.75rem;
+				color: rgb(var(--gray));
+				font-size: 0.86rem;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+			}
+
+			.books-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+				gap: 1rem;
+			}
+
+			.book-card {
+				padding: 1.25rem;
+				border-radius: 20px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.78);
+				box-shadow: var(--box-shadow);
+			}
+
+			.book-card h2 {
+				margin-bottom: 0.45rem;
+			}
+
+			.book-card p {
+				color: rgb(var(--gray-dark));
+			}
+
+			.actions {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+				margin-top: 1rem;
+			}
+
+			.actions a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.55rem 0.8rem;
+				border-radius: 999px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.68);
+				text-decoration: none;
+			}
+
+			.actions .primary {
+				border-color: rgba(var(--accent), 0.28);
+				background: rgba(var(--accent), 0.1);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="books-hero">
+				<p class="kicker">Books / 书系</p>
+				<h1>Independent books, kept separate from the blog archive.</h1>
+				<p>
+					This section holds longer bilingual book projects. They remain connected to The 0.5
+					Chronicles, but do not flood the regular post archive or RSS feed.
+				</p>
+			</section>
+
+			<section class="books-grid" aria-label="Books">
+				{books.map((book) => (
+					<article class="book-card">
+						<p class="kicker">{book.titleZh}</p>
+						<h2>{book.title}</h2>
+						<p><strong>{book.subtitle}</strong></p>
+						<p>{book.description}</p>
+						<div class="actions">
+							<a class="primary" href={`/books/${book.slug}/zh/`}>中文版</a>
+							<a href={`/books/${book.slug}/en/`}>English</a>
+							<a href={`/books/${book.slug}/`}>Overview / 总览</a>
+						</div>
+					</article>
+				))}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
