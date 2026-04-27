@@ -11,4 +11,5 @@ This site is an editorial archive with a warm paper-like surface, restrained acc
 - Use clear bilingual navigation where it helps orientation: English first for site-level labels, Chinese first inside Chinese book content.
 - Cards should be used for repeated book/chapter entries and entry panels only.
 - Reading pages should stay narrow, quiet, and scannable, with visible language switching and previous/next movement.
+- Comments should appear as a separate editorial panel below the reading surface, not inside the main prose card.
 - The homepage book entrance should be prominent enough to find, but it must not replace the existing 0.5 Chronicles volume architecture.
