@@ -1,0 +1,158 @@
+---
+import BaseHead from '../../../../components/BaseHead.astro';
+import Footer from '../../../../components/Footer.astro';
+import Header from '../../../../components/Header.astro';
+import {
+	BOOKS,
+	getBookMeta,
+	getBookPagePath,
+	getEntriesForBook,
+	isBookSlug,
+	type BookLang,
+	type BookSlug,
+} from '../../../../lib/books';
+
+export async function getStaticPaths() {
+	const paths = [];
+	for (const book of Object.keys(BOOKS)) {
+		paths.push({ params: { book, lang: 'zh' } });
+		paths.push({ params: { book, lang: 'en' } });
+	}
+	return paths;
+}
+
+const bookSlug = Astro.params.book;
+const lang = Astro.params.lang as BookLang;
+if (!bookSlug || !isBookSlug(bookSlug) || !['zh', 'en'].includes(lang)) {
+	return Astro.redirect('/books/');
+}
+
+const book = getBookMeta(bookSlug as BookSlug);
+const entries = (await getEntriesForBook(bookSlug, lang)).filter((entry) => !entry.data.unlisted);
+const pairedLang = lang === 'zh' ? 'en' : 'zh';
+const isZh = lang === 'zh';
+---
+
+<!doctype html>
+<html lang={isZh ? 'zh-CN' : 'en'}>
+	<head>
+		<BaseHead title={`${isZh ? book.titleZh : book.title} - ${isZh ? '中文版' : 'English'}`} description={isZh ? book.descriptionZh : book.description} />
+		<style>
+			.book-home {
+				display: grid;
+				grid-template-columns: 1fr 0.72fr;
+				gap: 1rem;
+				align-items: start;
+			}
+
+			.panel {
+				padding: 1.35rem;
+				border-radius: 22px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.78);
+				box-shadow: var(--box-shadow);
+			}
+
+			.kicker {
+				margin: 0 0 0.7rem;
+				color: rgb(var(--gray));
+				font-size: 0.86rem;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+			}
+
+			.actions {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+				margin-top: 1rem;
+			}
+
+			.actions a,
+			.chapter-list a {
+				text-decoration: none;
+			}
+
+			.actions a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.55rem 0.78rem;
+				border-radius: 999px;
+				border: 1px solid rgba(var(--line), 0.82);
+				background: rgba(255, 255, 255, 0.68);
+			}
+
+			.actions .primary {
+				border-color: rgba(var(--accent), 0.28);
+				background: rgba(var(--accent), 0.1);
+			}
+
+			.chapter-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			.chapter-list li + li {
+				margin-top: 0.85rem;
+			}
+
+			.chapter-list a {
+				display: block;
+				padding: 0.8rem 0;
+				border-bottom: 1px solid rgba(var(--line), 0.58);
+				color: inherit;
+			}
+
+			.chapter-list strong,
+			.chapter-list span {
+				display: block;
+			}
+
+			.chapter-list span {
+				color: rgb(var(--gray));
+				font-size: 0.92rem;
+			}
+
+			@media (max-width: 820px) {
+				.book-home {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="book-home">
+				<div class="panel">
+					<p class="kicker">{isZh ? '中文版' : 'English Edition'}</p>
+					<h1>{isZh ? book.titleZh : book.title}</h1>
+					<p><strong>{isZh ? book.subtitleZh : book.subtitle}</strong></p>
+					<p>{isZh ? book.descriptionZh : book.description}</p>
+					<div class="actions">
+						<a class="primary" href={entries[0] ? getBookPagePath(entries[0]) : `/books/${book.slug}/`}>
+							{isZh ? '从导读开始' : 'Start with the guide'}
+						</a>
+						<a href={`/books/${book.slug}/${pairedLang}/`}>{isZh ? 'English version' : '中文版'}</a>
+						<a href={`/books/${book.slug}/`}>{isZh ? '双语总览' : 'Bilingual overview'}</a>
+					</div>
+				</div>
+				<div class="panel">
+					<p class="kicker">{isZh ? '目录' : 'Contents'}</p>
+					<ol class="chapter-list">
+						{entries.map((entry) => (
+							<li>
+								<a href={getBookPagePath(entry)}>
+									<strong>{entry.data.title}</strong>
+									<span>{entry.data.description}</span>
+								</a>
+							</li>
+						))}
+					</ol>
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

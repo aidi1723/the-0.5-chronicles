@@ -155,6 +155,51 @@ const featured = [
 				margin-top: 1.35rem;
 			}
 
+			.book-entry {
+				display: grid;
+				grid-template-columns: 1fr 0.8fr;
+				gap: 1rem;
+				align-items: center;
+				margin-top: 1.35rem;
+			}
+
+			.book-entry h2 {
+				margin-bottom: 0.5rem;
+			}
+
+			.book-links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.65rem;
+				margin-top: 1rem;
+			}
+
+			.book-links a {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0.62rem 0.88rem;
+				border-radius: 999px;
+				border: 1px solid rgba(var(--line), 0.8);
+				text-decoration: none;
+				background: rgba(255, 255, 255, 0.72);
+			}
+
+			.book-links .primary {
+				background: rgba(var(--accent), 0.1);
+				border-color: rgba(var(--accent), 0.28);
+			}
+
+			.book-pairing {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			.book-pairing li + li {
+				margin-top: 0.7rem;
+			}
+
 			.note {
 				margin-top: 1.25rem;
 				padding: 1rem 1.1rem;
@@ -165,7 +210,8 @@ const featured = [
 
 			@media (max-width: 820px) {
 				.hero,
-				.sections {
+				.sections,
+				.book-entry {
 					grid-template-columns: 1fr;
 				}
 			}
@@ -208,6 +254,32 @@ const featured = [
 						))}
 					</ul>
 				</div>
+			</section>
+
+			<section class="book-entry panel" aria-labelledby="code-of-all-things-title">
+				<div>
+					<p class="kicker">New book / 新书</p>
+					<h2 id="code-of-all-things-title">《万物代码》 / The Code of All Things</h2>
+					<p>
+						A standalone bilingual book on the five-layer rule model, Agent execution,
+						civilization-level alignment, and the responsibility of ordinary people in the AI age.
+					</p>
+					<div class="book-links">
+						<a class="primary" href="/books/the-code-of-all-things/zh/">中文版入口</a>
+						<a href="/books/the-code-of-all-things/en/">English version</a>
+						<a href="/books/the-code-of-all-things/">Bilingual overview</a>
+					</div>
+				</div>
+				<ul class="book-pairing">
+					<li>
+						<strong>Paired chapters / 章节对应</strong>
+						<span class="meta">Chinese and English pages mirror each other with language-switch links.</span>
+					</li>
+					<li>
+						<strong>Separate from blog / 不混入文章流</strong>
+						<span class="meta">The book has its own route and content collection, keeping the homepage and archive clean.</span>
+					</li>
+				</ul>
 			</section>
 
 			<section class="sections">
