@@ -1,0 +1,69 @@
+---
+type Props = {
+	lang?: 'en' | 'zh';
+};
+
+const { lang = 'en' } = Astro.props;
+const giscusLang = lang === 'zh' ? 'zh-CN' : 'en';
+const title = lang === 'zh' ? '留言与评论' : 'Comments';
+const note =
+	lang === 'zh'
+		? '使用 GitHub 账号即可留言。每个页面会自动对应一条独立的 GitHub Discussion。'
+		: 'Sign in with GitHub to comment. Each page maps to its own GitHub Discussion.';
+---
+
+<section class="comments-shell" aria-labelledby="comments-title">
+	<div class="comments-heading">
+		<h2 id="comments-title">{title}</h2>
+		<p>{note}</p>
+	</div>
+	<script
+		src="https://giscus.app/client.js"
+		data-repo="aidi1723/the-0.5-chronicles"
+		data-repo-id="R_kgDORXhUyw"
+		data-category="General"
+		data-category-id="DIC_kwDORXhUy84C7yB-"
+		data-mapping="pathname"
+		data-strict="0"
+		data-reactions-enabled="1"
+		data-emit-metadata="0"
+		data-input-position="top"
+		data-theme="preferred_color_scheme"
+		data-lang={giscusLang}
+		crossorigin="anonymous"
+		async></script>
+</section>
+
+<style>
+	.comments-shell {
+		margin-top: 1.25rem;
+		padding: 1.2rem 1.35rem;
+		border-radius: 22px;
+		border: 1px solid rgba(var(--line), 0.82);
+		background: rgba(255, 255, 255, 0.78);
+		box-shadow: var(--box-shadow);
+	}
+
+	.comments-heading {
+		margin-bottom: 0.9rem;
+		padding-bottom: 0.8rem;
+		border-bottom: 1px solid rgba(var(--line), 0.65);
+	}
+
+	.comments-heading h2 {
+		margin-bottom: 0.3rem;
+		font-size: clamp(1.35rem, 2vw, 1.65rem);
+	}
+
+	.comments-heading p {
+		margin: 0;
+		color: rgb(var(--gray));
+		font-size: 0.94rem;
+	}
+
+	@media (max-width: 720px) {
+		.comments-shell {
+			padding: 1rem;
+		}
+	}
+</style>

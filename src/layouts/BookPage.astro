@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
+import Comments from '../components/Comments.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { getBookLangPath, getBookPagePath } from '../lib/books';
@@ -198,6 +199,7 @@ const kindLabel =
 						)}
 					</div>
 				</div>
+				<Comments lang={lang} />
 			</article>
 		</main>
 		<Footer />
