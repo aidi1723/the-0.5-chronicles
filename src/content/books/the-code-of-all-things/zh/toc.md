@@ -14,13 +14,14 @@ order: 2
 - [导读：如何阅读《万物代码》](/books/the-code-of-all-things/zh/guide/)
 - [序言：言出法随的觉醒，一个普通人的代码求索](/books/the-code-of-all-things/zh/preface/)
 - [第一章 言出法随：自然语言即代码的范式革命](/books/the-code-of-all-things/zh/chapter-01/)
+- [第二章 逼近大道：我们永远无法全知底层代码](/books/the-code-of-all-things/zh/chapter-02/)
 
 ## 全书结构
 
 ### 第一篇 规则坐标系：用代码思维，降维看懂世界
 
 1. 第一章 言出法随：自然语言即代码的范式革命
-2. 第二章 逼近大道：我们永远无法全知底层代码
+2. [第二章 逼近大道：我们永远无法全知底层代码](/books/the-code-of-all-things/zh/chapter-02/)
 3. 第三章 规则的边界：给认知打上严谨补丁
 
 ### 第二篇 文明反编译：用规则模型，逆向拆解人类文明

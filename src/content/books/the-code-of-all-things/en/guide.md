@@ -15,11 +15,11 @@ The central claim is simple: if natural language is becoming executable, then or
 
 ## How to read this edition
 
-Start with the preface, then read Chapter 1. The table of contents shows the full architecture of the book, while later chapters will be polished and published progressively.
+Start with the preface, then read Chapters 1 and 2. Chapter 1 explains why natural language is becoming executable; Chapter 2 explains why every cognitive model can only keep approaching the underlying rules. The table of contents shows the full architecture of the book, while later chapters will be polished and published progressively.
 
 ## Current publication note
 
-The English version is not being released as a rushed machine translation. The guide, table of contents, preface, and Chapter 1 are published first, with page-by-page links back to the Chinese original.
+The English version is not being released as a rushed machine translation. The guide, table of contents, preface, Chapter 1, and Chapter 2 are published first, with page-by-page links back to the Chinese original.
 
 ## Core model
 
