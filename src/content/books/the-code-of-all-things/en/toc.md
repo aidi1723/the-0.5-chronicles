@@ -14,13 +14,14 @@ order: 2
 - [Guide: How to Read The Code of All Things](/books/the-code-of-all-things/en/guide/)
 - [Preface: The Awakening of Executable Language](/books/the-code-of-all-things/en/preface/)
 - [Chapter 1: Language Becoming Executable](/books/the-code-of-all-things/en/chapter-01/)
+- [Chapter 2: Approaching the Dao, Without Owning the Source Code](/books/the-code-of-all-things/en/chapter-02/)
 
 ## Full Book Structure
 
 ### Part I: A Coordinate System of Rules
 
 1. Chapter 1: Language Becoming Executable
-2. Chapter 2: Approaching the Dao, Without Ever Owning the Source Code
+2. [Chapter 2: Approaching the Dao, Without Owning the Source Code](/books/the-code-of-all-things/en/chapter-02/)
 3. Chapter 3: The Boundary of Rules
 
 ### Part II: Reverse-Engineering Civilization
